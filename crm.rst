@@ -10,5 +10,6 @@ CRM
    crm/overview
    crm/salesteam
    crm/leads
+   crm/toc
    crm/reporting
    crm/calendar
