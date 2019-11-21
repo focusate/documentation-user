@@ -12,3 +12,4 @@ CRM
    crm/track_leads
    crm/performance
    crm/optimize
+   crm/customizations

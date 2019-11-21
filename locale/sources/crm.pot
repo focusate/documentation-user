@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-16 15:50+0200\n"
+"POT-Creation-Date: 2019-11-21 10:00+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,6 +34,7 @@ msgstr ""
 
 #: ../../crm/acquire_leads/convert.rst:13
 #: ../../crm/acquire_leads/generate_from_website.rst:41
+#: ../../crm/customizations/full_kit.rst:11
 #: ../../crm/optimize/onsip.rst:13
 #: ../../crm/track_leads/lead_scoring.rst:12
 #: ../../crm/track_leads/prospect_visits.rst:12
@@ -167,6 +168,38 @@ msgstr ""
 
 #: ../../crm/acquire_leads/send_quotes.rst:33
 msgid "If you mark them as won, they will move to your *Won* column in your Kanban view. If you however mark them as *Lost* they will be archived."
+msgstr ""
+
+#: ../../crm/customizations.rst:3
+msgid "Customizations"
+msgstr ""
+
+#: ../../crm/customizations/full_kit.rst:3
+msgid "Full Kit description per stage"
+msgstr ""
+
+#: ../../crm/customizations/full_kit.rst:5
+msgid "You can now describe stages using rich text. So it is possible to use various formatting option (like bold, colors) or even images, links and so on. When configured, Full Kit description will be showed for opportunities current stage."
+msgstr ""
+
+#: ../../crm/customizations/full_kit.rst:13
+msgid "For this feature to work, :code:`crm_stage_requirements` must be installed."
+msgstr ""
+
+#: ../../crm/customizations/full_kit.rst:16
+msgid "You will now be able to use formatting options for stage description."
+msgstr ""
+
+#: ../../crm/customizations/full_kit.rst:19
+msgid "Describe stage with rich formatting"
+msgstr ""
+
+#: ../../crm/customizations/full_kit.rst:21
+msgid "Go to (make sure debug mode is enabled) :menuselection:`CRM --> Configuration --> Pipeline --> Stages` open stage you want to edit."
+msgstr ""
+
+#: ../../crm/customizations/full_kit.rst:27
+msgid "Now if you open opportunity that is on stage with description, you will see it on Full Kit tab."
 msgstr ""
 
 #: ../../crm/optimize.rst:3

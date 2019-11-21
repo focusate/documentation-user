@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2015-TODAY, Odoo S.A.
 # This file is distributed under the same license as the Odoo package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
 #, fuzzy
 msgid ""
@@ -13,8 +13,9 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
 
 #: ../../support.rst:5
 msgid "Support"
@@ -25,11 +26,16 @@ msgid "Supported versions"
 msgstr ""
 
 #: ../../support/supported_versions.rst:9
-msgid "Odoo provides support and bug fixing **for the 3 last major versions** of Odoo."
+msgid ""
+"Odoo provides support and bug fixing **for the 3 last major versions** of"
+" Odoo."
 msgstr ""
 
 #: ../../support/supported_versions.rst:11
-msgid "Users hosted on **Odoo Online** may use intermediary versions (sometimes called *SaaS versions*) that are supported as well. These versions are not published for Odoo.sh or On-Premise installations."
+msgid ""
+"Users hosted on **Odoo Online** may use intermediary versions (sometimes "
+"called *SaaS versions*) that are supported as well. These versions are "
+"not published for Odoo.sh or On-Premise installations."
 msgstr ""
 
 #: ../../support/supported_versions.rst:17
@@ -65,15 +71,9 @@ msgid "**Odoo 13.0**"
 msgstr ""
 
 #: ../../support/supported_versions.rst:26
-#: ../../support/supported_versions.rst:26
-#: ../../support/supported_versions.rst:26
 #: ../../support/supported_versions.rst:28
 #: ../../support/supported_versions.rst:30
-#: ../../support/supported_versions.rst:30
-#: ../../support/supported_versions.rst:30
 #: ../../support/supported_versions.rst:32
-#: ../../support/supported_versions.rst:34
-#: ../../support/supported_versions.rst:34
 #: ../../support/supported_versions.rst:34
 msgid "|green|"
 msgstr ""
@@ -87,17 +87,11 @@ msgid "Odoo 12.saas~3"
 msgstr ""
 
 #: ../../support/supported_versions.rst:28
-#: ../../support/supported_versions.rst:28
-#: ../../support/supported_versions.rst:32
 #: ../../support/supported_versions.rst:32
 #: ../../support/supported_versions.rst:36
-#: ../../support/supported_versions.rst:36
 #: ../../support/supported_versions.rst:38
-#: ../../support/supported_versions.rst:38
-#: ../../support/supported_versions.rst:42
 #: ../../support/supported_versions.rst:42
 #: ../../support/supported_versions.rst:44
-#: ../../support/supported_versions.rst:46
 #: ../../support/supported_versions.rst:46
 #: ../../support/supported_versions.rst:48
 msgid "N/A"
@@ -141,7 +135,6 @@ msgstr ""
 
 #: ../../support/supported_versions.rst:36
 #: ../../support/supported_versions.rst:38
-#: ../../support/supported_versions.rst:40
 #: ../../support/supported_versions.rst:40
 #: ../../support/supported_versions.rst:42
 #: ../../support/supported_versions.rst:44
@@ -221,7 +214,10 @@ msgid "N/A Never released for this platform"
 msgstr ""
 
 #: ../../support/supported_versions.rst:60
-msgid "|orange| Some of our older customers may still run this version on our Odoo Online servers, we provide help only on blocking issues and advise you to upgrade."
+msgid ""
+"|orange| Some of our older customers may still run this version on our "
+"Odoo Online servers, we provide help only on blocking issues and advise "
+"you to upgrade."
 msgstr ""
 
 #: ../../support/supported_versions.rst:62
@@ -241,7 +237,9 @@ msgid "TinyERP 4.0, 3.0, 2.0 and 1.0 is not supported anymore, on any platform."
 msgstr ""
 
 #: ../../support/supported_versions.rst:81
-msgid "You should consider `upgrading <https://upgrade.odoo.com/>`_ your database."
+msgid ""
+"You should consider `upgrading <https://upgrade.odoo.com/>`_ your "
+"database."
 msgstr ""
 
 #: ../../support/user_doc.rst:6
@@ -253,7 +251,9 @@ msgid "First of all..."
 msgstr ""
 
 #: ../../support/user_doc.rst:11
-msgid "**... Thank you for landing here and helping us to improve the user documentation of Odoo.**"
+msgid ""
+"**... Thank you for landing here and helping us to improve the user "
+"documentation of Odoo.**"
 msgstr ""
 
 #: ../../support/user_doc.rst:15
@@ -261,11 +261,17 @@ msgid "Edit an existing page"
 msgstr ""
 
 #: ../../support/user_doc.rst:17
-msgid "As our documentation is maintained on GitHub, you'll need a free `GitHub account <https://help.github.com/en/articles/signing-up-for-a-new-github-account>`_."
+msgid ""
+"As our documentation is maintained on GitHub, you'll need a free `GitHub "
+"account <https://help.github.com/en/articles/signing-up-for-a-new-github-"
+"account>`_."
 msgstr ""
 
 #: ../../support/user_doc.rst:18
-msgid "Pick a page in our `user documentation <https://www.odoo.com/documentation/user>`_. **Please take care of choosing the right version of Odoo.**"
+msgid ""
+"Pick a page in our `user documentation "
+"<https://www.odoo.com/documentation/user>`_. **Please take care of "
+"choosing the right version of Odoo.**"
 msgstr ""
 
 #: ../../support/user_doc.rst:19
@@ -273,19 +279,31 @@ msgid "Click on **Edit on Github** in the left menu."
 msgstr ""
 
 #: ../../support/user_doc.rst:25
-msgid "If this is the first time you edit our documentation, click on **Fork repository**, else you won't see this step."
+msgid ""
+"If this is the first time you edit our documentation, click on **Fork "
+"repository**, else you won't see this step."
 msgstr ""
 
 #: ../../support/user_doc.rst:26
-msgid "Use Github's editor to add your text. Text is tagged with a simple syntax called `RST <http://docutils.sourceforge.net/rst.html>`_. Don't worry, it's not so hard to learn 🤓... See the following section of this document for a quick overview of RST commands."
+msgid ""
+"Use Github's editor to add your text. Text is tagged with a simple syntax"
+" called `RST <http://docutils.sourceforge.net/rst.html>`_. Don't worry, "
+"it's not so hard to learn 🤓... See the following section of this document"
+" for a quick overview of RST commands."
 msgstr ""
 
 #: ../../support/user_doc.rst:32
-msgid "Click on **Preview changes** to review your contribution in a human-readable format."
+msgid ""
+"Click on **Preview changes** to review your contribution in a human-"
+"readable format."
 msgstr ""
 
 #: ../../support/user_doc.rst:38
-msgid "In the **Propose file change** section, add a short title to your contribution. The title should summarize your changes. You may use the second box to add an extended description if your contribution requires a longer explanation."
+msgid ""
+"In the **Propose file change** section, add a short title to your "
+"contribution. The title should summarize your changes. You may use the "
+"second box to add an extended description if your contribution requires a"
+" longer explanation."
 msgstr ""
 
 #: ../../support/user_doc.rst:44
@@ -297,15 +315,21 @@ msgid "Click on **Create pull request**."
 msgstr ""
 
 #: ../../support/user_doc.rst:46
-msgid "Wait for an Odoo maintainer to add your contribution. Thank you for your help!"
+msgid ""
+"Wait for an Odoo maintainer to add your contribution. Thank you for your "
+"help!"
 msgstr ""
 
 #: ../../support/user_doc.rst:49
-msgid "There is no automatic port of your edit to another version of the documentation."
+msgid ""
+"There is no automatic port of your edit to another version of the "
+"documentation."
 msgstr ""
 
 #: ../../support/user_doc.rst:51
-msgid "If your change should apply to multiple versions of Odoo, please warn us in your contribution message."
+msgid ""
+"If your change should apply to multiple versions of Odoo, please warn us "
+"in your contribution message."
 msgstr ""
 
 #: ../../support/user_doc.rst:55
@@ -313,7 +337,9 @@ msgid "RST Cheat Sheet"
 msgstr ""
 
 #: ../../support/user_doc.rst:57
-msgid "Here is a summary of the markup elements you may use while editing our documentation."
+msgid ""
+"Here is a summary of the markup elements you may use while editing our "
+"documentation."
 msgstr ""
 
 #: ../../support/user_doc.rst:60
@@ -336,23 +362,19 @@ msgstr ""
 msgid "Text in **bold** letters"
 msgstr ""
 
-#: ../../support/user_doc.rst:70
-#: ../../support/user_doc.rst:76
+#: ../../support/user_doc.rst:70 ../../support/user_doc.rst:76
 msgid "Numbered"
 msgstr ""
 
-#: ../../support/user_doc.rst:71
-#: ../../support/user_doc.rst:77
+#: ../../support/user_doc.rst:71 ../../support/user_doc.rst:77
 msgid "Bullet"
 msgstr ""
 
-#: ../../support/user_doc.rst:72
-#: ../../support/user_doc.rst:78
+#: ../../support/user_doc.rst:72 ../../support/user_doc.rst:78
 msgid "List"
 msgstr ""
 
-#: ../../support/user_doc.rst:70
-#: ../../support/user_doc.rst:76
+#: ../../support/user_doc.rst:70 ../../support/user_doc.rst:76
 msgid "Must be surrounded by white lines."
 msgstr ""
 
@@ -361,7 +383,9 @@ msgid "This is `a  hyper link <https://www.odoo.com>`_."
 msgstr ""
 
 #: ../../support/user_doc.rst:82
-msgid "Here is `how to enter backticks on your keyboard <https://superuser.com/a/254077>`_."
+msgid ""
+"Here is `how to enter backticks on your keyboard "
+"<https://superuser.com/a/254077>`_."
 msgstr ""
 
 #: ../../support/user_doc.rst:85
@@ -369,7 +393,10 @@ msgid "Don't forget terminal *underscore*."
 msgstr ""
 
 #: ../../support/user_doc.rst:90
-msgid "There are many more commands available, see `comprehensive documentation <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html>`_ of RST."
+msgid ""
+"There are many more commands available, see `comprehensive documentation "
+"<http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html>`_ of"
+" RST."
 msgstr ""
 
 #: ../../support/user_doc.rst:94
@@ -377,7 +404,10 @@ msgid "Add images to your documents"
 msgstr ""
 
 #: ../../support/user_doc.rst:98
-msgid "This procedure is possible only for users who have **push** access on the documentation repository (eg: mainly, Odoo maintainers). We are working on improving this."
+msgid ""
+"This procedure is possible only for users who have **push** access on the"
+" documentation repository (eg: mainly, Odoo maintainers). We are working "
+"on improving this."
 msgstr ""
 
 #: ../../support/user_doc.rst:101
@@ -389,15 +419,22 @@ msgid "They must be good-quality PNG images."
 msgstr ""
 
 #: ../../support/user_doc.rst:104
-msgid "Crop your screenshots to display only the relevant part of the screen. Large screenshots are hard to read and don't display well in a documentation."
+msgid ""
+"Crop your screenshots to display only the relevant part of the screen. "
+"Large screenshots are hard to read and don't display well in a "
+"documentation."
 msgstr ""
 
 #: ../../support/user_doc.rst:106
-msgid "Always take your screenshots on a demo instance of Odoo; **never** include any personal data."
+msgid ""
+"Always take your screenshots on a demo instance of Odoo; **never** "
+"include any personal data."
 msgstr ""
 
 #: ../../support/user_doc.rst:108
-msgid "Upload them to the ``media/`` directory which is located next to the page you are editing. If the directory does not exist, create it."
+msgid ""
+"Upload them to the ``media/`` directory which is located next to the page"
+" you are editing. If the directory does not exist, create it."
 msgstr ""
 
 #: ../../support/user_doc.rst:109
@@ -413,11 +450,16 @@ msgid "Technical Details for Nerds"
 msgstr ""
 
 #: ../../support/user_doc.rst:130
-msgid "Advanced users may, of course, fork and clone `the GitHub repository <https://github.com/odoo/documentation-user>`_. Then submit a pull request with the canonical Git/GitHub workflow."
+msgid ""
+"Advanced users may, of course, fork and clone `the GitHub repository "
+"<https://github.com/odoo/documentation-user>`_. Then submit a pull "
+"request with the canonical Git/GitHub workflow."
 msgstr ""
 
 #: ../../support/user_doc.rst:133
-msgid "See our `README <https://github.com/odoo/documentation-user/blob/12.0/README.rst>`_ file about building the documentation."
+msgid ""
+"See our `README <https://github.com/odoo/documentation-"
+"user/blob/12.0/README.rst>`_ file about building the documentation."
 msgstr ""
 
 #: ../../support/user_doc.rst:138
@@ -425,15 +467,19 @@ msgid "Developer documentation"
 msgstr ""
 
 #: ../../support/user_doc.rst:140
-msgid "Documentation that targets developers of Odoo apps is maintained alongside `the source code of Odoo <https://github.com/odoo/odoo/tree/12.0/doc>`_."
+msgid ""
+"Documentation that targets developers of Odoo apps is maintained "
+"alongside `the source code of Odoo "
+"<https://github.com/odoo/odoo/tree/12.0/doc>`_."
 msgstr ""
 
 #: ../../support/user_doc.rst:143
-msgid "User documentation might contain technicalities yet, when they are related to configuration and everyday use of Odoo."
+msgid ""
+"User documentation might contain technicalities yet, when they are "
+"related to configuration and everyday use of Odoo."
 msgstr ""
 
-#: ../../support/user_doc.rst:149
-#: ../../support/where_can_i_get_support.rst:36
+#: ../../support/user_doc.rst:149 ../../support/where_can_i_get_support.rst:36
 msgid "*Last revision of this page:* |date|"
 msgstr ""
 
@@ -446,11 +492,18 @@ msgid "5 days a week"
 msgstr ""
 
 #: ../../support/what_can_i_expect.rst:14
-msgid "Your Odoo Online subscription includes **unlimited 24hr support at no extra cost, Monday to Friday**. Our teams are located around the world to ensure you have support, no matter your location. Your support representative could be communicating to you from San Francisco, Belgium, or India!"
+msgid ""
+"Your Odoo Online subscription includes **unlimited 24hr support at no "
+"extra cost, Monday to Friday**. Our teams are located around the world to"
+" ensure you have support, no matter your location. Your support "
+"representative could be communicating to you from San Francisco, Belgium,"
+" or India!"
 msgstr ""
 
 #: ../../support/what_can_i_expect.rst:19
-msgid "Our support team can be contacted through our `online support form <https://www.odoo.com/help>`__."
+msgid ""
+"Our support team can be contacted through our `online support form "
+"<https://www.odoo.com/help>`__."
 msgstr ""
 
 #: ../../support/what_can_i_expect.rst:23
@@ -458,11 +511,15 @@ msgid "What kind of support is included?"
 msgstr ""
 
 #: ../../support/what_can_i_expect.rst:25
-msgid "Providing you with relevant material (guidelines, product documentation, etc...)"
+msgid ""
+"Providing you with relevant material (guidelines, product documentation, "
+"etc...)"
 msgstr ""
 
 #: ../../support/what_can_i_expect.rst:27
-msgid "Answers to issues that you may encounter in your standard Odoo database (eg. “I cannot close my Point of Sale” or “I cannot find my sales KPIs?”)"
+msgid ""
+"Answers to issues that you may encounter in your standard Odoo database "
+"(eg. “I cannot close my Point of Sale” or “I cannot find my sales KPIs?”)"
 msgstr ""
 
 #: ../../support/what_can_i_expect.rst:29
@@ -470,15 +527,21 @@ msgid "Questions related to your account, subscription, or billing"
 msgstr ""
 
 #: ../../support/what_can_i_expect.rst:30
-msgid "Bug resolution (blocking issues or unexpected behaviour not due to misconfiguration or customization)"
+msgid ""
+"Bug resolution (blocking issues or unexpected behaviour not due to "
+"misconfiguration or customization)"
 msgstr ""
 
 #: ../../support/what_can_i_expect.rst:32
-msgid "Issues that might occur in a test database after upgrading to a newer version"
+msgid ""
+"Issues that might occur in a test database after upgrading to a newer "
+"version"
 msgstr ""
 
 #: ../../support/what_can_i_expect.rst:34
-msgid "*Odoo Support does not make changes to your production database, but gives you the material and knowledge to do it yourself!*"
+msgid ""
+"*Odoo Support does not make changes to your production database, but "
+"gives you the material and knowledge to do it yourself!*"
 msgstr ""
 
 #: ../../support/what_can_i_expect.rst:39
@@ -486,11 +549,15 @@ msgid "What kind of support is not included?"
 msgstr ""
 
 #: ../../support/what_can_i_expect.rst:41
-msgid "Questions that require us to understand your business processes in order to help you implement your database"
+msgid ""
+"Questions that require us to understand your business processes in order "
+"to help you implement your database"
 msgstr ""
 
 #: ../../support/what_can_i_expect.rst:43
-msgid "Training on how to use our software (we will direct you to our many resources)"
+msgid ""
+"Training on how to use our software (we will direct you to our many "
+"resources)"
 msgstr ""
 
 #: ../../support/what_can_i_expect.rst:44
@@ -498,11 +565,15 @@ msgid "Import of documents into your database"
 msgstr ""
 
 #: ../../support/what_can_i_expect.rst:45
-msgid "Guidance on which configurations to apply inside of an application or the database"
+msgid ""
+"Guidance on which configurations to apply inside of an application or the"
+" database"
 msgstr ""
 
 #: ../../support/what_can_i_expect.rst:46
-msgid "How to set up configuration models (Examples include: Inventory Routes, Payment Terms, Warehouses, etc)"
+msgid ""
+"How to set up configuration models (Examples include: Inventory Routes, "
+"Payment Terms, Warehouses, etc)"
 msgstr ""
 
 #: ../../support/what_can_i_expect.rst:48
@@ -510,15 +581,25 @@ msgid "Any intervention on your own servers/deployments of Odoo"
 msgstr ""
 
 #: ../../support/what_can_i_expect.rst:49
-msgid "Any intervention on your own third party account (Ingenico, Authorize, UPS, etc)"
+msgid ""
+"Any intervention on your own third party account (Ingenico, Authorize, "
+"UPS, etc)"
 msgstr ""
 
 #: ../../support/what_can_i_expect.rst:50
-msgid "Questions or issues related to specific developments or customizations done either by Odoo or a third party (this is specific only to your database or involving code)"
+msgid ""
+"Questions or issues related to specific developments or customizations "
+"done either by Odoo or a third party (this is specific only to your "
+"database or involving code)"
 msgstr ""
 
 #: ../../support/what_can_i_expect.rst:54
-msgid "You can get this type of support with a `Success Pack <https://www.odoo.com/pricing-packs>`__. With a pack, one of our consultants will analyze the way your business runs and tell you how you can get the most out of your Odoo Database. We will handle all configurations and coach you on how to use Odoo."
+msgid ""
+"You can get this type of support with a `Success Pack "
+"<https://www.odoo.com/pricing-packs>`__. With a pack, one of our "
+"consultants will analyze the way your business runs and tell you how you "
+"can get the most out of your Odoo Database. We will handle all "
+"configurations and coach you on how to use Odoo."
 msgstr ""
 
 #: ../../support/where_can_i_get_support.rst:6
@@ -530,7 +611,11 @@ msgid "Odoo Enterprise"
 msgstr ""
 
 #: ../../support/where_can_i_get_support.rst:12
-msgid "Users who have a valid Odoo Enterprise subscription may always contact our support teams through our `support form <https://www.odoo.com/help>`_, no matter the hosting type you chose (Odoo Online, Odoo.sh or on your own server)."
+msgid ""
+"Users who have a valid Odoo Enterprise subscription may always contact "
+"our support teams through our `support form "
+"<https://www.odoo.com/help>`_, no matter the hosting type you chose (Odoo"
+" Online, Odoo.sh or on your own server)."
 msgstr ""
 
 #: ../../support/where_can_i_get_support.rst:14
@@ -542,7 +627,9 @@ msgid "your subscription number,"
 msgstr ""
 
 #: ../../support/where_can_i_get_support.rst:17
-msgid "if your database is hosted by Odoo (Odoo Online or Odoo.sh), please also send the URL of your database."
+msgid ""
+"if your database is hosted by Odoo (Odoo Online or Odoo.sh), please also "
+"send the URL of your database."
 msgstr ""
 
 #: ../../support/where_can_i_get_support.rst:19
@@ -566,10 +653,14 @@ msgid "Our `documentation pages <https://www.odoo.com/page/docs>`_."
 msgstr ""
 
 #: ../../support/where_can_i_get_support.rst:30
-msgid "Ask your question on the `community forum <https://www.odoo.com/forum/help-1>`_."
+msgid ""
+"Ask your question on the `community forum "
+"<https://www.odoo.com/forum/help-1>`_."
 msgstr ""
 
 #: ../../support/where_can_i_get_support.rst:31
-msgid "`Buy Odoo Enterprise <https://www.odoo.com/help>`_ to get the support and bugfix services."
+msgid ""
+"`Buy Odoo Enterprise <https://www.odoo.com/help>`_ to get the support and"
+" bugfix services."
 msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-03 11:34+0200\n"
+"POT-Creation-Date: 2019-11-21 10:31+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -517,6 +517,38 @@ msgstr ""
 msgid "The two files produced are ready to be imported in Odoo without any modifications. After having imported these two CSV files, you will have 4 contacts and 3 companies. (the firsts two contacts are linked to the first company). You must first import the companies and then the persons."
 msgstr ""
 
+#: ../../general/customizations.rst:3
+msgid "Customizations"
+msgstr ""
+
+#: ../../general/customizations/term_changes.rst:3
+msgid "Term Changes"
+msgstr ""
+
+#: ../../general/customizations/term_changes.rst:5
+msgid "Some Odoo standard terms are renamed to new ones, to fit TOC logic or other agreed principles."
+msgstr ""
+
+#: ../../general/customizations/term_changes.rst:8
+msgid "Renamed terms (Old -> New):"
+msgstr ""
+
+#: ../../general/customizations/term_changes.rst:10
+msgid "Sales Team / Sales Channel -> Sales Process"
+msgstr ""
+
+#: ../../general/customizations/term_changes.rst:11
+msgid "Expected Revenue -> Selling Price"
+msgstr ""
+
+#: ../../general/customizations/term_changes.rst:12
+msgid "Margin -> TVC (Total Variable Cost)"
+msgstr ""
+
+#: ../../general/customizations/term_changes.rst:13
+msgid "Cost -> Unit TVC (on sale order line only)"
+msgstr ""
+
 #: ../../general/odoo_basics.rst:3
 msgid "Basics"
 msgstr ""
@@ -555,14 +587,6 @@ msgstr ""
 
 #: ../../general/odoo_basics/add_user.rst:45
 msgid "`Deactivating Users <../../db_management/documentation.html#deactivating-users>`_"
-msgstr ""
-
-#: ../../general/odoo_basics/add_user.rst:47
-msgid "Todo"
-msgstr ""
-
-#: ../../general/odoo_basics/add_user.rst:47
-msgid "Add link to How to add companies"
 msgstr ""
 
 #: ../../general/odoo_basics/choose_language.rst:3
