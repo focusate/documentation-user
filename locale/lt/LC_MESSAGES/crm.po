@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-20 16:55+0200\n"
+"POT-Creation-Date: 2019-11-28 14:02+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,6 +40,7 @@ msgstr ""
 
 #: ../../crm/acquire_leads/convert.rst:13
 #: ../../crm/acquire_leads/generate_from_website.rst:41
+#: ../../crm/customizations/activity_unplanned_filters.rst:14
 #: ../../crm/customizations/full_kit.rst:11 ../../crm/optimize/onsip.rst:13
 #: ../../crm/track_leads/lead_scoring.rst:12
 #: ../../crm/track_leads/prospect_visits.rst:12
@@ -235,6 +236,29 @@ msgstr ""
 msgid "Customizations"
 msgstr "Pritaikymai"
 
+#: ../../crm/customizations/activity_unplanned_filters.rst:3
+msgid "CRM Activity Unplanned Filters"
+msgstr "CRM nesuplanuotos veiklos filtrai"
+
+#: ../../crm/customizations/activity_unplanned_filters.rst:5
+msgid ""
+"Filter opportunities using Unplanned Activities and Open Unplanned "
+"Activities filters. Opportunities without any activity are assumed as "
+"unplanned opportunities and are displayed in grey in kanban progress bar."
+msgstr ""
+"Filtruokite pardavimo galimybes naudodami Nesuplanuotos veiklos ir "
+"Atviros nesuplanuotos veiklos filtrus. Pardavimo galimybės, neturinčios nei "
+"vienos veiklos, yra laikomos nesuplanuotomis pardavimo galimybėmis ir "
+"progreso juostoje kanban vaizde yra atvaizduojamos pilkai."
+
+#: ../../crm/customizations/activity_unplanned_filters.rst:16
+msgid ""
+"For these filters to appear, :code:`crm_activity_unplanned_filters` must "
+"be installed."
+msgstr ""
+"Kad šie filtrai atsirastų, turi būti įdiegtas "
+":code:`crm_activity_unplanned_filters` modulis."
+
 #: ../../crm/customizations/full_kit.rst:3
 msgid "Full Kit description per stage"
 msgstr "Reikalavimų aprašymas per stadijas"
@@ -248,7 +272,7 @@ msgid ""
 msgstr ""
 "Jūs dabar galite aprašyti stadijas naudojant 'rich text'. Todėl įmanoma "
 "naudoti įvairias formatavimo opcijas (kaip kad paryškinimas, spalvos) "
-"arba net nuotraukos, nuorodos ir panašiai."
+"arba net nuotraukos, nuorodos ir panašiai. "
 "Kai bus sukonfigūruota, Reikalavimų aprašymas bus rodomas ant esamos "
 "pardavimų galimybės stadijos."
 
@@ -258,7 +282,7 @@ msgid ""
 "installed."
 msgstr ""
 "Kad šis funkcionalumas veiktų, turi būti įdiegtas "
-":code:`crm_stage_requirements` modulis"
+":code:`crm_stage_requirements` modulis."
 
 #: ../../crm/customizations/full_kit.rst:16
 msgid "You will now be able to use formatting options for stage description."
@@ -274,7 +298,8 @@ msgid ""
 "Configuration --> Pipeline --> Stages` open stage you want to edit."
 msgstr ""
 "Eikit į (įsitikinkit, kad debug būsena įjungta) :menuselection:`CRM --> "
-"Konfigūracija --> Piltuvėlis --> Stadijos` atidarykit stadiją, kurią norite keisti."
+"Konfigūracija --> Piltuvėlis --> Stadijos` atidarykit stadiją, kurią norite "
+"keisti."
 
 #: ../../crm/customizations/full_kit.rst:27
 msgid ""

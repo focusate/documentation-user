@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-21 10:00+0200\n"
+"POT-Creation-Date: 2019-11-28 14:02+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,6 +34,7 @@ msgstr ""
 
 #: ../../crm/acquire_leads/convert.rst:13
 #: ../../crm/acquire_leads/generate_from_website.rst:41
+#: ../../crm/customizations/activity_unplanned_filters.rst:14
 #: ../../crm/customizations/full_kit.rst:11
 #: ../../crm/optimize/onsip.rst:13
 #: ../../crm/track_leads/lead_scoring.rst:12
@@ -172,6 +173,18 @@ msgstr ""
 
 #: ../../crm/customizations.rst:3
 msgid "Customizations"
+msgstr ""
+
+#: ../../crm/customizations/activity_unplanned_filters.rst:3
+msgid "CRM Activity Unplanned Filters"
+msgstr ""
+
+#: ../../crm/customizations/activity_unplanned_filters.rst:5
+msgid "Filter opportunities using Unplanned Activities and Open Unplanned Activities filters. Opportunities without any activity are assumed as unplanned opportunities and are displayed in grey in kanban progress bar."
+msgstr ""
+
+#: ../../crm/customizations/activity_unplanned_filters.rst:16
+msgid "For these filters to appear, :code:`crm_activity_unplanned_filters` must be installed."
 msgstr ""
 
 #: ../../crm/customizations/full_kit.rst:3
