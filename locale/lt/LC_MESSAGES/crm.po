@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-28 14:02+0200\n"
+"POT-Creation-Date: 2019-12-03 13:02+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,8 +41,10 @@ msgstr ""
 #: ../../crm/acquire_leads/convert.rst:13
 #: ../../crm/acquire_leads/generate_from_website.rst:41
 #: ../../crm/customizations/activity_unplanned_filters.rst:14
-#: ../../crm/customizations/full_kit.rst:11 ../../crm/optimize/onsip.rst:13
-#: ../../crm/track_leads/lead_scoring.rst:12
+#: ../../crm/customizations/full_kit.rst:11
+#: ../../crm/customizations/lost_reason_improve.rst:8
+#: ../../crm/customizations/partner_competitor.rst:8
+#: ../../crm/optimize/onsip.rst:13 ../../crm/track_leads/lead_scoring.rst:12
 #: ../../crm/track_leads/prospect_visits.rst:12
 msgid "Configuration"
 msgstr "Konfigūracija"
@@ -244,12 +246,12 @@ msgstr "CRM nesuplanuotos veiklos filtrai"
 msgid ""
 "Filter opportunities using Unplanned Activities and Open Unplanned "
 "Activities filters. Opportunities without any activity are assumed as "
-"unplanned opportunities and are displayed in grey in kanban progress bar."
+"unplanned opportunities and are displayed in gray in kanban progress bar."
 msgstr ""
 "Filtruokite pardavimo galimybes naudodami Nesuplanuotos veiklos ir "
-"Atviros nesuplanuotos veiklos filtrus. Pardavimo galimybės, neturinčios nei "
-"vienos veiklos, yra laikomos nesuplanuotomis pardavimo galimybėmis ir "
-"progreso juostoje kanban vaizde yra atvaizduojamos pilkai."
+"Atviros nesuplanuotos veiklos filtrus. Pardavimo galimybės, neturinčios "
+"nei vienos veiklos, yra laikomos nesuplanuotomis pardavimo galimybėmis ir"
+" progreso juostoje kanban vaizde yra atvaizduojamos pilkai."
 
 #: ../../crm/customizations/activity_unplanned_filters.rst:16
 msgid ""
@@ -272,9 +274,9 @@ msgid ""
 msgstr ""
 "Jūs dabar galite aprašyti stadijas naudojant 'rich text'. Todėl įmanoma "
 "naudoti įvairias formatavimo opcijas (kaip kad paryškinimas, spalvos) "
-"arba net nuotraukos, nuorodos ir panašiai. "
-"Kai bus sukonfigūruota, Reikalavimų aprašymas bus rodomas ant esamos "
-"pardavimų galimybės stadijos."
+"arba net nuotraukos, nuorodos ir panašiai. Kai bus sukonfigūruota, "
+"Reikalavimų aprašymas bus rodomas ant esamos pardavimų galimybės "
+"stadijos."
 
 #: ../../crm/customizations/full_kit.rst:13
 msgid ""
@@ -298,8 +300,8 @@ msgid ""
 "Configuration --> Pipeline --> Stages` open stage you want to edit."
 msgstr ""
 "Eikit į (įsitikinkit, kad debug būsena įjungta) :menuselection:`CRM --> "
-"Konfigūracija --> Piltuvėlis --> Stadijos` atidarykit stadiją, kurią norite "
-"keisti."
+"Konfigūracija --> Piltuvėlis --> Stadijos` atidarykit stadiją, kurią "
+"norite keisti."
 
 #: ../../crm/customizations/full_kit.rst:27
 msgid ""
@@ -308,6 +310,119 @@ msgid ""
 msgstr ""
 "Dabar kai atidarysite pardavimų galimybę, kuri yra aprašytoje stadijoje "
 "jūs pamatysite aprašymą Reikalavimų sekcijoje."
+
+#: ../../crm/customizations/lost_reason_improve.rst:3
+msgid "Lost Reason Improvements"
+msgstr "Praradimo prežasčių patobulinimai"
+
+#: ../../crm/customizations/lost_reason_improve.rst:5
+msgid "Mark as Lost action allows to include more information about the lost."
+msgstr ""
+"Pažymint kaip prarastą veiksmo metu galima pridėti daugiau informacijos "
+"apie praradimą."
+
+#: ../../crm/customizations/lost_reason_improve.rst:10
+msgid ""
+"For these features to work, module :code:`crm_lost_reason_improve` must "
+"be installed."
+msgstr ""
+"Kad šie funkcionalumai veiktų, turi būti įdiegtas "
+":code:`crm_lost_reason_improve` modulis."
+
+#: ../../crm/customizations/lost_reason_improve.rst:14
+msgid "Mark as lost"
+msgstr "Pažymėti kaip prarastą"
+
+#: ../../crm/customizations/lost_reason_improve.rst:16
+msgid "For standard behavior see :doc:`../pipeline/lost_opportunities`."
+msgstr ""
+"Apie standartinį funkcionalumą žiūrėti čia "
+":doc:`../pipeline/lost_opportunities`."
+
+#: ../../crm/customizations/lost_reason_improve.rst:18
+msgid "Improvements:"
+msgstr "Patobulinimai:"
+
+#: ../../crm/customizations/lost_reason_improve.rst:20
+msgid ""
+"*Lost Reason* is required when marking lead/opportunity as lost so it "
+"would be clear why it was lost."
+msgstr ""
+"*Praradimo priežastis* yra privaloma, žymint iniciatyvą/pardavimo "
+"galimybę kaip prarastą, kad būtų aišku, kodėl ji buvo prarasta."
+
+#: ../../crm/customizations/lost_reason_improve.rst:22
+msgid ""
+"Use *Lost Details* field to explain lost reason better. This field "
+"appears on lost opportunities also."
+msgstr ""
+"Naudokite *Praradimo detalės* lauką, kad geriau paaiškintumėte praradimo "
+"priežastį. Šis laukas atsiranda ir ant pralaimėtų pardavimo galimybių."
+
+#: ../../crm/customizations/lost_reason_improve.rst:24
+msgid ""
+"*Lost By* on opportunity holds the information about who set the "
+"lead/opportunity as lost (visible on lost opportunities only)."
+msgstr ""
+"*Prarado* pardavimo galimybėse saugo informaciją apie tai, kas pažymėjo "
+"iniciatyvą/pardavimo galimybę kaip prarastą (matoma tik prarastose "
+"pardavimo galimybėse)."
+
+#: ../../crm/customizations/lost_reason_improve.rst:26
+msgid ""
+"*Lost Reason*, *Lost Details* and *Lost By* fields are cleared if lost "
+"lead/opportunity is made active again."
+msgstr ""
+"*Praradimo priežastis*, *Praradimo detalės* ir *Prarado* laukai yra "
+"išvalomi, jei prarasta iniciatyva/pardavimo galimybė yra vėl padaroma "
+"aktyvia."
+
+#: ../../crm/customizations/lost_reason_improve.rst:28
+msgid ""
+"*Lost Reason* wizard contains *Selling Price* to specify new lost revenue"
+" if it needs to be updated while doing such action."
+msgstr ""
+"*Praradimo priežastis* vedlyje *Pardavimo kaina* lauke galima nurodyti "
+"naujas praradimo pajamas, jei yra poreikis jas atnaujinti, atliekant šį "
+"veiksmą."
+
+#: ../../crm/customizations/partner_competitor.rst:3
+msgid "Partner Competitor"
+msgstr "Partneris konkurentas"
+
+#: ../../crm/customizations/partner_competitor.rst:5
+msgid "Possibility to assign Competitor on Leads & Opportunities."
+msgstr "Galimybė priskirti konkurentą iniciatyvose ir pardavimo galimybėse."
+
+#: ../../crm/customizations/partner_competitor.rst:10
+msgid ""
+"For this feature to work, module :code:`crm_partner_competitor` must be "
+"installed."
+msgstr ""
+"Kad šis funkcionalumas veiktų, turi būti įdiegtas "
+":code:`crm_partner_competitor` modulis."
+
+#: ../../crm/customizations/partner_competitor.rst:14
+msgid "Create a Partner Competitor"
+msgstr "Sukurti partnerį konkurentą"
+
+#: ../../crm/customizations/partner_competitor.rst:16
+msgid "Partner Competitor is a regular partner which has *Is Competitor* checked."
+msgstr ""
+"Partneris konkurentas yra įprastas partneris su pažymėtu *Yra "
+"konkurentas*."
+
+#: ../../crm/customizations/partner_competitor.rst:23
+msgid "Set a Competitor on Leads & Opportunities"
+msgstr "Nustatykite konkurentą iniciatyvose ir pardavimo galimybėse"
+
+#: ../../crm/customizations/partner_competitor.rst:25
+msgid ""
+"Use *Competitor* field and select a partner from a list of partners with "
+"*Is Competitor* checked."
+msgstr ""
+"Naudokite *Konkurentas* lauką ir pasirinkitę partnerį iš partnerių sąrašo"
+" su  pažymėtu *Yra konkurentas*."
 
 #: ../../crm/optimize.rst:3
 msgid "Optimize your Day-to-Day work"
