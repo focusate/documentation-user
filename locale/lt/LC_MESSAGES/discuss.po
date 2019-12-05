@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-05 12:21+0200\n"
+"POT-Creation-Date: 2019-12-05 14:46+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,6 +25,46 @@ msgstr ""
 msgid "Customizations"
 msgstr "Pritaikymai"
 
+#: ../../discuss/customizations/mail_message_reply.rst:3
+msgid "Message Quote & Forward"
+msgstr "Žinutės citavimas ir persiuntimas"
+
+#: ../../discuss/customizations/mail_message_reply.rst:5
+msgid "Easy way to Quote or Forward messages from Mail Chatter or Discuss page."
+msgstr "Lengvas būdas cituoti ar persiųsti žinutes iš susirašinėjimo skydelio ar diskusijų puslapio."
+
+#: ../../discuss/customizations/mail_message_reply.rst:8
+#: ../../discuss/customizations/mail_suggested_partners_uncheck.rst:9
+msgid "Configuration"
+msgstr "Konfigūracija"
+
+#: ../../discuss/customizations/mail_message_reply.rst:10
+msgid "For this feature to work, :code:`mail_message_reply` must be installed."
+msgstr "Kad šis funkcionalumas veiktų, turi būti įdiegtas :code:`mail_message_reply` modulis."
+
+#: ../../discuss/customizations/mail_message_reply.rst:13
+msgid "Quote & Forward"
+msgstr "Citavimas ir persiuntimas"
+
+#: ../../discuss/customizations/mail_message_reply.rst:15
+msgid ""
+"Quote & Forward icons appears in the Chatter and Discuss page when mouse "
+"pointer is hovered over a certain message."
+msgstr ""
+"Citavimo ir persiuntimo piktogramos atvaizduojamos susirašinėjimo skydelyje ir diskusijų puslapyje, kai "
+"pelės žymeklis yra užvedamas ant konkrečios žinutės."
+
+#: ../../discuss/customizations/mail_message_reply.rst:24
+msgid ""
+"Click on corresponding icon to Quote or Forward message and an email "
+"composer will be popped up. By default, message will include data from "
+"the original message and subject will have prefix depending on reply "
+"type."
+msgstr ""
+"Paspauskite ant atitinkamos piktogramos, norėdami cituoti ar persiųsti žinutę, ir "
+"iššoks žinutės kūrimo langas. Pagal nutylėjimą, žinutė bus suformuota, įtraukiant originalios "
+"žinutės duomenis, o temai - pridėtas priešdėlis priklausomai nuo žinutės tipo."
+
 #: ../../discuss/customizations/mail_suggested_partners_uncheck.rst:3
 msgid "Mail Suggested Partners Uncheck"
 msgstr "Žinutei nužymėti siūlomus gavėjus"
@@ -34,12 +74,8 @@ msgid ""
 "Before sending a message, if there are suggested recipients, they will be"
 " unchecked by default."
 msgstr ""
-"Prieš siunčiant žinutę, jeigu yra siūlomi gavėjai, jie bus nepažymėti"
-" pagal nutylėjimą."
-
-#: ../../discuss/customizations/mail_suggested_partners_uncheck.rst:9
-msgid "Configuration"
-msgstr "Konfigūracija"
+"Prieš siunčiant žinutę, jeigu yra siūlomi gavėjai, jie bus nepažymėti "
+"pagal nutylėjimą."
 
 #: ../../discuss/customizations/mail_suggested_partners_uncheck.rst:11
 msgid ""
@@ -48,8 +84,8 @@ msgid ""
 "section of General Settings must be enabled."
 msgstr ""
 "Kad šis funkcionalumas veiktų, turi būti įdiegtas "
-":code:`mail_suggested_partners_uncheck` modulis ir pagrindinių nustatymų"
-" diskusijos skiltyje įjungta *Žinutei nužymėti siūlomus gavėjus*."
+":code:`mail_suggested_partners_uncheck` modulis ir pagrindinių nustatymų "
+"diskusijos skiltyje įjungta *Žinutei nužymėti siūlomus gavėjus*."
 
 #: ../../discuss/customizations/mail_suggested_partners_uncheck.rst:19
 msgid "Send Message"
