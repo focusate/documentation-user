@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-16 15:50+0200\n"
+"POT-Creation-Date: 2019-12-05 12:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,6 +20,44 @@ msgstr ""
 #: ../../discuss.rst:5
 msgid "Discuss"
 msgstr ""
+
+#: ../../discuss/customizations.rst:3
+msgid "Customizations"
+msgstr "Pritaikymai"
+
+#: ../../discuss/customizations/mail_suggested_partners_uncheck.rst:3
+msgid "Mail Suggested Partners Uncheck"
+msgstr "Žinutei nužymėti siūlomus gavėjus"
+
+#: ../../discuss/customizations/mail_suggested_partners_uncheck.rst:5
+msgid ""
+"Before sending a message, if there are suggested recipients, they will be"
+" unchecked by default."
+msgstr ""
+"Prieš siunčiant žinutę, jeigu yra siūlomi gavėjai, jie bus nepažymėti"
+" pagal nutylėjimą."
+
+#: ../../discuss/customizations/mail_suggested_partners_uncheck.rst:9
+msgid "Configuration"
+msgstr "Konfigūracija"
+
+#: ../../discuss/customizations/mail_suggested_partners_uncheck.rst:11
+msgid ""
+"For this feature to work, :code:`mail_suggested_partners_uncheck` must be"
+" installed and *Uncheck Suggested Recipients for Message* in Discuss "
+"section of General Settings must be enabled."
+msgstr ""
+"Kad šis funkcionalumas veiktų, turi būti įdiegtas "
+":code:`mail_suggested_partners_uncheck` modulis ir pagrindinių nustatymų"
+" diskusijos skiltyje įjungta *Žinutei nužymėti siūlomus gavėjus*."
+
+#: ../../discuss/customizations/mail_suggested_partners_uncheck.rst:19
+msgid "Send Message"
+msgstr "Žinutės siuntimas"
+
+#: ../../discuss/customizations/mail_suggested_partners_uncheck.rst:21
+msgid "By default, recipients are unchecked while composing a new message."
+msgstr "Pagal nutylėjimą, gavėjai yra nepažymėti, kuriant naują žinutę."
 
 #: ../../discuss/email_servers.rst:3
 msgid "How to use my mail server to send and receive emails in Odoo"
