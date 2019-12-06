@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-05 14:46+0200\n"
+"POT-Creation-Date: 2019-12-06 09:16+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,17 +24,46 @@ msgstr ""
 msgid "Customizations"
 msgstr ""
 
+#: ../../discuss/customizations/mail_message_keep_unread.rst:3
+msgid "Keep Message Unread if it Was Opened"
+msgstr ""
+
+#: ../../discuss/customizations/mail_message_keep_unread.rst:5
+msgid "Keep Odoo message as unread until it is marked as read manually."
+msgstr ""
+
+#: ../../discuss/customizations/mail_message_keep_unread.rst:8
+#: ../../discuss/customizations/mail_message_reply.rst:8
+#: ../../discuss/customizations/mail_suggested_partners_uncheck.rst:9
+msgid "Configuration"
+msgstr ""
+
+#: ../../discuss/customizations/mail_message_keep_unread.rst:10
+msgid "For this feature to work, :code:`mail_message_keep_unread` must be installed and option *Keep Message Unread* must be checked for user."
+msgstr ""
+
+#: ../../discuss/customizations/mail_message_keep_unread.rst:14
+msgid "This option is only relevant for users that notifications management is handled in Odoo and not by Emails."
+msgstr ""
+
+#: ../../discuss/customizations/mail_message_keep_unread.rst:21
+msgid "User must refresh the page after configuration, so the feature would work properly."
+msgstr ""
+
+#: ../../discuss/customizations/mail_message_keep_unread.rst:25
+msgid "Mark Message as Read Manually"
+msgstr ""
+
+#: ../../discuss/customizations/mail_message_keep_unread.rst:27
+msgid "With this feature enabled, messages handled in Odoo will be kept unread after opening it (standard Odoo behavior is to mark message as read automatically when it is opened). Message will remain in the conversations and discuss page until it is marked as read manually."
+msgstr ""
+
 #: ../../discuss/customizations/mail_message_reply.rst:3
 msgid "Message Quote & Forward"
 msgstr ""
 
 #: ../../discuss/customizations/mail_message_reply.rst:5
 msgid "Easy way to Quote or Forward messages from Mail Chatter or Discuss page."
-msgstr ""
-
-#: ../../discuss/customizations/mail_message_reply.rst:8
-#: ../../discuss/customizations/mail_suggested_partners_uncheck.rst:9
-msgid "Configuration"
 msgstr ""
 
 #: ../../discuss/customizations/mail_message_reply.rst:10
