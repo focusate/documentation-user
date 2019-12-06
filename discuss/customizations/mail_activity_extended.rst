@@ -22,12 +22,14 @@ analyzed using custom filters in list view.
 .. image:: media/activity_extended.png
     :align: center
 
+.. seealso:: :doc:`mail_activity_history`
+
 Archive Activity Type
 =====================
 
 Activity type now includes additional field *Active* which allows to
 archive/unarchive certain activity types and so manage which activity
-types allow to use.
+type allow to use.
 
 .. image:: media/activity_extended_type_archive.png
     :align: center

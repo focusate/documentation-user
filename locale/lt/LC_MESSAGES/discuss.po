@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-06 13:20+0200\n"
+"POT-Creation-Date: 2019-12-06 15:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,6 +35,7 @@ msgstr "Nurodykite, kuriems vartotojams leidžiama keisti veiklos pabaigos termi
 
 #: ../../discuss/customizations/mail_activity_edit_date.rst:8
 #: ../../discuss/customizations/mail_activity_extended.rst:10
+#: ../../discuss/customizations/mail_activity_history.rst:8
 #: ../../discuss/customizations/mail_message_keep_unread.rst:8
 #: ../../discuss/customizations/mail_message_reply.rst:8
 #: ../../discuss/customizations/mail_suggested_partners_uncheck.rst:9
@@ -123,23 +124,97 @@ msgid ""
 "Activities --> Activities` and better analyzed using custom filters in "
 "list view."
 msgstr ""
-"Dabar veiklos gali būti pasiekiamos per meniu :menuselection:`Kontaktai --> "
-"Veiklos --> Veiklos` ir analizuojamos, naudojant atitinkamus filtrus "
+"Dabar veiklos gali būti pasiekiamos per meniu :menuselection:`Kontaktai "
+"--> Veiklos --> Veiklos` ir analizuojamos, naudojant atitinkamus filtrus "
 "sąrašo rodinyje."
 
-#: ../../discuss/customizations/mail_activity_extended.rst:26
+#: ../../discuss/customizations/mail_activity_extended.rst:25
+msgid ":doc:`mail_activity_history`"
+msgstr ":doc:`mail_activity_history`"
+
+#: ../../discuss/customizations/mail_activity_extended.rst:28
 msgid "Archive Activity Type"
 msgstr "Veiklos tipo archyvavimas"
 
-#: ../../discuss/customizations/mail_activity_extended.rst:28
+#: ../../discuss/customizations/mail_activity_extended.rst:30
 msgid ""
 "Activity type now includes additional field *Active* which allows to "
 "archive/unarchive certain activity types and so manage which activity "
-"types allow to use."
+"type allow to use."
 msgstr ""
 "Veiklos tipas dabar turi papildomą lauką *Aktyvus*, kuris leidžia "
-"archyvuoti/išarchyvuoti konkrečius veiklos tipus ir taip valdyti, kuriuos "
-"iš jų leisti naudoti."
+"archyvuoti/išarchyvuoti konkrečius veiklos tipus ir taip valdyti, kuriuos"
+" iš jų leisti naudoti."
+
+#: ../../discuss/customizations/mail_activity_history.rst:3
+msgid "History of Activities"
+msgstr "Veiklų istorija"
+
+#: ../../discuss/customizations/mail_activity_history.rst:5
+msgid "Save done and cancelled activities in history table for later analysis."
+msgstr ""
+"Baigtos ir atšauktos veiklos saugomos istorijos žurnale tolimesnei "
+"analizei."
+
+#: ../../discuss/customizations/mail_activity_history.rst:10
+msgid ""
+"For these features to work, module :code:`mail_activity_history` must be "
+"installed."
+msgstr ""
+"Kad šie funkcionalumai veiktų, turi būti įdiegtas "
+":code:`mail_activity_history` modulis."
+
+#: ../../discuss/customizations/mail_activity_history.rst:14
+msgid ""
+"In multi-company environment, module "
+":code:`mail_activity_history_multicompany` should be installed, so users "
+"could access only global or user's company history."
+msgstr ""
+"Kelių įmonių aplinkoje, modulis "
+":code:`mail_activity_history_multicompany` turėtų būti įdiegtas, tam, kad"
+" vartotojai galėtų pasiekti tik globalią arba vartotojo įmonės istoriją."
+
+#: ../../discuss/customizations/mail_activity_history.rst:19
+msgid "Log Cancelled Activity"
+msgstr "Registruoti atšauktą veiklą"
+
+#: ../../discuss/customizations/mail_activity_history.rst:21
+msgid ""
+"Optionally, it might be configured to log cancelled activities in the "
+"chatter, just like done activities. To activate this feature, *Log "
+"Cancelled Activities* in Discuss section of General Settings must be "
+"enabled."
+msgstr ""
+"Pasirinktinai, gali būti sukonfigūruota, kad atšauktos veiklos būtų "
+"registruojamos susirašinėjimų skydelyje, taip pat kaip ir baigtos "
+"veiklos. Šis funkcionalumas aktyvuojamas, pažymėjus *Registruoti "
+"atšauktas veiklas* pagrindinių nustatymų diskusijos skiltyje"
+
+#: ../../discuss/customizations/mail_activity_history.rst:29
+msgid ""
+"With this option enabled, cancelled activity will not disappear (as in "
+"standard Odoo behavior) and will be logged in the chatter."
+msgstr ""
+"Įjungus šį funkcionalumą, atšaukta veikla nepradings (taip kaip Odoo "
+"standarte) ir bus užregistruota susirašinėjimų skydelyje."
+
+#: ../../discuss/customizations/mail_activity_history.rst:36
+msgid "Analyze History of Activities"
+msgstr "Analizuokite veiklų istoriją"
+
+#: ../../discuss/customizations/mail_activity_history.rst:38
+msgid ""
+"History of done or cancelled activities can be reached via menu "
+":menuselection:`Contacts --> Activities --> Activity History` and "
+"analyzed using custom filters in list view."
+msgstr ""
+"Baigtų ar atšauktų veiklų istorija gali būti pasiekiama per meniu "
+":menuselection:`Kontaktai --> Veiklos --> Veiklos istorija` ir "
+"analizuojama, naudojant atitinkamus filtrus sąrašo rodinyje."
+
+#: ../../discuss/customizations/mail_activity_history.rst:45
+msgid ":doc:`mail_activity_extended`"
+msgstr ":doc:`mail_activity_extended`"
 
 #: ../../discuss/customizations/mail_message_keep_unread.rst:3
 msgid "Keep Message Unread if it Was Opened"
@@ -895,10 +970,5 @@ msgid ""
 msgstr ""
 
 #~ msgid ""
-#~ "Easier way to reach and analyze "
-#~ "activities using a separate menu and "
-#~ "more friendly views. Manage which "
-#~ "activity types allow to use by "
-#~ "archiving unnecessary ones."
 #~ msgstr ""
 
