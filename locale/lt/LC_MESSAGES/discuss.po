@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-06 09:16+0200\n"
+"POT-Creation-Date: 2019-12-06 11:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,19 +25,79 @@ msgstr ""
 msgid "Customizations"
 msgstr "Pritaikymai"
 
+#: ../../discuss/customizations/mail_activity_edit_date.rst:3
+msgid "Allow Editing Activity Due Date"
+msgstr "Leisti redaguoti veiklos pabaigos terminą"
+
+#: ../../discuss/customizations/mail_activity_edit_date.rst:5
+msgid "Specify which users are allowed to edit activity due date."
+msgstr "Nurodykite, kuriems vartotojams leidžiama keisti veiklos pabaigos terminą."
+
+#: ../../discuss/customizations/mail_activity_edit_date.rst:8
+#: ../../discuss/customizations/mail_message_keep_unread.rst:8
+#: ../../discuss/customizations/mail_message_reply.rst:8
+#: ../../discuss/customizations/mail_suggested_partners_uncheck.rst:9
+msgid "Configuration"
+msgstr "Konfigūracija"
+
+#: ../../discuss/customizations/mail_activity_edit_date.rst:10
+msgid ""
+"For this feature to work, :code:`mail_activity_edit_date` must be "
+"installed and *Use Access for Activity Edit Due Date* in Discuss section "
+"of General Settings must be enabled."
+msgstr ""
+"Kad šis funkcionalumas veiktų, turi būti įdiegtas "
+":code:`mail_activity_edit_date` modulis ir pagrindinių nustatymų "
+"diskusijos skiltyje įjungta *Naudoti prieigą veiklos pabaigos termino redagavimui*."
+
+#: ../../discuss/customizations/mail_activity_edit_date.rst:15
+msgid ""
+"If used together with Calendar App, module "
+":code:`mail_activity_edit_date_calendar` must be installed as well."
+msgstr ""
+"Jei naudojama kartu su kalendoriaus aplikacija, modulis "
+":code:`mail_activity_edit_date_calendar` taip pat turi būti įdiegtas."
+
+#: ../../discuss/customizations/mail_activity_edit_date.rst:22
+msgid "Edit Activity Due Date"
+msgstr "Veiklos pabaigos termino keitimas"
+
+#: ../../discuss/customizations/mail_activity_edit_date.rst:24
+msgid ""
+"By default, with this feature enabled, all users will be disallowed to "
+"edit due date of activity and will get an error while trying to modify "
+"it."
+msgstr ""
+"Pagal nutylėjimą, įjungus šį funkcionalumą, visiems vartotojams bus uždrausta "
+"redaguoti veiklos pabaigos terminą ir, bandant jį pakeisti, bus rodomas klaidos "
+"pranešimas."
+
+#: ../../discuss/customizations/mail_activity_edit_date.rst:28
+msgid ""
+"User must have *Allow Editing Activity Due Date* checked to be able to "
+"edit due date of activity."
+msgstr ""
+"Vartotojas turi turėti pažymėtą *Leisti redaguoti veiklos pabaigos terminą*, kad jam "
+"būtų leista keisti veiklos pabaigos terminą."
+
+#: ../../discuss/customizations/mail_activity_edit_date.rst:35
+#: ../../discuss/customizations/mail_message_keep_unread.rst:21
+msgid ""
+"User must refresh the page after configuration, so the feature would work"
+" properly."
+msgstr ""
+"Kad po konfigūravimo funkcionalumas tinkamai veiktų, vartotojas turi "
+"atsinaujinti puslapį."
+
 #: ../../discuss/customizations/mail_message_keep_unread.rst:3
 msgid "Keep Message Unread if it Was Opened"
 msgstr "Laikyti žinutę neperskaitytą, jei ji buvo atidaryta"
 
 #: ../../discuss/customizations/mail_message_keep_unread.rst:5
 msgid "Keep Odoo message as unread until it is marked as read manually."
-msgstr "Laikyti Odoo žinutę neperskaitytą, kol ji rankiniu būdu nepažymėta kaip perskaityta."
-
-#: ../../discuss/customizations/mail_message_keep_unread.rst:8
-#: ../../discuss/customizations/mail_message_reply.rst:8
-#: ../../discuss/customizations/mail_suggested_partners_uncheck.rst:9
-msgid "Configuration"
-msgstr "Konfigūracija"
+msgstr ""
+"Laikyti Odoo žinutę neperskaitytą, kol ji rankiniu būdu nepažymėta kaip "
+"perskaityta."
 
 #: ../../discuss/customizations/mail_message_keep_unread.rst:10
 msgid ""
@@ -45,23 +105,16 @@ msgid ""
 "installed and option *Keep Message Unread* must be checked for user."
 msgstr ""
 "Kad šis funkcionalumas veiktų, turi būti įdiegtas "
-":code:`mail_message_keep_unread` modulis ir naudotojui parinkta *Laikyti žinutes neperskaitytas*."
+":code:`mail_message_keep_unread` modulis ir vartotojui parinkta *Laikyti "
+"žinutes neperskaitytas*."
 
 #: ../../discuss/customizations/mail_message_keep_unread.rst:14
 msgid ""
 "This option is only relevant for users that notifications management is "
 "handled in Odoo and not by Emails."
 msgstr ""
-"Šis nustatymas yra aktualus tik tiems naudotojams, kurie pranešimus valdo per "
-"Odoo, o ne per el. paštą."
-
-#: ../../discuss/customizations/mail_message_keep_unread.rst:21
-msgid ""
-"User must refresh the page after configuration, so the feature would work"
-" properly."
-msgstr ""
-"Kad po konfigūravimo funkcionalumas tinkamai veiktų, naudotojas turi atsinaujinti"
-" puslapį."
+"Šis nustatymas yra aktualus tik tiems vartotojams, kurie pranešimus valdo"
+" per Odoo, o ne per el. paštą."
 
 #: ../../discuss/customizations/mail_message_keep_unread.rst:25
 msgid "Mark Message as Read Manually"
@@ -74,10 +127,11 @@ msgid ""
 "automatically when it is opened). Message will remain in the "
 "conversations and discuss page until it is marked as read manually."
 msgstr ""
-"Įjungus šį funkcionalumą, pranešimai gaunami Odoo sistemoje bus laikomi neperskaitytais "
-"juos atidarius (pagal standartišką Odoo veikimą, žinutė automatiškai pažymima kaip "
-"perskaityta ją atidarius). Žinutė liks pokalbiuose ir diskusijų lange kol rankiniu "
-"būdu nebus pažymėta kaip perskaityta."
+"Įjungus šį funkcionalumą, pranešimai gaunami Odoo sistemoje bus laikomi "
+"neperskaitytais juos atidarius (pagal standartišką Odoo veikimą, žinutė "
+"automatiškai pažymima kaip perskaityta ją atidarius). Žinutė liks "
+"pokalbiuose ir diskusijų lange kol rankiniu būdu nebus pažymėta kaip "
+"perskaityta."
 
 #: ../../discuss/customizations/mail_message_reply.rst:3
 msgid "Message Quote & Forward"

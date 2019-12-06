@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-06 09:16+0200\n"
+"POT-Creation-Date: 2019-12-06 11:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,6 +24,46 @@ msgstr ""
 msgid "Customizations"
 msgstr ""
 
+#: ../../discuss/customizations/mail_activity_edit_date.rst:3
+msgid "Allow Editing Activity Due Date"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_edit_date.rst:5
+msgid "Specify which users are allowed to edit activity due date."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_edit_date.rst:8
+#: ../../discuss/customizations/mail_message_keep_unread.rst:8
+#: ../../discuss/customizations/mail_message_reply.rst:8
+#: ../../discuss/customizations/mail_suggested_partners_uncheck.rst:9
+msgid "Configuration"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_edit_date.rst:10
+msgid "For this feature to work, :code:`mail_activity_edit_date` must be installed and *Use Access for Activity Edit Due Date* in Discuss section of General Settings must be enabled."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_edit_date.rst:15
+msgid "If used together with Calendar App, module :code:`mail_activity_edit_date_calendar` must be installed as well."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_edit_date.rst:22
+msgid "Edit Activity Due Date"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_edit_date.rst:24
+msgid "By default, with this feature enabled, all users will be disallowed to edit due date of activity and will get an error while trying to modify it."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_edit_date.rst:28
+msgid "User must have *Allow Editing Activity Due Date* checked to be able to edit due date of activity."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_edit_date.rst:35
+#: ../../discuss/customizations/mail_message_keep_unread.rst:21
+msgid "User must refresh the page after configuration, so the feature would work properly."
+msgstr ""
+
 #: ../../discuss/customizations/mail_message_keep_unread.rst:3
 msgid "Keep Message Unread if it Was Opened"
 msgstr ""
@@ -32,22 +72,12 @@ msgstr ""
 msgid "Keep Odoo message as unread until it is marked as read manually."
 msgstr ""
 
-#: ../../discuss/customizations/mail_message_keep_unread.rst:8
-#: ../../discuss/customizations/mail_message_reply.rst:8
-#: ../../discuss/customizations/mail_suggested_partners_uncheck.rst:9
-msgid "Configuration"
-msgstr ""
-
 #: ../../discuss/customizations/mail_message_keep_unread.rst:10
 msgid "For this feature to work, :code:`mail_message_keep_unread` must be installed and option *Keep Message Unread* must be checked for user."
 msgstr ""
 
 #: ../../discuss/customizations/mail_message_keep_unread.rst:14
 msgid "This option is only relevant for users that notifications management is handled in Odoo and not by Emails."
-msgstr ""
-
-#: ../../discuss/customizations/mail_message_keep_unread.rst:21
-msgid "User must refresh the page after configuration, so the feature would work properly."
 msgstr ""
 
 #: ../../discuss/customizations/mail_message_keep_unread.rst:25
