@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-06 11:20+0200\n"
+"POT-Creation-Date: 2019-12-06 13:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,6 +34,7 @@ msgid "Specify which users are allowed to edit activity due date."
 msgstr "Nurodykite, kuriems vartotojams leidžiama keisti veiklos pabaigos terminą."
 
 #: ../../discuss/customizations/mail_activity_edit_date.rst:8
+#: ../../discuss/customizations/mail_activity_extended.rst:10
 #: ../../discuss/customizations/mail_message_keep_unread.rst:8
 #: ../../discuss/customizations/mail_message_reply.rst:8
 #: ../../discuss/customizations/mail_suggested_partners_uncheck.rst:9
@@ -48,7 +49,8 @@ msgid ""
 msgstr ""
 "Kad šis funkcionalumas veiktų, turi būti įdiegtas "
 ":code:`mail_activity_edit_date` modulis ir pagrindinių nustatymų "
-"diskusijos skiltyje įjungta *Naudoti prieigą veiklos pabaigos termino redagavimui*."
+"diskusijos skiltyje įjungta *Naudoti prieigą veiklos pabaigos termino "
+"redagavimui*."
 
 #: ../../discuss/customizations/mail_activity_edit_date.rst:15
 msgid ""
@@ -68,17 +70,17 @@ msgid ""
 "edit due date of activity and will get an error while trying to modify "
 "it."
 msgstr ""
-"Pagal nutylėjimą, įjungus šį funkcionalumą, visiems vartotojams bus uždrausta "
-"redaguoti veiklos pabaigos terminą ir, bandant jį pakeisti, bus rodomas klaidos "
-"pranešimas."
+"Pagal nutylėjimą, įjungus šį funkcionalumą, visiems vartotojams bus "
+"uždrausta redaguoti veiklos pabaigos terminą ir, bandant jį pakeisti, bus"
+" rodomas klaidos pranešimas."
 
 #: ../../discuss/customizations/mail_activity_edit_date.rst:28
 msgid ""
 "User must have *Allow Editing Activity Due Date* checked to be able to "
 "edit due date of activity."
 msgstr ""
-"Vartotojas turi turėti pažymėtą *Leisti redaguoti veiklos pabaigos terminą*, kad jam "
-"būtų leista keisti veiklos pabaigos terminą."
+"Vartotojas turi turėti pažymėtą *Leisti redaguoti veiklos pabaigos "
+"terminą*, kad jam būtų leista keisti veiklos pabaigos terminą."
 
 #: ../../discuss/customizations/mail_activity_edit_date.rst:35
 #: ../../discuss/customizations/mail_message_keep_unread.rst:21
@@ -88,6 +90,56 @@ msgid ""
 msgstr ""
 "Kad po konfigūravimo funkcionalumas tinkamai veiktų, vartotojas turi "
 "atsinaujinti puslapį."
+
+#: ../../discuss/customizations/mail_activity_extended.rst:3
+msgid "Reach Activities via Menu, archive Activity Types"
+msgstr "Pasiekite veiklas per meniu, archyvuokite veiklos tipus"
+
+#: ../../discuss/customizations/mail_activity_extended.rst:5
+msgid ""
+"Easy way to reach and analyze activities using a separate menu and more "
+"friendly views. Manage which activity types allow to use by archiving "
+"unnecessary ones."
+msgstr ""
+"Lengvas būdas pasiekti ir analizuoti veiklas, naudojant atskirą meniu ir "
+"pritaikytus rodinius. Nustatykite, kuriuos veiklos tipus leisti naudoti, "
+"suarchyvuojant nereikalingus."
+
+#: ../../discuss/customizations/mail_activity_extended.rst:12
+msgid ""
+"For these features to work, :code:`mail_activity_extended` must be "
+"installed."
+msgstr ""
+"Kad šie funkcionalumai veiktų, turi būti įdiegtas "
+":code:`mail_activity_extended` modulis."
+
+#: ../../discuss/customizations/mail_activity_extended.rst:16
+msgid "Activities Menu & Views"
+msgstr "Veiklų meniu ir rodiniai"
+
+#: ../../discuss/customizations/mail_activity_extended.rst:18
+msgid ""
+"Now activities can be reached via menu :menuselection:`Contacts --> "
+"Activities --> Activities` and better analyzed using custom filters in "
+"list view."
+msgstr ""
+"Dabar veiklos gali būti pasiekiamos per meniu :menuselection:`Kontaktai --> "
+"Veiklos --> Veiklos` ir analizuojamos, naudojant atitinkamus filtrus "
+"sąrašo rodinyje."
+
+#: ../../discuss/customizations/mail_activity_extended.rst:26
+msgid "Archive Activity Type"
+msgstr "Veiklos tipo archyvavimas"
+
+#: ../../discuss/customizations/mail_activity_extended.rst:28
+msgid ""
+"Activity type now includes additional field *Active* which allows to "
+"archive/unarchive certain activity types and so manage which activity "
+"types allow to use."
+msgstr ""
+"Veiklos tipas dabar turi papildomą lauką *Aktyvus*, kuris leidžia "
+"archyvuoti/išarchyvuoti konkrečius veiklos tipus ir taip valdyti, kuriuos "
+"iš jų leisti naudoti."
 
 #: ../../discuss/customizations/mail_message_keep_unread.rst:3
 msgid "Keep Message Unread if it Was Opened"
@@ -841,4 +893,12 @@ msgid ""
 "channel in CRM, the project in Project). Then, choose the events you want"
 " to hear about."
 msgstr ""
+
+#~ msgid ""
+#~ "Easier way to reach and analyze "
+#~ "activities using a separate menu and "
+#~ "more friendly views. Manage which "
+#~ "activity types allow to use by "
+#~ "archiving unnecessary ones."
+#~ msgstr ""
 

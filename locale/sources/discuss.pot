@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-06 11:41+0200\n"
+"POT-Creation-Date: 2019-12-06 13:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,6 +33,7 @@ msgid "Specify which users are allowed to edit activity due date."
 msgstr ""
 
 #: ../../discuss/customizations/mail_activity_edit_date.rst:8
+#: ../../discuss/customizations/mail_activity_extended.rst:10
 #: ../../discuss/customizations/mail_message_keep_unread.rst:8
 #: ../../discuss/customizations/mail_message_reply.rst:8
 #: ../../discuss/customizations/mail_suggested_partners_uncheck.rst:9
@@ -62,6 +63,34 @@ msgstr ""
 #: ../../discuss/customizations/mail_activity_edit_date.rst:35
 #: ../../discuss/customizations/mail_message_keep_unread.rst:21
 msgid "User must refresh the page after configuration, so the feature would work properly."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_extended.rst:3
+msgid "Reach Activities via Menu, archive Activity Types"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_extended.rst:5
+msgid "Easy way to reach and analyze activities using a separate menu and more friendly views. Manage which activity types allow to use by archiving unnecessary ones."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_extended.rst:12
+msgid "For these features to work, :code:`mail_activity_extended` must be installed."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_extended.rst:16
+msgid "Activities Menu & Views"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_extended.rst:18
+msgid "Now activities can be reached via menu :menuselection:`Contacts --> Activities --> Activities` and better analyzed using custom filters in list view."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_extended.rst:26
+msgid "Archive Activity Type"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_extended.rst:28
+msgid "Activity type now includes additional field *Active* which allows to archive/unarchive certain activity types and so manage which activity types allow to use."
 msgstr ""
 
 #: ../../discuss/customizations/mail_message_keep_unread.rst:3
