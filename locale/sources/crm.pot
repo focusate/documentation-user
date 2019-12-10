@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-03 13:02+0200\n"
+"POT-Creation-Date: 2019-12-10 14:08+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -187,6 +187,10 @@ msgstr ""
 
 #: ../../crm/customizations/activity_unplanned_filters.rst:16
 msgid "For these filters to appear, :code:`crm_activity_unplanned_filters` must be installed."
+msgstr ""
+
+#: ../../crm/customizations/activity_unplanned_filters.rst:20
+msgid "Module :code:`mail_activity_unplanned` will be installed automatically, because it adds an extra activity state ``'Unplanned'``."
 msgstr ""
 
 #: ../../crm/customizations/full_kit.rst:3

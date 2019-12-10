@@ -15,3 +15,8 @@ Configuration
 
 For these filters to appear, :code:`crm_activity_unplanned_filters` must
 be installed.
+
+.. note::
+    Module :code:`mail_activity_unplanned` will be installed
+    automatically, because it adds an extra activity state
+    ``'Unplanned'``.
