@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-06 15:41+0200\n"
+"POT-Creation-Date: 2019-12-10 12:46+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,6 +35,7 @@ msgstr ""
 #: ../../discuss/customizations/mail_activity_edit_date.rst:8
 #: ../../discuss/customizations/mail_activity_extended.rst:10
 #: ../../discuss/customizations/mail_activity_history.rst:8
+#: ../../discuss/customizations/mail_activity_limit.rst:10
 #: ../../discuss/customizations/mail_message_keep_unread.rst:8
 #: ../../discuss/customizations/mail_message_reply.rst:8
 #: ../../discuss/customizations/mail_suggested_partners_uncheck.rst:9
@@ -95,7 +96,7 @@ msgid "Archive Activity Type"
 msgstr ""
 
 #: ../../discuss/customizations/mail_activity_extended.rst:30
-msgid "Activity type now includes additional field *Active* which allows to archive/unarchive certain activity type and so manage which activity types allow to use."
+msgid "Activity type now includes additional field *Active* which allows to archive/unarchive certain activity types and so manage which activity type allow to use."
 msgstr ""
 
 #: ../../discuss/customizations/mail_activity_history.rst:3
@@ -136,6 +137,18 @@ msgstr ""
 
 #: ../../discuss/customizations/mail_activity_history.rst:45
 msgid ":doc:`mail_activity_extended`"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_limit.rst:3
+msgid "Limit Number of Active Activities"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_limit.rst:5
+msgid "Specify on which models (that use activities) and how many activities can be active per user per record."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_limit.rst:12
+msgid "For this feature to work, module :code:`mail_activity_limit` must be installed and *Activity Limit* in Discuss section of General Settings must be configured. Value of *Activity Limit* must be a dictionary, where key is model and value is number of allowed active activities per user per record (e.g. ``{'res.partner': 2, 'crm.lead': 1}`` means, that user can only have two active activities on the same partner and one - on the same lead/opportunity)."
 msgstr ""
 
 #: ../../discuss/customizations/mail_message_keep_unread.rst:3
