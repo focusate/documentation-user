@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-20 16:55+0200\n"
+"POT-Creation-Date: 2019-12-11 13:48+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,6 +57,7 @@ msgstr ""
 #: ../../accounting/bank/reconciliation/use_cases.rst:16
 #: ../../accounting/bank/setup/foreign_currency.rst:22
 #: ../../accounting/bank/setup/manage_cash_register.rst:9
+#: ../../accounting/customizations/base_company_main_positions.rst:8
 #: ../../accounting/localizations/colombia.rst:25
 #: ../../accounting/localizations/mexico.rst:33
 #: ../../accounting/others/adviser/assets.rst:24
@@ -1435,6 +1436,38 @@ msgstr ""
 
 #: ../../accounting/bank/setup/manage_cash_register.rst:60
 msgid "The transactions will be added to the current cash payment registration."
+msgstr ""
+
+#: ../../accounting/customizations.rst:3
+msgid "Customizations"
+msgstr ""
+
+#: ../../accounting/customizations/base_company_main_positions.rst:3
+msgid "Main Positions of the Company"
+msgstr ""
+
+#: ../../accounting/customizations/base_company_main_positions.rst:5
+msgid "Define Chief Executive Officer (CEO) and Main Accountant of the company."
+msgstr ""
+
+#: ../../accounting/customizations/base_company_main_positions.rst:10
+msgid "For this feature to work, module :code:`base_company_main_positions` must be installed."
+msgstr ""
+
+#: ../../accounting/customizations/base_company_main_positions.rst:14
+msgid "Set Main Positions"
+msgstr ""
+
+#: ../../accounting/customizations/base_company_main_positions.rst:16
+msgid "Set *CEO* and *Main Accountant* in Positions section of General Settings."
+msgstr ""
+
+#: ../../accounting/customizations/base_company_main_positions.rst:20
+msgid "Values set here are company-specific."
+msgstr ""
+
+#: ../../accounting/customizations/base_company_main_positions.rst:26
+msgid "Main positions are also used in some of financial reports, e.g. Debt Reconciliation Act, Debt Turnover Journal and etc."
 msgstr ""
 
 #: ../../accounting/localizations.rst:3

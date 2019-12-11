@@ -13,4 +13,5 @@ Accounting
    accounting/bank
    accounting/others
    accounting/localizations
+   accounting/customizations
 
