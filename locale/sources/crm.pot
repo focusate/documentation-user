@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-10 14:08+0200\n"
+"POT-Creation-Date: 2019-12-11 10:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,6 +35,7 @@ msgstr ""
 #: ../../crm/acquire_leads/convert.rst:13
 #: ../../crm/acquire_leads/generate_from_website.rst:41
 #: ../../crm/customizations/activity_unplanned_filters.rst:14
+#: ../../crm/customizations/base_address_lau.rst:8
 #: ../../crm/customizations/full_kit.rst:11
 #: ../../crm/customizations/lost_reason_improve.rst:8
 #: ../../crm/customizations/partner_competitor.rst:8
@@ -191,6 +192,74 @@ msgstr ""
 
 #: ../../crm/customizations/activity_unplanned_filters.rst:20
 msgid "Module :code:`mail_activity_unplanned` will be installed automatically, because it adds an extra activity state ``'Unplanned'``."
+msgstr ""
+
+#: ../../crm/customizations/base_address_lau.rst:3
+msgid "Local Administrative Units (LAU) in Address"
+msgstr ""
+
+#: ../../crm/customizations/base_address_lau.rst:5
+msgid "Specify more detailed addresses for partners and companies."
+msgstr ""
+
+#: ../../crm/customizations/base_address_lau.rst:10
+msgid "For this feature to work, module :code:`base_address_lau` must be installed and *LAU 1 in Address* and/or *LAU 2 in Address* in Business Documents section of General Settings must be enabled."
+msgstr ""
+
+#: ../../crm/customizations/base_address_lau.rst:18
+msgid "Module :code:`base_address_lau_menus` will be installed automatically to display corresponding menu items."
+msgstr ""
+
+#: ../../crm/customizations/base_address_lau.rst:22
+msgid "If there is a need to load data with the main counties (largest unit) and municipalities (LAU 1 middle unit) of Lithuania, module :code:`l10n_lt_administrative_units` should be installed."
+msgstr ""
+
+#: ../../crm/customizations/base_address_lau.rst:26
+msgid "Example of data that will be loaded:"
+msgstr ""
+
+#: ../../crm/customizations/base_address_lau.rst:32
+msgid "LAU 1 & LAU 2"
+msgstr ""
+
+#: ../../crm/customizations/base_address_lau.rst:34
+msgid "When partner or company address must include more detailed information and standard country states are not enough to do so, local administrative units (LAU) can be used. Two more LAU levels are added:"
+msgstr ""
+
+#: ../../crm/customizations/base_address_lau.rst:38
+msgid "LAU 1 (district or municipality in some countries etc.) is a subdivision of an existing unit State (``res.country.state``)."
+msgstr ""
+
+#: ../../crm/customizations/base_address_lau.rst:40
+msgid "LAU 2 (municipality or eldership in some countries) is a subdivision of LAU 1."
+msgstr ""
+
+#: ../../crm/customizations/base_address_lau.rst:43
+msgid "Valid rule of dependencies: Country > State > LAU 1 > LAU 2."
+msgstr ""
+
+#: ../../crm/customizations/base_address_lau.rst:46
+msgid "Setup LAU 1 & LAU 2"
+msgstr ""
+
+#: ../../crm/customizations/base_address_lau.rst:48
+msgid "LAU 1 and LAU 2 can be reached and configured via corresponding menus: :menuselection:`Contacts --> Configuration --> Localization --> LAU 1` and :menuselection:`Contacts --> Configuration --> Localization --> LAU 2`."
+msgstr ""
+
+#: ../../crm/customizations/base_address_lau.rst:57
+msgid "LAU 1 & LAU 2 in Address"
+msgstr ""
+
+#: ../../crm/customizations/base_address_lau.rst:59
+msgid "Currently, LAU 1 and LAU 2 can be set in address on partner:"
+msgstr ""
+
+#: ../../crm/customizations/base_address_lau.rst:64
+msgid "or company:"
+msgstr ""
+
+#: ../../crm/customizations/base_address_lau.rst:69
+msgid "LAU 1 and LAU 2 can also be used in address format of the country."
 msgstr ""
 
 #: ../../crm/customizations/full_kit.rst:3

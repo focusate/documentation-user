@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-10 14:08+0200\n"
+"POT-Creation-Date: 2019-12-11 10:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,6 +41,7 @@ msgstr ""
 #: ../../crm/acquire_leads/convert.rst:13
 #: ../../crm/acquire_leads/generate_from_website.rst:41
 #: ../../crm/customizations/activity_unplanned_filters.rst:14
+#: ../../crm/customizations/base_address_lau.rst:8
 #: ../../crm/customizations/full_kit.rst:11
 #: ../../crm/customizations/lost_reason_improve.rst:8
 #: ../../crm/customizations/partner_competitor.rst:8
@@ -268,6 +269,111 @@ msgid ""
 msgstr ""
 "Modulis :code:`mail_activity_unplanned` bus įdiegtas automatiškai, nes "
 "jis prideda papildomą veiklos būseną - ``'Nesuplanuota'``."
+
+#: ../../crm/customizations/base_address_lau.rst:3
+msgid "Local Administrative Units (LAU) in Address"
+msgstr "Vietiniai administraciniai vienetai (LAU) adrese"
+
+#: ../../crm/customizations/base_address_lau.rst:5
+msgid "Specify more detailed addresses for partners and companies."
+msgstr "Parinkite detalesnius adresus partneriuose ir įmonėse."
+
+#: ../../crm/customizations/base_address_lau.rst:10
+msgid ""
+"For this feature to work, module :code:`base_address_lau` must be "
+"installed and *LAU 1 in Address* and/or *LAU 2 in Address* in Business Documents "
+"section of General Settings must be enabled."
+msgstr ""
+"Kad šis funkcionalumas veiktų, turi būti įdiegtas modulis :code:`base_address_lau` "
+"ir bendrų nustatymų verslo dokumentų skiltyje pažymėta *LAU 1 adrese* ir/arba "
+"*LAU 2 adrese*."
+
+#: ../../crm/customizations/base_address_lau.rst:18
+msgid ""
+"Module :code:`base_address_lau_menus` will be installed automatically to "
+"display corresponding menu items."
+msgstr ""
+"Modulis :code:`base_address_lau_menus` bus įdiegtas automatiškai, atitinkamų "
+"meniu atvaizdavimui."
+
+#: ../../crm/customizations/base_address_lau.rst:22
+msgid ""
+"If there is a need to load data with the main counties (largest unit) and"
+" municipalities (LAU 1 middle unit) of Lithuania, module "
+":code:`l10n_lt_administrative_units` should be installed."
+msgstr ""
+"Jei yra poreikis įkelti Lietuvos pagrindinių apskričių (didžiausias vienetas) "
+"ir savivaldybių (LAU 1 tarpinis vienetas) duomenis, tuomet turėtų būti įdiegtas "
+"modulis :code:`l10n_lt_administrative_units`."
+
+#: ../../crm/customizations/base_address_lau.rst:26
+msgid "Example of data that will be loaded:"
+msgstr "Duomenų, kurie bus įkelti, pavyzdys:"
+
+#: ../../crm/customizations/base_address_lau.rst:32
+msgid "LAU 1 & LAU 2"
+msgstr "LAU 1 ir LAU 2"
+
+#: ../../crm/customizations/base_address_lau.rst:34
+msgid ""
+"When partner or company address must include more detailed information "
+"and standard country states are not enough to do so, local administrative"
+" units (LAU) can be used. Two more LAU levels are added:"
+msgstr ""
+"Kuomet reikia pateikti detalesnį partnerio ar įmonės adresą ir standartinių "
+"šalies regionų tam neužtenka, gali būti naudojami vietiniai"
+" administraciniai vienetai (LAU). Pridedami dar du LAU lygiai:"
+
+#: ../../crm/customizations/base_address_lau.rst:38
+msgid ""
+"LAU 1 (district or municipality in some countries etc.) is a subdivision "
+"of an existing unit State (``res.country.state``)."
+msgstr ""
+"LAU 1 (pvz.: kai kuriose šalyse rajonas ar savivaldybė) yra mažesnė standartinio "
+"šalies regiono (``res.country.state``) dalis."
+
+#: ../../crm/customizations/base_address_lau.rst:40
+msgid ""
+"LAU 2 (municipality or eldership in some countries) is a subdivision of "
+"LAU 1."
+msgstr ""
+"LAU 2 (pvz.: kai kuriose šalyse savivaldybės ar seniūnijos) yra mažesnė "
+"LAU 1 dalis."
+
+#: ../../crm/customizations/base_address_lau.rst:43
+msgid "Valid rule of dependencies: Country > State > LAU 1 > LAU 2."
+msgstr "Galiojanti priklausomybių taisyklė: Šalis > Regionas > LAU 1 > LAU 2."
+
+#: ../../crm/customizations/base_address_lau.rst:46
+msgid "Setup LAU 1 & LAU 2"
+msgstr "LAU 1 ir LAU 2 nustatymai"
+
+#: ../../crm/customizations/base_address_lau.rst:48
+msgid ""
+"LAU 1 and LAU 2 can be reached and configured via corresponding menus: "
+":menuselection:`Contacts --> Configuration --> Localization --> LAU 1` "
+"and :menuselection:`Contacts --> Configuration --> Localization --> LAU "
+"2`."
+msgstr ""
+"LAU 1 ir LAU 2 konfigūruojami ir pasiekiami per atitinkamus meniu: "
+":menuselection:`Kontaktai --> Nustatymai --> Lokalizacija --> LAU 1` "
+"ir :menuselection:`Kontaktai --> Nustatymai --> Lokalizacija --> LAU 2`."
+
+#: ../../crm/customizations/base_address_lau.rst:57
+msgid "LAU 1 & LAU 2 in Address"
+msgstr "LAU 1 ir LAU 2 adrese"
+
+#: ../../crm/customizations/base_address_lau.rst:59
+msgid "Currently, LAU 1 and LAU 2 can be set in address on partner:"
+msgstr "Dabar LAU 1 ir LAU 2 gali būti nurodomi partnerio adrese:"
+
+#: ../../crm/customizations/base_address_lau.rst:64
+msgid "or company:"
+msgstr "arba įmonės adrese:"
+
+#: ../../crm/customizations/base_address_lau.rst:69
+msgid "LAU 1 and LAU 2 can also be used in address format of the country."
+msgstr "Be to, LAU 1 ir LAU 2 gali būti naudojami ir šalies adreso formate."
 
 #: ../../crm/customizations/full_kit.rst:3
 msgid "Full Kit description per stage"
