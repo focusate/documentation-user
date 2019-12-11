@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-11 10:03+0200\n"
+"POT-Creation-Date: 2019-12-11 15:31+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,6 +42,7 @@ msgstr ""
 #: ../../crm/acquire_leads/generate_from_website.rst:41
 #: ../../crm/customizations/activity_unplanned_filters.rst:14
 #: ../../crm/customizations/base_address_lau.rst:8
+#: ../../crm/customizations/calendar_address.rst:8
 #: ../../crm/customizations/full_kit.rst:11
 #: ../../crm/customizations/lost_reason_improve.rst:8
 #: ../../crm/customizations/partner_competitor.rst:8
@@ -281,20 +282,20 @@ msgstr "Parinkite detalesnius adresus partneriuose ir įmonėse."
 #: ../../crm/customizations/base_address_lau.rst:10
 msgid ""
 "For this feature to work, module :code:`base_address_lau` must be "
-"installed and *LAU 1 in Address* and/or *LAU 2 in Address* in Business Documents "
-"section of General Settings must be enabled."
+"installed and *LAU 1 in Address* and/or *LAU 2 in Address* in Business "
+"Documents section of General Settings must be enabled."
 msgstr ""
-"Kad šis funkcionalumas veiktų, turi būti įdiegtas modulis :code:`base_address_lau` "
-"ir bendrų nustatymų verslo dokumentų skiltyje pažymėta *LAU 1 adrese* ir/arba "
-"*LAU 2 adrese*."
+"Kad šis funkcionalumas veiktų, turi būti įdiegtas modulis "
+":code:`base_address_lau` ir bendrų nustatymų verslo dokumentų skiltyje "
+"pažymėta *LAU 1 adrese* ir/arba *LAU 2 adrese*."
 
 #: ../../crm/customizations/base_address_lau.rst:18
 msgid ""
 "Module :code:`base_address_lau_menus` will be installed automatically to "
 "display corresponding menu items."
 msgstr ""
-"Modulis :code:`base_address_lau_menus` bus įdiegtas automatiškai, atitinkamų "
-"meniu atvaizdavimui."
+"Modulis :code:`base_address_lau_menus` bus įdiegtas automatiškai, "
+"atitinkamų meniu atvaizdavimui."
 
 #: ../../crm/customizations/base_address_lau.rst:22
 msgid ""
@@ -302,9 +303,9 @@ msgid ""
 " municipalities (LAU 1 middle unit) of Lithuania, module "
 ":code:`l10n_lt_administrative_units` should be installed."
 msgstr ""
-"Jei yra poreikis įkelti Lietuvos pagrindinių apskričių (didžiausias vienetas) "
-"ir savivaldybių (LAU 1 tarpinis vienetas) duomenis, tuomet turėtų būti įdiegtas "
-"modulis :code:`l10n_lt_administrative_units`."
+"Jei yra poreikis įkelti Lietuvos pagrindinių apskričių (didžiausias "
+"vienetas) ir savivaldybių (LAU 1 tarpinis vienetas) duomenis, tuomet "
+"turėtų būti įdiegtas modulis :code:`l10n_lt_administrative_units`."
 
 #: ../../crm/customizations/base_address_lau.rst:26
 msgid "Example of data that will be loaded:"
@@ -320,17 +321,17 @@ msgid ""
 "and standard country states are not enough to do so, local administrative"
 " units (LAU) can be used. Two more LAU levels are added:"
 msgstr ""
-"Kuomet reikia pateikti detalesnį partnerio ar įmonės adresą ir standartinių "
-"šalies regionų tam neužtenka, gali būti naudojami vietiniai"
-" administraciniai vienetai (LAU). Pridedami dar du LAU lygiai:"
+"Kuomet reikia pateikti detalesnį partnerio ar įmonės adresą ir "
+"standartinių šalies regionų tam neužtenka, gali būti naudojami vietiniai "
+"administraciniai vienetai (LAU). Pridedami dar du LAU lygiai:"
 
 #: ../../crm/customizations/base_address_lau.rst:38
 msgid ""
 "LAU 1 (district or municipality in some countries etc.) is a subdivision "
 "of an existing unit State (``res.country.state``)."
 msgstr ""
-"LAU 1 (pvz.: kai kuriose šalyse rajonas ar savivaldybė) yra mažesnė standartinio "
-"šalies regiono (``res.country.state``) dalis."
+"LAU 1 (pvz.: kai kuriose šalyse rajonas ar savivaldybė) yra mažesnė "
+"standartinio šalies regiono (``res.country.state``) dalis."
 
 #: ../../crm/customizations/base_address_lau.rst:40
 msgid ""
@@ -356,8 +357,8 @@ msgid ""
 "2`."
 msgstr ""
 "LAU 1 ir LAU 2 konfigūruojami ir pasiekiami per atitinkamus meniu: "
-":menuselection:`Kontaktai --> Nustatymai --> Lokalizacija --> LAU 1` "
-"ir :menuselection:`Kontaktai --> Nustatymai --> Lokalizacija --> LAU 2`."
+":menuselection:`Kontaktai --> Nustatymai --> Lokalizacija --> LAU 1` ir "
+":menuselection:`Kontaktai --> Nustatymai --> Lokalizacija --> LAU 2`."
 
 #: ../../crm/customizations/base_address_lau.rst:57
 msgid "LAU 1 & LAU 2 in Address"
@@ -374,6 +375,58 @@ msgstr "arba įmonės adrese:"
 #: ../../crm/customizations/base_address_lau.rst:69
 msgid "LAU 1 and LAU 2 can also be used in address format of the country."
 msgstr "Be to, LAU 1 ir LAU 2 gali būti naudojami ir šalies adreso formate."
+
+#: ../../crm/customizations/calendar_address.rst:3
+msgid "More Detailed Address in Calendar Event"
+msgstr "Detalesnis adresas kalendoriaus įvykyje"
+
+#: ../../crm/customizations/calendar_address.rst:5
+msgid "Define more detailed location address for calendar event."
+msgstr "Nurodykite tikslesnį kalendoriaus įvykio vietos adresą."
+
+#: ../../crm/customizations/calendar_address.rst:10
+msgid ""
+"For this feature to work, module :code:`calendar_address` must be "
+"installed."
+msgstr ""
+"Kad šis funkcionalumas veiktų, turi būti įdiegtas "
+":code:`calendar_address` modulis."
+
+#: ../../crm/customizations/calendar_address.rst:14
+msgid "Address of Event"
+msgstr "Įvykio adresas"
+
+#: ../../crm/customizations/calendar_address.rst:16
+msgid ""
+"*Address* section is added to include more detailed information about the"
+" address of event."
+msgstr ""
+"Papildomoje *Adresas* skiltyje galima pridėti daugiau informacijos "
+"apie įvykio adresą."
+
+#: ../../crm/customizations/calendar_address.rst:23
+msgid "Auto Fill"
+msgstr "Automatinis užpildymas"
+
+#: ../../crm/customizations/calendar_address.rst:25
+msgid ""
+"Select a partner address in the field with placeholder *Address* to auto "
+"fill all address fields with data from selected partner. This will also "
+"concatenate all values from address fields and insert it into *Location* "
+"field."
+msgstr ""
+"Pasirinkite partnerio adresą lauke, kur lauko žymena yra *Adresas*, ir visi "
+"adreso laukai bus automatiškai užpildomi pagal pasirinkto partnerio duomenis. "
+"Be to, visų adreso laukų reikšmės bus sudedamos į vieną ir ja užpildomas "
+"*Vieta* laukas."
+
+#: ../../crm/customizations/calendar_address.rst:31
+msgid ""
+"Address from *Location* field is still used while synchronizing calendar "
+"events and it's a standard Odoo behavior."
+msgstr ""
+"Lauko *Vieta* adresas vis dar bus naudojamas kalendoriaus įvykių sinchronizavime "
+"ir tai yra standartins Odoo veikimas."
 
 #: ../../crm/customizations/full_kit.rst:3
 msgid "Full Kit description per stage"

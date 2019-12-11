@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-11 10:03+0200\n"
+"POT-Creation-Date: 2019-12-11 15:31+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,6 +36,7 @@ msgstr ""
 #: ../../crm/acquire_leads/generate_from_website.rst:41
 #: ../../crm/customizations/activity_unplanned_filters.rst:14
 #: ../../crm/customizations/base_address_lau.rst:8
+#: ../../crm/customizations/calendar_address.rst:8
 #: ../../crm/customizations/full_kit.rst:11
 #: ../../crm/customizations/lost_reason_improve.rst:8
 #: ../../crm/customizations/partner_competitor.rst:8
@@ -260,6 +261,38 @@ msgstr ""
 
 #: ../../crm/customizations/base_address_lau.rst:69
 msgid "LAU 1 and LAU 2 can also be used in address format of the country."
+msgstr ""
+
+#: ../../crm/customizations/calendar_address.rst:3
+msgid "More Detailed Address in Calendar Event"
+msgstr ""
+
+#: ../../crm/customizations/calendar_address.rst:5
+msgid "Define more detailed location address for calendar event."
+msgstr ""
+
+#: ../../crm/customizations/calendar_address.rst:10
+msgid "For this feature to work, module :code:`calendar_address` must be installed."
+msgstr ""
+
+#: ../../crm/customizations/calendar_address.rst:14
+msgid "Address of Event"
+msgstr ""
+
+#: ../../crm/customizations/calendar_address.rst:16
+msgid "*Address* section is added to include more detailed information about the address of event."
+msgstr ""
+
+#: ../../crm/customizations/calendar_address.rst:23
+msgid "Auto Fill"
+msgstr ""
+
+#: ../../crm/customizations/calendar_address.rst:25
+msgid "Select a partner address in the field with placeholder *Address* to auto fill all address fields with data from selected partner. This will also concatenate all values from address fields and insert it into *Location* field."
+msgstr ""
+
+#: ../../crm/customizations/calendar_address.rst:31
+msgid "Address from *Location* field is still used while synchronizing calendar events and it's a standard Odoo behavior."
 msgstr ""
 
 #: ../../crm/customizations/full_kit.rst:3

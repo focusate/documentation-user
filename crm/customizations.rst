@@ -10,6 +10,7 @@ Customizations
    customizations/lost_reason_improve
    customizations/partner_competitor
    customizations/base_address_lau
+   customizations/calendar_address
    ../discuss/customizations/mail_activity_edit_date
    ../discuss/customizations/mail_activity_extended
    ../discuss/customizations/mail_activity_history
