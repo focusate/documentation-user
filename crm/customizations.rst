@@ -11,6 +11,7 @@ Customizations
    customizations/partner_competitor
    customizations/base_address_lau
    customizations/calendar_address
+   customizations/crm_multicompany
    ../discuss/customizations/mail_activity_edit_date
    ../discuss/customizations/mail_activity_extended
    ../discuss/customizations/mail_activity_history
