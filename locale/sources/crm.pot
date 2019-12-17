@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-13 08:35+0200\n"
+"POT-Creation-Date: 2019-12-17 11:31+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,6 +38,7 @@ msgstr ""
 #: ../../crm/customizations/base_address_lau.rst:8
 #: ../../crm/customizations/calendar_address.rst:8
 #: ../../crm/customizations/crm_multicompany.rst:9
+#: ../../crm/customizations/crm_task.rst:9
 #: ../../crm/customizations/full_kit.rst:11
 #: ../../crm/customizations/lost_reason_improve.rst:8
 #: ../../crm/customizations/partner_competitor.rst:8
@@ -342,6 +343,50 @@ msgstr ""
 
 #: ../../crm/customizations/crm_multicompany.rst:52
 msgid "Multi-companies rules are combined together with other global and group-specific rules."
+msgstr ""
+
+#: ../../crm/customizations/crm_task.rst:3
+msgid "Tasks from Leads/Opportunities"
+msgstr ""
+
+#: ../../crm/customizations/crm_task.rst:5
+msgid "Create project tasks from leads or opportunities and easily navigate between them."
+msgstr ""
+
+#: ../../crm/customizations/crm_task.rst:11
+msgid "For this feature to work, module :code:`crm_task` must be installed."
+msgstr ""
+
+#: ../../crm/customizations/crm_task.rst:14
+msgid "This module requires CRM and Project Apps to be installed."
+msgstr ""
+
+#: ../../crm/customizations/crm_task.rst:17
+msgid "Do not confuse this module with :code:`crm_project`. That module converts lead to task, marking lead inactive and transferring all messages from lead to task. This module keeps lead/opportunity intact without modifying it after task is created."
+msgstr ""
+
+#: ../../crm/customizations/crm_task.rst:23
+msgid "Create Tasks from Leads/Opportunities"
+msgstr ""
+
+#: ../../crm/customizations/crm_task.rst:25
+msgid "Open lead/opportunity form view or select one from the list and choose *Create Task* from the *Action* menu on the top."
+msgstr ""
+
+#: ../../crm/customizations/crm_task.rst:31
+msgid "Following wizard will be popped up and user will be able to fill in additional information before task creation."
+msgstr ""
+
+#: ../../crm/customizations/crm_task.rst:37
+msgid "By clicking on *CREATE TASK*, a new lead/opportunity related task will be created and user will be linked to it. Will also set partner on task if there is one specified on lead/opportunity."
+msgstr ""
+
+#: ../../crm/customizations/crm_task.rst:45
+msgid "Track Tasks on Leads/Opportunities"
+msgstr ""
+
+#: ../../crm/customizations/crm_task.rst:47
+msgid "There is a smart button in a form view of leads/opportunities which shows how many tasks are related with current lead/opportunity and opens them when clicked on it."
 msgstr ""
 
 #: ../../crm/customizations/full_kit.rst:3

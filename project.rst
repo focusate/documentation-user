@@ -12,3 +12,4 @@ Project
    project/planning
    project/advanced
    project/application
+   project/customizations

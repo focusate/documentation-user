@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-13 08:35+0200\n"
+"POT-Creation-Date: 2019-12-17 11:31+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,6 +44,7 @@ msgstr ""
 #: ../../crm/customizations/base_address_lau.rst:8
 #: ../../crm/customizations/calendar_address.rst:8
 #: ../../crm/customizations/crm_multicompany.rst:9
+#: ../../crm/customizations/crm_task.rst:9
 #: ../../crm/customizations/full_kit.rst:11
 #: ../../crm/customizations/lost_reason_improve.rst:8
 #: ../../crm/customizations/partner_competitor.rst:8
@@ -438,16 +439,16 @@ msgid ""
 "Manage which company owns tags, lost reasons, filters and etc. or are "
 "they common for all companies?"
 msgstr ""
-"Nustatykite, kurioms įmonėms priklauso žymos, praradimo priežastys, filtrai ir pan., o "
-"gal jie yra bendri visoms įmonėms?"
+"Nustatykite, kurioms įmonėms priklauso žymos, praradimo priežastys, "
+"filtrai ir pan., o gal jie yra bendri visoms įmonėms?"
 
 #: ../../crm/customizations/crm_multicompany.rst:11
 msgid ""
 "For CRM features to work properly in multi-companies environment, these "
 "modules should be installed:"
 msgstr ""
-"Kad CRM funkcionalumai tinkamai veiktų kelių įmonių aplinkoje, turėtų būti įdiegti "
-"šie moduliai:"
+"Kad CRM funkcionalumai tinkamai veiktų kelių įmonių aplinkoje, turėtų "
+"būti įdiegti šie moduliai:"
 
 #: ../../crm/customizations/crm_multicompany.rst:14
 msgid ""
@@ -455,9 +456,9 @@ msgid ""
 "Tags and Lost Reasons, makes *Company* field visible in opportunity view "
 "(it is hidden in standard Odoo)."
 msgstr ""
-":code:`crm_multicompany` - įjungia kelių įmonių valdymą iniciatyvų žymose ir "
-"praradimų priežastyse, padaro lauką *Įmonė* matomą pardavimo galimybės vaizde "
-"(standartiniame Odoo jis yra paslėptas)."
+":code:`crm_multicompany` - įjungia kelių įmonių valdymą iniciatyvų žymose"
+" ir praradimų priežastyse, padaro lauką *Įmonė* matomą pardavimo "
+"galimybės vaizde (standartiniame Odoo jis yra paslėptas)."
 
 #: ../../crm/customizations/crm_multicompany.rst:17
 msgid ""
@@ -467,9 +468,9 @@ msgid ""
 "same company as on record."
 msgstr ""
 ":code:`mail_activity_multicompany` - veiklų prieiga yra valdoma "
-"priklausomai nuo įmonės, nurodytos susijusiame įraše. Jei įmonė pasikeičia ant susijusio"
-" įrašo, visose įrašo veiklose įmonė yra automatiškai atnaujinama, kad turėtų "
-"tokią pačią."
+"priklausomai nuo įmonės, nurodytos susijusiame įraše. Jei įmonė "
+"pasikeičia ant susijusio įrašo, visose įrašo veiklose įmonė yra "
+"automatiškai atnaujinama, kad turėtų tokią pačią."
 
 #: ../../crm/customizations/crm_multicompany.rst:21
 msgid ""
@@ -478,8 +479,9 @@ msgid ""
 ":code:`mail_activity_multicompany`. See more: "
 ":doc:`../../discuss/customizations/mail_activity_history`."
 msgstr ""
-":code:`mail_activity_history_multicompany` - prideda tokį patį kelių įmonių valdymą "
-"veiklų istorijos įrašams, kaip ir :code:`mail_activity_multicompany` atveju. Daugiau apie istoriją: "
+":code:`mail_activity_history_multicompany` - prideda tokį patį kelių "
+"įmonių valdymą veiklų istorijos įrašams, kaip ir "
+":code:`mail_activity_multicompany` atveju. Daugiau apie istoriją: "
 ":doc:`../../discuss/customizations/mail_activity_history`."
 
 #: ../../crm/customizations/crm_multicompany.rst:25
@@ -487,8 +489,8 @@ msgid ""
 ":code:`partner_multicompany` - enables multi-companies management for "
 "Partner Tags."
 msgstr ""
-":code:`partner_multicompany` - įjungia kelių įmonių valdymą "
-"kontakto žymose."
+":code:`partner_multicompany` - įjungia kelių įmonių valdymą kontakto "
+"žymose."
 
 #: ../../crm/customizations/crm_multicompany.rst:27
 msgid ""
@@ -499,17 +501,18 @@ msgid ""
 "user's company will be set automatically on new filters."
 msgstr ""
 ":code:`ir_filters_multicompany` - prideda kelių įmonių valdymą filtruose "
-"ir *Bendri filtrai* bendruose nustatymuose leidžia papildomai nurodyti, ar "
-"filtrai turėtų būti bendri visoms įmonėms, ar ne. Be to, jei pažymėta *Naudoti vartotojo "
-"įmonę naujiems filtrams*, tuomet vartotojo įmonė bus uždedama automatiškai naujiems filtrams."
+"ir *Bendri filtrai* bendruose nustatymuose leidžia papildomai nurodyti, "
+"ar filtrai turėtų būti bendri visoms įmonėms, ar ne. Be to, jei pažymėta "
+"*Naudoti vartotojo įmonę naujiems filtrams*, tuomet vartotojo įmonė bus "
+"uždedama automatiškai naujiems filtrams."
 
 #: ../../crm/customizations/crm_multicompany.rst:37
 msgid ""
 "Company field on records are displayed when *Multi-companies* in Multi-"
 "companies section of General Settings is enabled."
 msgstr ""
-"Įmonės laukas įrašuose yra atvaizduojamas, kai bendrų nustatymų kelių įmonių "
-"skiltyje yra pažymėta *Kelios įmonės*."
+"Įmonės laukas įrašuose yra atvaizduojamas, kai bendrų nustatymų kelių "
+"įmonių skiltyje yra pažymėta *Kelios įmonės*."
 
 #: ../../crm/customizations/crm_multicompany.rst:44
 msgid "Multi-Companies Access Rule"
@@ -522,10 +525,10 @@ msgid ""
 "not set) or his company related records (including records from child "
 "companies)."
 msgstr ""
-"Jei kelių įmonių valdymas yra įgalintas tam tikram modeliui, daugeliu atveju "
-"galioja taisyklė, kad vartotojas turės prieigą prie globalių (kur *Įmonė* laukas "
-"įraše yra tuščias) ar su jo įmone susijusių įrašų (įskaitant ir vaikinių įmonių "
-"įrašus)."
+"Jei kelių įmonių valdymas yra įgalintas tam tikram modeliui, daugeliu "
+"atveju galioja taisyklė, kad vartotojas turės prieigą prie globalių (kur "
+"*Įmonė* laukas įraše yra tuščias) ar su jo įmone susijusių įrašų "
+"(įskaitant ir vaikinių įmonių įrašus)."
 
 #: ../../crm/customizations/crm_multicompany.rst:52
 msgid ""
@@ -534,6 +537,82 @@ msgid ""
 msgstr ""
 "Kelių įmonių taisyklės yra suderinamos kartu su kitomis globaliomis ir "
 "specifinėmis grupių taisyklėmis."
+
+#: ../../crm/customizations/crm_task.rst:3
+msgid "Tasks from Leads/Opportunities"
+msgstr "Užduotys iš iniciatyvų/pardavimo galimybių"
+
+#: ../../crm/customizations/crm_task.rst:5
+msgid ""
+"Create project tasks from leads or opportunities and easily navigate "
+"between them."
+msgstr ""
+"Kurkite projekto užduotis iš iniciatyvų ar pardavimo galimybių ir lengvai "
+"pasiekite jas."
+
+#: ../../crm/customizations/crm_task.rst:11
+msgid "For this feature to work, module :code:`crm_task` must be installed."
+msgstr ""
+"Kad šis funkcionalumas veiktų, turi būti įdiegtas "
+":code:`crm_task` modulis."
+
+#: ../../crm/customizations/crm_task.rst:14
+msgid "This module requires CRM and Project Apps to be installed."
+msgstr "Norint naudoti šį modulį, CRM ir Projektų aplikacijos turi būti įdiegtos."
+
+#: ../../crm/customizations/crm_task.rst:17
+msgid ""
+"Do not confuse this module with :code:`crm_project`. That module converts"
+" lead to task, marking lead inactive and transferring all messages from "
+"lead to task. This module keeps lead/opportunity intact without modifying"
+" it after task is created."
+msgstr ""
+"Nesupainiokite šio modulio su :code:`crm_project`, kuris konvertuoja iniciatyvą "
+"į užduotį, deaktyvuojant iniciatyvą ir priskiriant visas iniciatyvos žinutes prie užduoties. "
+"Šis modulis, sukūrus užduotį, palieka iniciatyvą nepakeistą."
+
+#: ../../crm/customizations/crm_task.rst:23
+msgid "Create Tasks from Leads/Opportunities"
+msgstr "Kurkite užduotis iš iniciatyvų/pardavimo galimybių"
+
+#: ../../crm/customizations/crm_task.rst:25
+msgid ""
+"Open lead/opportunity form view or select one from the list and choose "
+"*Create Task* from the *Action* menu on the top."
+msgstr ""
+"Atidarykite iniciatyvos/pardavimo galimybės formą ar pažymėkite vieną iš sąrašo ir "
+"viršuje *Veiksmas* meniu pasirinkite *Sukurti užduotį*."
+
+#: ../../crm/customizations/crm_task.rst:31
+msgid ""
+"Following wizard will be popped up and user will be able to fill in "
+"additional information before task creation."
+msgstr ""
+"Išoks žemiau pateiktas vedlys ir vartotojas galės užpildyti papildomą "
+"informaciją dar prieš sukuriant užduotį."
+
+#: ../../crm/customizations/crm_task.rst:37
+msgid ""
+"By clicking on *CREATE TASK*, a new lead/opportunity related task will be"
+" created and user will be linked to it. Will also set partner on task if "
+"there is one specified on lead/opportunity."
+msgstr ""
+"Paspaudus *SUKURTI UŽDUOTĮ*, bus sukurta nauja, su iniciatyva/pardavimo galimybe "
+"susijusi, užduotis ir vartotojas bus nukreiptas į ją. Be to, užduočiai bus "
+"nustatytas tas pats partneris, jei jis nustatytas ir ant iniciatyvos/pardavimo galimybės."
+
+#: ../../crm/customizations/crm_task.rst:45
+msgid "Track Tasks on Leads/Opportunities"
+msgstr "Sekite užduotis iniciatyvose ir pardavimo galimybėse"
+
+#: ../../crm/customizations/crm_task.rst:47
+msgid ""
+"There is a smart button in a form view of leads/opportunities which shows"
+" how many tasks are related with current lead/opportunity and opens them "
+"when clicked on it."
+msgstr ""
+"Iniciatyvų/pardavimo galimybių formoje yra išmanusis mygtukas, kuris parodo kiek "
+"yra susijusių užduočių ir jas atidaro, paspaudus ant jo."
 
 #: ../../crm/customizations/full_kit.rst:3
 msgid "Full Kit description per stage"
