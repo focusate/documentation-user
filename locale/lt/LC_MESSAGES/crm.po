@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-17 11:31+0200\n"
+"POT-Creation-Date: 2020-03-04 11:14+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.3.4\n"
+"Generated-By: Babel 2.4.0\n"
 
 #: ../../crm.rst:5
 msgid "CRM"
@@ -547,14 +547,14 @@ msgid ""
 "Create project tasks from leads or opportunities and easily navigate "
 "between them."
 msgstr ""
-"Kurkite projekto užduotis iš iniciatyvų ar pardavimo galimybių ir lengvai "
-"pasiekite jas."
+"Kurkite projekto užduotis iš iniciatyvų ar pardavimo galimybių ir lengvai"
+" pasiekite jas."
 
 #: ../../crm/customizations/crm_task.rst:11
 msgid "For this feature to work, module :code:`crm_task` must be installed."
 msgstr ""
-"Kad šis funkcionalumas veiktų, turi būti įdiegtas "
-":code:`crm_task` modulis."
+"Kad šis funkcionalumas veiktų, turi būti įdiegtas :code:`crm_task` "
+"modulis."
 
 #: ../../crm/customizations/crm_task.rst:14
 msgid "This module requires CRM and Project Apps to be installed."
@@ -567,9 +567,10 @@ msgid ""
 "lead to task. This module keeps lead/opportunity intact without modifying"
 " it after task is created."
 msgstr ""
-"Nesupainiokite šio modulio su :code:`crm_project`, kuris konvertuoja iniciatyvą "
-"į užduotį, deaktyvuojant iniciatyvą ir priskiriant visas iniciatyvos žinutes prie užduoties. "
-"Šis modulis, sukūrus užduotį, palieka iniciatyvą nepakeistą."
+"Nesupainiokite šio modulio su :code:`crm_project`, kuris konvertuoja "
+"iniciatyvą į užduotį, deaktyvuojant iniciatyvą ir priskiriant visas "
+"iniciatyvos žinutes prie užduoties. Šis modulis, sukūrus užduotį, palieka"
+" iniciatyvą nepakeistą."
 
 #: ../../crm/customizations/crm_task.rst:23
 msgid "Create Tasks from Leads/Opportunities"
@@ -580,8 +581,8 @@ msgid ""
 "Open lead/opportunity form view or select one from the list and choose "
 "*Create Task* from the *Action* menu on the top."
 msgstr ""
-"Atidarykite iniciatyvos/pardavimo galimybės formą ar pažymėkite vieną iš sąrašo ir "
-"viršuje *Veiksmas* meniu pasirinkite *Sukurti užduotį*."
+"Atidarykite iniciatyvos/pardavimo galimybės formą ar pažymėkite vieną iš "
+"sąrašo ir viršuje *Veiksmas* meniu pasirinkite *Sukurti užduotį*."
 
 #: ../../crm/customizations/crm_task.rst:31
 msgid ""
@@ -597,9 +598,10 @@ msgid ""
 " created and user will be linked to it. Will also set partner on task if "
 "there is one specified on lead/opportunity."
 msgstr ""
-"Paspaudus *SUKURTI UŽDUOTĮ*, bus sukurta nauja, su iniciatyva/pardavimo galimybe "
-"susijusi, užduotis ir vartotojas bus nukreiptas į ją. Be to, užduočiai bus "
-"nustatytas tas pats partneris, jei jis nustatytas ir ant iniciatyvos/pardavimo galimybės."
+"Paspaudus *SUKURTI UŽDUOTĮ*, bus sukurta nauja, su iniciatyva/pardavimo "
+"galimybe susijusi, užduotis ir vartotojas bus nukreiptas į ją. Be to, "
+"užduočiai bus nustatytas tas pats partneris, jei jis nustatytas ir ant "
+"iniciatyvos/pardavimo galimybės."
 
 #: ../../crm/customizations/crm_task.rst:45
 msgid "Track Tasks on Leads/Opportunities"
@@ -611,8 +613,8 @@ msgid ""
 " how many tasks are related with current lead/opportunity and opens them "
 "when clicked on it."
 msgstr ""
-"Iniciatyvų/pardavimo galimybių formoje yra išmanusis mygtukas, kuris parodo kiek "
-"yra susijusių užduočių ir jas atidaro, paspaudus ant jo."
+"Iniciatyvų/pardavimo galimybių formoje yra išmanusis mygtukas, kuris "
+"parodo kiek yra susijusių užduočių ir jas atidaro, paspaudus ant jo."
 
 #: ../../crm/customizations/full_kit.rst:3
 msgid "Full Kit description per stage"
@@ -750,26 +752,28 @@ msgstr "Galimybė priskirti konkurentą iniciatyvose ir pardavimo galimybėse."
 #: ../../crm/customizations/partner_competitor.rst:10
 msgid ""
 "For this feature to work, module :code:`crm_partner_competitor` must be "
-"installed."
+"installed and *Show Competitors for Leads & Opportunities* in CRM "
+"Settings must be enabled."
 msgstr ""
 "Kad šis funkcionalumas veiktų, turi būti įdiegtas "
-":code:`crm_partner_competitor` modulis."
+":code:`crm_partner_competitor` modulis ir CRM nustatymuose įjungta "
+"*Rodyti konkurentus iniciatyvose ir pardavimo galimybėse*."
 
-#: ../../crm/customizations/partner_competitor.rst:14
+#: ../../crm/customizations/partner_competitor.rst:18
 msgid "Create a Partner Competitor"
 msgstr "Sukurti partnerį konkurentą"
 
-#: ../../crm/customizations/partner_competitor.rst:16
+#: ../../crm/customizations/partner_competitor.rst:20
 msgid "Partner Competitor is a regular partner which has *Is Competitor* checked."
 msgstr ""
 "Partneris konkurentas yra įprastas partneris su pažymėtu *Yra "
 "konkurentas*."
 
-#: ../../crm/customizations/partner_competitor.rst:23
+#: ../../crm/customizations/partner_competitor.rst:27
 msgid "Set a Competitor on Leads & Opportunities"
 msgstr "Nustatykite konkurentą iniciatyvose ir pardavimo galimybėse"
 
-#: ../../crm/customizations/partner_competitor.rst:25
+#: ../../crm/customizations/partner_competitor.rst:29
 msgid ""
 "Use *Competitor* field and select a partner from a list of partners with "
 "*Is Competitor* checked."

@@ -8,7 +8,11 @@ Configuration
 =============
 
 For this feature to work, module :code:`crm_partner_competitor` must
-be installed.
+be installed and *Show Competitors for Leads & Opportunities* in CRM
+Settings must be enabled.
+
+.. image:: media/partner_competitor_conf.png
+    :align: center
 
 Create a Partner Competitor
 ===========================

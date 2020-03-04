@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-17 11:31+0200\n"
+"POT-Creation-Date: 2020-03-04 11:14+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -470,22 +470,22 @@ msgid "Possibility to assign Competitor on Leads & Opportunities."
 msgstr ""
 
 #: ../../crm/customizations/partner_competitor.rst:10
-msgid "For this feature to work, module :code:`crm_partner_competitor` must be installed."
+msgid "For this feature to work, module :code:`crm_partner_competitor` must be installed and *Show Competitors for Leads & Opportunities* in CRM Settings must be enabled."
 msgstr ""
 
-#: ../../crm/customizations/partner_competitor.rst:14
+#: ../../crm/customizations/partner_competitor.rst:18
 msgid "Create a Partner Competitor"
 msgstr ""
 
-#: ../../crm/customizations/partner_competitor.rst:16
+#: ../../crm/customizations/partner_competitor.rst:20
 msgid "Partner Competitor is a regular partner which has *Is Competitor* checked."
 msgstr ""
 
-#: ../../crm/customizations/partner_competitor.rst:23
+#: ../../crm/customizations/partner_competitor.rst:27
 msgid "Set a Competitor on Leads & Opportunities"
 msgstr ""
 
-#: ../../crm/customizations/partner_competitor.rst:25
+#: ../../crm/customizations/partner_competitor.rst:29
 msgid "Use *Competitor* field and select a partner from a list of partners with *Is Competitor* checked."
 msgstr ""
 
