@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-04 11:14+0200\n"
+"POT-Creation-Date: 2020-04-02 18:29+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,6 +43,7 @@ msgstr ""
 #: ../../crm/customizations/activity_unplanned_filters.rst:14
 #: ../../crm/customizations/base_address_lau.rst:8
 #: ../../crm/customizations/calendar_address.rst:8
+#: ../../crm/customizations/crm_calendar_opp_assign.rst:8
 #: ../../crm/customizations/crm_multicompany.rst:9
 #: ../../crm/customizations/crm_task.rst:9
 #: ../../crm/customizations/full_kit.rst:11
@@ -429,6 +430,114 @@ msgid ""
 msgstr ""
 "Lauko *Vieta* adresas vis dar bus naudojamas kalendoriaus įvykių "
 "sinchronizavime ir tai yra standartins Odoo veikimas."
+
+#: ../../crm/customizations/crm_calendar_opp_assign.rst:3
+msgid "Assign Opportunities in Calendar Events"
+msgstr "Pardavimo galimybių priskyrimas kalendoriaus įvykiuose"
+
+#: ../../crm/customizations/crm_calendar_opp_assign.rst:5
+msgid "Manually assign Opportunities in calendar event."
+msgstr "Priskirkite pardavimo galimybes kalendoriaus įvykiuose rankiniu būdu."
+
+#: ../../crm/customizations/crm_calendar_opp_assign.rst:10
+msgid ""
+"For this feature to work, module :code:`crm_calendar_opp_assign` must be "
+"installed and  *Assign Opportunities on Calendar Events* in CRM Settings "
+"must be enabled."
+msgstr ""
+"Kad šis funkcionalumas veiktų, turi būti įdiegtas "
+":code:`crm_calendar_opp_assign` modulis ir CRM nustatymuose įjungta "
+"*Priskirti pard. galimybes kalendoriaus įvykiuose*."
+
+#: ../../crm/customizations/crm_calendar_opp_assign.rst:18
+msgid ""
+"*Outlook Email Case Sensitivity* is available with batch of Office 365 "
+"modules and module :code:`office365_crm_calendar_opp_assign` must be "
+"installed. This option is meant to define whether lower/upper cases are "
+"important during Office Owner Email and Odoo User Login mapping."
+msgstr ""
+"*Outlook el. pašto didžiųjų/mažųjų raidžių svarbumas* galimas tik su Office 365 "
+"modulių paketu ir įdiegus :code:`office365_crm_calendar_opp_assign` modulį. "
+"Šiuo nustatymu nurodoma ar didžiosios/mažosios raidės yra svarbios, siejant "
+"Outlook vartotojo el. paštą su Odoo vartotojo prisijungimo vardu."
+
+#: ../../crm/customizations/crm_calendar_opp_assign.rst:25
+msgid "Prepare to Link with Opportunity"
+msgstr "Pasiruošimas susiejimui su pardavimo galimybe"
+
+#: ../../crm/customizations/crm_calendar_opp_assign.rst:27
+msgid ""
+"Users with minimal CRM access rights (*Sales / User: Own Documents Only*)"
+" are able to link calendar events with opportunities by clicking on *Link"
+" with Opportunity* button in calendar event form view."
+msgstr ""
+"Vartotojai su minimaliomis CRM prieigos teisėmis (*Pardavimai / Vartotojas: tik savo dokumentai*)"
+" gali susieti kalendoriaus įvykius su pardavimo galimybėmis, kalendoriaus įvykio formoje, "
+" paspaudus mygtuką *Susieti su pardavimo galimybe*"
+
+#: ../../crm/customizations/crm_calendar_opp_assign.rst:35
+msgid ""
+"Following wizard will be popped up and user will be able to fill in "
+"additional information before confirming."
+msgstr ""
+"Išoks žemiau pateiktas vedlys ir vartotojas galės užpildyti papildomą "
+"informaciją prieš susiejimą."
+
+#: ../../crm/customizations/crm_calendar_opp_assign.rst:41
+msgid ""
+"*Responsible* is defaulted from active calendar event or is set to "
+"current user."
+msgstr ""
+"Pagal nutylėjimą, *Atsakingas* yra nustatomas iš aktyvaus kalendoriaus įvykio "
+"arba parenkamas dabartinis naudotojas."
+
+#: ../../crm/customizations/crm_calendar_opp_assign.rst:45
+msgid ""
+"When Office 365 modules are used, *Responsible* is defaulted by *Outlook "
+"Owner Email*."
+msgstr ""
+"Kai naudojami Office 365 moduliai, *Atsakingas* yra nustatomas pagal "
+"*Outlook savininko el. paštą*."
+
+#: ../../crm/customizations/crm_calendar_opp_assign.rst:48
+msgid ""
+"User will be allowed to choose only from those opportunities where *Owner*"
+" or *Responsible* is the same as selected *Responsible* in wizard. Keep "
+"in mind, that user might not have access to all opportunities and in such"
+" case, list of available opportunities will be empty."
+msgstr ""
+"Vartotojui bus leidžiama pasirinkti iš tų pardavimo galimybių, kurių *Savininkas*"
+" arba *Atsakingas* yra toks pat, kaip ir pasirinktas *Atsakingas* vartotojas vedlyje. "
+"Reikia nepamiršti, kad vartotojas gali neturėti prieigos prie visų pardavimo galimybių ir "
+"tokiu atveju, galimų pasirinkti pardavimo galimybių sąrašas bus tuščias."
+
+#: ../../crm/customizations/crm_calendar_opp_assign.rst:55
+msgid ""
+"If there are more than one available meeting activity type, user will "
+"also be allowed to choose which one to use."
+msgstr ""
+"Jei yra daugiau nei vienas galimas susitikimo veiklos tipas, vartotojui "
+"papildomai bus galima pasirinkti, kurį tipą naudoti."
+
+#: ../../crm/customizations/crm_calendar_opp_assign.rst:62
+msgid "Link with Opportunity"
+msgstr "Susieti su pardavimo galimybe"
+
+#: ../../crm/customizations/crm_calendar_opp_assign.rst:64
+msgid ""
+"By clicking on *CONFIRM*, opportunity will be assigned to currently "
+"active calendar event and opportunity related activity will be created. "
+"Moreover, *Responsible* will also be updated in calendar event, if "
+"different user was selected in wizard."
+msgstr ""
+"Spaudžiant *PATVIRTINTI*, pardavimo galimybė bus priskirta aktyviam "
+"kalendoriaus įvykiui ir susietai pard. galimybei bus sukurta veikla. "
+"Be to, *Atsakingas* kalendoriaus įvykyje bus atnaujintas pagal vedlyje "
+"nurodytą, jei vartotojas nurodytas kitoks."
+
+#: ../../crm/customizations/crm_calendar_opp_assign.rst:73
+msgid "Calendar Event might be linked with opportunity only once!"
+msgstr "Kalendoriaus įvykis su pardavimo galimybe gali būti susietas tik vieną kartą!"
 
 #: ../../crm/customizations/crm_multicompany.rst:3
 msgid "Multi-Companies Environment"

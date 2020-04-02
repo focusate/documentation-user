@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-04 11:14+0200\n"
+"POT-Creation-Date: 2020-04-02 18:29+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,6 +37,7 @@ msgstr ""
 #: ../../crm/customizations/activity_unplanned_filters.rst:14
 #: ../../crm/customizations/base_address_lau.rst:8
 #: ../../crm/customizations/calendar_address.rst:8
+#: ../../crm/customizations/crm_calendar_opp_assign.rst:8
 #: ../../crm/customizations/crm_multicompany.rst:9
 #: ../../crm/customizations/crm_task.rst:9
 #: ../../crm/customizations/full_kit.rst:11
@@ -295,6 +296,62 @@ msgstr ""
 
 #: ../../crm/customizations/calendar_address.rst:31
 msgid "Address from *Location* field is still used while synchronizing calendar events and it's a standard Odoo behavior."
+msgstr ""
+
+#: ../../crm/customizations/crm_calendar_opp_assign.rst:3
+msgid "Assign Opportunities in Calendar Events"
+msgstr ""
+
+#: ../../crm/customizations/crm_calendar_opp_assign.rst:5
+msgid "Manually assign Opportunities in calendar event."
+msgstr ""
+
+#: ../../crm/customizations/crm_calendar_opp_assign.rst:10
+msgid "For this feature to work, module :code:`crm_calendar_opp_assign` must be installed and  *Assign Opportunities on Calendar Events* in CRM Settings must be enabled."
+msgstr ""
+
+#: ../../crm/customizations/crm_calendar_opp_assign.rst:18
+msgid "*Outlook Email Case Sensitivity* is available with batch of Office 365 modules and module :code:`office365_crm_calendar_opp_assign` must be installed. This option is meant to define whether lower/upper cases are important during Office Owner Email and Odoo User Login mapping."
+msgstr ""
+
+#: ../../crm/customizations/crm_calendar_opp_assign.rst:25
+msgid "Prepare to Link with Opportunity"
+msgstr ""
+
+#: ../../crm/customizations/crm_calendar_opp_assign.rst:27
+msgid "Users with minimal CRM access rights (*Sales / User: Own Documents Only*) are able to link calendar events with opportunities by clicking on *Link with Opportunity* button in calendar event form view."
+msgstr ""
+
+#: ../../crm/customizations/crm_calendar_opp_assign.rst:35
+msgid "Following wizard will be popped up and user will be able to fill in additional information before confirming."
+msgstr ""
+
+#: ../../crm/customizations/crm_calendar_opp_assign.rst:41
+msgid "*Responsible* is defaulted from active calendar event or is set to current user."
+msgstr ""
+
+#: ../../crm/customizations/crm_calendar_opp_assign.rst:45
+msgid "When Office 365 modules are used, *Responsible* is defaulted by *Outlook Owner Email*."
+msgstr ""
+
+#: ../../crm/customizations/crm_calendar_opp_assign.rst:48
+msgid "User will be allowed to choose only from those opportunities where *Owner* or *Responsible* is the same as selected *Responsible* in wizard. Keep in mind, that user might not have access to all opportunities and in such case, list of available opportunities will be empty."
+msgstr ""
+
+#: ../../crm/customizations/crm_calendar_opp_assign.rst:55
+msgid "If there are more than one available meeting activity type, user will also be allowed to choose which one to use."
+msgstr ""
+
+#: ../../crm/customizations/crm_calendar_opp_assign.rst:62
+msgid "Link with Opportunity"
+msgstr ""
+
+#: ../../crm/customizations/crm_calendar_opp_assign.rst:64
+msgid "By clicking on *CONFIRM*, opportunity will be assigned to currently active calendar event and opportunity related activity will be created. Moreover, *Responsible* will also be updated in calendar event, if different user was selected in wizard."
+msgstr ""
+
+#: ../../crm/customizations/crm_calendar_opp_assign.rst:73
+msgid "Calendar Event might be linked with opportunity only once!"
 msgstr ""
 
 #: ../../crm/customizations/crm_multicompany.rst:3
