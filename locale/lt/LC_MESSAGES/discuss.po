@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-22 13:39+0300\n"
+"POT-Creation-Date: 2020-04-22 15:25+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,6 +37,7 @@ msgstr "Nurodykite, kuriems vartotojams leidžiama keisti veiklos pabaigos termi
 #: ../../discuss/customizations/mail_activity_extended.rst:10
 #: ../../discuss/customizations/mail_activity_history.rst:8
 #: ../../discuss/customizations/mail_activity_limit.rst:10
+#: ../../discuss/customizations/mail_activity_popover_toggle.rst:9
 #: ../../discuss/customizations/mail_activity_type_domain.rst:9
 #: ../../discuss/customizations/mail_message_keep_unread.rst:8
 #: ../../discuss/customizations/mail_message_reply.rst:8
@@ -248,6 +249,56 @@ msgstr ""
 " tik dvi aktyvias veiklas tam pačiam partneriui ir vieną - tai pačiai "
 "iniciatyvai/pardavimo galimybei)."
 
+#: ../../discuss/customizations/mail_activity_popover_toggle.rst:3
+msgid "Activity Popover depending on Activity Type"
+msgstr "Veiklos iššokantysis langas pagal veiklos tipą"
+
+#: ../../discuss/customizations/mail_activity_popover_toggle.rst:5
+msgid "Manage which popover to display when clicked ``'Mark Done'`` on activity."
+msgstr "Nustatykite, kurį iššokantyjį langą rodyti, kai spaudžiama ``'Pažymėti kaip atliktą'`` veikloje."
+
+#: ../../discuss/customizations/mail_activity_popover_toggle.rst:11
+msgid ""
+"For this feature to work, module :code:`mail_activity_popover_toggle` "
+"must be installed and *Hide Popover* enabled/disabled on activity type."
+msgstr ""
+"Kad šis funkcionalumas veiktų, turi būti įdiegtas "
+":code:`mail_activity_popover_toggle` modulis ir veiklos tipe įjungtas/išjungtas "
+"*Paslėpti iššokantįjį langą*."
+
+#: ../../discuss/customizations/mail_activity_popover_toggle.rst:18
+msgid "Mark Done Popover"
+msgstr "Iššokantysis langas atliktos veiklos žymėjimui"
+
+#: ../../discuss/customizations/mail_activity_popover_toggle.rst:20
+msgid ""
+"As standard, there are two available popovers to use when marking "
+"activity as done:"
+msgstr "Standartiškai, yra du galimi iššokantieji langai veiklos pažymėjimui "
+"kaip baigtai:"
+
+#: ../../discuss/customizations/mail_activity_popover_toggle.rst:23
+msgid "smaller feedback popover:"
+msgstr "mažesnis atsiliepimo iššokantysis langas:"
+
+#: ../../discuss/customizations/mail_activity_popover_toggle.rst:31
+msgid "bigger universal (used for multiple purposes) popover:"
+msgstr "didesnis universalus (naudojamas keliems tikslams) iššokantysis langas:"
+
+#: ../../discuss/customizations/mail_activity_popover_toggle.rst:36
+msgid ""
+"When *Hide Popover* is enabled on activity type - bigger popover will be "
+"showed instead of the smaller one, when marking activity, with such "
+"activity type, as done."
+msgstr ""
+"Kai *Paslėpti iššokantįjį langą* yra įjungtas veiklos tipe - didesnis iššokantysis langas "
+"bus rodomas vietoje mažesniojo, kai veikla, su tokiu veiklos tipu, "
+"bus žymima kaip baigta."
+
+#: ../../discuss/customizations/mail_activity_popover_toggle.rst:41
+msgid "You can mark activity as done via chatter or kanban view, e.g.:"
+msgstr "Jūs galite žymėti veiklą kaip baigtą per susirašinėjimo skiltį arba kanban rodinį, pvz.:"
+
 #: ../../discuss/customizations/mail_activity_type_domain.rst:3
 msgid "Use Different Activity Types on the Same Model"
 msgstr "Skirtingų veiklos tipų naudojimas tam pačiam modeliui"
@@ -266,7 +317,8 @@ msgid ""
 "be installed and *Domain* field filled according your needs."
 msgstr ""
 "Kad šis funkcionalumas veiktų, turi būti įdiegtas "
-":code:`mail_activity_type_domain` modulis ir pagal poreikius užpildytas laukas *Domenas*."
+":code:`mail_activity_type_domain` modulis ir pagal poreikius užpildytas "
+"laukas *Domenas*."
 
 #: ../../discuss/customizations/mail_activity_type_domain.rst:15
 msgid "Field *Domain* is visible only when *Model* is selected."
@@ -282,9 +334,10 @@ msgid ""
 "activity types when creating/updating an activity on a certain record. "
 "*Model* filters specific model and *Domain* - specific model's records."
 msgstr ""
-"Veiklos tipuose parinktas *Modelis* ir *Domenas* yra naudojami visų galimų "
-"veiklos tipų filtravimui, kai kuriama/atnaujinama veikla ant tam tikro įrašo. "
-"*Modelis* filtruoja specinį modelį, o *Domenas* - specifinius modelio įrašus."
+"Veiklos tipuose parinktas *Modelis* ir *Domenas* yra naudojami visų "
+"galimų veiklos tipų filtravimui, kai kuriama/atnaujinama veikla ant tam "
+"tikro įrašo. *Modelis* filtruoja specinį modelį, o *Domenas* - "
+"specifinius modelio įrašus."
 
 #: ../../discuss/customizations/mail_activity_type_domain.rst:27
 msgid ""
@@ -293,10 +346,11 @@ msgid ""
 "activity type will appear in the list of available activity types while "
 "creating/updating an activity on opportunities only."
 msgstr ""
-"Pavyzdžiui, jei nustatysime ``'Iniciatyva/Pardavimo galimybė'`` kaip *Modelis* ir "
-":code:`[('type', '=', 'opportunity')]` kaip *Domenas* veiklos tipe, tai reikš, kad "
-"toks veiklos tipas bus galimų veiklos tipų sąraše, tik kai kuriama/redaguojama veikla "
-"susijusi su pardavimo galimybe."
+"Pavyzdžiui, jei nustatysime ``'Iniciatyva/Pardavimo galimybė'`` kaip "
+"*Modelis* ir :code:`[('type', '=', 'opportunity')]` kaip *Domenas* "
+"veiklos tipe, tai reikš, kad toks veiklos tipas bus galimų veiklos tipų "
+"sąraše, tik kai kuriama/redaguojama veikla susijusi su pardavimo "
+"galimybe."
 
 #: ../../discuss/customizations/mail_message_keep_unread.rst:3
 msgid "Keep Message Unread if it Was Opened"

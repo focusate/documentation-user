@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-22 13:39+0300\n"
+"POT-Creation-Date: 2020-04-22 15:25+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,6 +36,7 @@ msgstr ""
 #: ../../discuss/customizations/mail_activity_extended.rst:10
 #: ../../discuss/customizations/mail_activity_history.rst:8
 #: ../../discuss/customizations/mail_activity_limit.rst:10
+#: ../../discuss/customizations/mail_activity_popover_toggle.rst:9
 #: ../../discuss/customizations/mail_activity_type_domain.rst:9
 #: ../../discuss/customizations/mail_message_keep_unread.rst:8
 #: ../../discuss/customizations/mail_message_reply.rst:8
@@ -150,6 +151,42 @@ msgstr ""
 
 #: ../../discuss/customizations/mail_activity_limit.rst:12
 msgid "For this feature to work, module :code:`mail_activity_limit` must be installed and *Activity Limit* in Discuss section of General Settings must be configured. Value of *Activity Limit* must be a dictionary, where key is model and value is number of allowed active activities per user per record (e.g. ``{'res.partner': 2, 'crm.lead': 1}`` means, that user can only have two active activities on the same partner and one - on the same lead/opportunity)."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_popover_toggle.rst:3
+msgid "Activity Popover depending on Activity Type"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_popover_toggle.rst:5
+msgid "Manage which popover to display when clicked ``'Mark Done'`` on activity."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_popover_toggle.rst:11
+msgid "For this feature to work, module :code:`mail_activity_popover_toggle` must be installed and *Hide Popover* enabled/disabled on activity type."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_popover_toggle.rst:18
+msgid "Mark Done Popover"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_popover_toggle.rst:20
+msgid "As standard, there are two available popovers to use when marking activity as done:"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_popover_toggle.rst:23
+msgid "smaller feedback popover:"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_popover_toggle.rst:31
+msgid "bigger universal (used for multiple purposes) popover:"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_popover_toggle.rst:36
+msgid "When *Hide Popover* is enabled on activity type - bigger popover will be showed instead of the smaller one, when marking activity, with such activity type, as done."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_popover_toggle.rst:41
+msgid "You can mark activity as done via chatter or kanban view, e.g.:"
 msgstr ""
 
 #: ../../discuss/customizations/mail_activity_type_domain.rst:3
