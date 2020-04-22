@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-10 12:46+0200\n"
+"POT-Creation-Date: 2020-04-22 13:39+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.3.4\n"
+"Generated-By: Babel 2.4.0\n"
 
 #: ../../discuss.rst:5
 msgid "Discuss"
@@ -37,6 +37,7 @@ msgstr "Nurodykite, kuriems vartotojams leidžiama keisti veiklos pabaigos termi
 #: ../../discuss/customizations/mail_activity_extended.rst:10
 #: ../../discuss/customizations/mail_activity_history.rst:8
 #: ../../discuss/customizations/mail_activity_limit.rst:10
+#: ../../discuss/customizations/mail_activity_type_domain.rst:9
 #: ../../discuss/customizations/mail_message_keep_unread.rst:8
 #: ../../discuss/customizations/mail_message_reply.rst:8
 #: ../../discuss/customizations/mail_suggested_partners_uncheck.rst:9
@@ -50,9 +51,8 @@ msgid ""
 "of General Settings must be enabled."
 msgstr ""
 "Kad šis funkcionalumas veiktų, turi būti įdiegtas "
-":code:`mail_activity_edit_date` modulis ir bendrų nustatymų "
-"diskusijos skiltyje įjungta *Naudoti prieigą veiklos pabaigos termino "
-"redagavimui*."
+":code:`mail_activity_edit_date` modulis ir bendrų nustatymų diskusijos "
+"skiltyje įjungta *Naudoti prieigą veiklos pabaigos termino redagavimui*."
 
 #: ../../discuss/customizations/mail_activity_edit_date.rst:15
 msgid ""
@@ -226,8 +226,8 @@ msgid ""
 "Specify on which models (that use activities) and how many activities can"
 " be active per user per record."
 msgstr ""
-"Nustatykite kokiems modeliams (kurie turi veiklas) ir kiek aktyvių veiklų gali"
-" turėti vartotojas konkrečiam įrašui."
+"Nustatykite kokiems modeliams (kurie turi veiklas) ir kiek aktyvių veiklų"
+" gali turėti vartotojas konkrečiam įrašui."
 
 #: ../../discuss/customizations/mail_activity_limit.rst:12
 msgid ""
@@ -235,16 +235,68 @@ msgid ""
 "installed and *Activity Limit* in Discuss section of General Settings "
 "must be configured. Value of *Activity Limit* must be a dictionary, where"
 " key is model and value is number of allowed active activities per user "
-"per record (e.g. ``{'res.partner': 2, 'crm.lead': 1}`` means, that user can "
-"only have two active activities on the same partner and one - on the same"
-" lead/opportunity)."
+"per record (e.g. ``{'res.partner': 2, 'crm.lead': 1}`` means, that user "
+"can only have two active activities on the same partner and one - on the "
+"same lead/opportunity)."
 msgstr ""
-"Kad šis funkcionalumas veiktų, turi būti įdiegtas modulis :code:`mail_activity_limit` "
-"ir sukonfiguruotas *Veiklos apribojimas* bendrų nustatymų diskusijos skiltyje. "
-"*Veiklos apribojimas* reikšmė turi būti žodyno (Python kalbos) struktūros, kur"
-" raktas yra modelis, o reikšmė - kiekis leidžiamų aktyvių veiklų vartotojui per įrašą "
-"(pvz. ``{'res.partner': 2, 'crm.lead': 1}`` reiškia, kad vartotojas gali turėti tik dvi aktyvias "
-"veiklas tam pačiam partneriui ir vieną - tai pačiai iniciatyvai/pardavimo galimybei)."
+"Kad šis funkcionalumas veiktų, turi būti įdiegtas modulis "
+":code:`mail_activity_limit` ir sukonfiguruotas *Veiklos apribojimas* "
+"bendrų nustatymų diskusijos skiltyje. *Veiklos apribojimas* reikšmė turi "
+"būti žodyno (Python kalbos) struktūros, kur raktas yra modelis, o reikšmė"
+" - kiekis leidžiamų aktyvių veiklų vartotojui per įrašą (pvz. "
+"``{'res.partner': 2, 'crm.lead': 1}`` reiškia, kad vartotojas gali turėti"
+" tik dvi aktyvias veiklas tam pačiam partneriui ir vieną - tai pačiai "
+"iniciatyvai/pardavimo galimybei)."
+
+#: ../../discuss/customizations/mail_activity_type_domain.rst:3
+msgid "Use Different Activity Types on the Same Model"
+msgstr "Skirtingų veiklos tipų naudojimas tam pačiam modeliui"
+
+#: ../../discuss/customizations/mail_activity_type_domain.rst:5
+msgid ""
+"Define on which model's records specifically, certain activity types "
+"should be used."
+msgstr ""
+"Nustatykite, kuriems specifiniams modelio įrašams, galima naudoti tam "
+"tikrus veiklos tipus."
+
+#: ../../discuss/customizations/mail_activity_type_domain.rst:11
+msgid ""
+"For this feature to work, module :code:`mail_activity_type_domain` must "
+"be installed and *Domain* field filled according your needs."
+msgstr ""
+"Kad šis funkcionalumas veiktų, turi būti įdiegtas "
+":code:`mail_activity_type_domain` modulis ir pagal poreikius užpildytas laukas *Domenas*."
+
+#: ../../discuss/customizations/mail_activity_type_domain.rst:15
+msgid "Field *Domain* is visible only when *Model* is selected."
+msgstr "Laukas *Domenas* yra matomas tik tada, kai yra pasirinktas *Modelis*."
+
+#: ../../discuss/customizations/mail_activity_type_domain.rst:21
+msgid "How does Domain work?"
+msgstr "Kaip veikia Domenas?"
+
+#: ../../discuss/customizations/mail_activity_type_domain.rst:23
+msgid ""
+"*Model* and *Domain* on activity types are used to filter all available "
+"activity types when creating/updating an activity on a certain record. "
+"*Model* filters specific model and *Domain* - specific model's records."
+msgstr ""
+"Veiklos tipuose parinktas *Modelis* ir *Domenas* yra naudojami visų galimų "
+"veiklos tipų filtravimui, kai kuriama/atnaujinama veikla ant tam tikro įrašo. "
+"*Modelis* filtruoja specinį modelį, o *Domenas* - specifinius modelio įrašus."
+
+#: ../../discuss/customizations/mail_activity_type_domain.rst:27
+msgid ""
+"For example, if we set 'Lead/Opportunity' as *Model* and :code:`[('type',"
+" '=', 'opportunity')]` as *Domain* on activity type, it means that such "
+"activity type will appear in the list of available activity types while "
+"creating/updating an activity on opportunities only."
+msgstr ""
+"Pavyzdžiui, jei nustatysime ``'Iniciatyva/Pardavimo galimybė'`` kaip *Modelis* ir "
+":code:`[('type', '=', 'opportunity')]` kaip *Domenas* veiklos tipe, tai reikš, kad "
+"toks veiklos tipas bus galimų veiklos tipų sąraše, tik kai kuriama/redaguojama veikla "
+"susijusi su pardavimo galimybe."
 
 #: ../../discuss/customizations/mail_message_keep_unread.rst:3
 msgid "Keep Message Unread if it Was Opened"

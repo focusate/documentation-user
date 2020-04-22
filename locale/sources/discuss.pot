@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-10 12:46+0200\n"
+"POT-Creation-Date: 2020-04-22 13:39+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,6 +36,7 @@ msgstr ""
 #: ../../discuss/customizations/mail_activity_extended.rst:10
 #: ../../discuss/customizations/mail_activity_history.rst:8
 #: ../../discuss/customizations/mail_activity_limit.rst:10
+#: ../../discuss/customizations/mail_activity_type_domain.rst:9
 #: ../../discuss/customizations/mail_message_keep_unread.rst:8
 #: ../../discuss/customizations/mail_message_reply.rst:8
 #: ../../discuss/customizations/mail_suggested_partners_uncheck.rst:9
@@ -149,6 +150,34 @@ msgstr ""
 
 #: ../../discuss/customizations/mail_activity_limit.rst:12
 msgid "For this feature to work, module :code:`mail_activity_limit` must be installed and *Activity Limit* in Discuss section of General Settings must be configured. Value of *Activity Limit* must be a dictionary, where key is model and value is number of allowed active activities per user per record (e.g. ``{'res.partner': 2, 'crm.lead': 1}`` means, that user can only have two active activities on the same partner and one - on the same lead/opportunity)."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_type_domain.rst:3
+msgid "Use Different Activity Types on the Same Model"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_type_domain.rst:5
+msgid "Define on which model's records specifically, certain activity types should be used."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_type_domain.rst:11
+msgid "For this feature to work, module :code:`mail_activity_type_domain` must be installed and *Domain* field filled according your needs."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_type_domain.rst:15
+msgid "Field *Domain* is visible only when *Model* is selected."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_type_domain.rst:21
+msgid "How does Domain work?"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_type_domain.rst:23
+msgid "*Model* and *Domain* on activity types are used to filter all available activity types when creating/updating an activity on a certain record. *Model* filters specific model and *Domain* - specific model's records."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_type_domain.rst:27
+msgid "For example, if we set 'Lead/Opportunity' as *Model* and :code:`[('type', '=', 'opportunity')]` as *Domain* on activity type, it means that such activity type will appear in the list of available activity types while creating/updating an activity on opportunities only."
 msgstr ""
 
 #: ../../discuss/customizations/mail_message_keep_unread.rst:3
