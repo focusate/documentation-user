@@ -9,7 +9,7 @@ Customizations
    customizations/mail_activity_extended
    customizations/mail_activity_history
    customizations/mail_activity_limit
-   customizations/mail_activity_note.rst
+   customizations/mail_activity_note
    customizations/mail_activity_popover_toggle
    customizations/mail_activity_type_domain
    customizations/mail_message_keep_unread
