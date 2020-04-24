@@ -18,7 +18,7 @@ Customizations
    ../discuss/customizations/mail_activity_extended
    ../discuss/customizations/mail_activity_history
    ../discuss/customizations/mail_activity_limit
-   ../discuss/customizations/call_notes_main_functionality
+   ../discuss/customizations/mail_activity_note
    ../discuss/customizations/mail_activity_popover_toggle
    ../discuss/customizations/mail_activity_type_domain
    ../discuss/customizations/mail_suggested_partners_uncheck

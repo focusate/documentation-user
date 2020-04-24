@@ -27,17 +27,15 @@ If not checked, it will be optional.
 
 *Hide popover* is alvays mandatory. This part must depend on 
 module :code:`mail_activity_popover_toggle` that allows to hide 
-little activity popup form. When *Note* category is chosen, 
-by default, it will select that option. If User force unselects it 
-when *Note* category is chosen, constraint will prevent from saving such changes.
+little activity popup form - see more: :doc:`mail_activity_popover_toggle`. 
+When *Note* category is chosen, by default, it will select that option. 
+If User force unselects it when *Note* category is chosen, constraint will 
+prevent from saving such changes.
 
 On activity type, one can specify partner field, so it would be possible to 
 know how to filter contacts on activity - *Path To Commercial Partner* field is used 
 for this purpose - add *partner_id.commercial_partner_id* in this field to 
 filter partner contacts on activity.
-
-Also *Auto Schedule Next Activity* option may be checked and *Default Next Activity* 
-and / or *Recommended Next Activities* selected.
 
 .. note::
     Don't forget to save changes to your new activity type! - to start using it.
@@ -76,7 +74,9 @@ mandatory drop down field *Outcome*:
     :align: center
 
 .. note::
-    Outcome and goal values can be specified via activity menu (in admin settings).
+    Outcome and goal values can be specified via activity menu (see in admin settings - 
+    :menuselection:`Settings --> Technical --> Activity Goals` and 
+    :menuselection:`Settings --> Technical --> Activity Outcomes`).
     It is also possible to limit for which activity type specific outcome/goal can 
     be used. By default, every activity with Note type can use it. If activity types 
     are specified on goal/outcome records, it will be available only for those types.
@@ -86,3 +86,25 @@ and outcome:
 
 .. image:: media/note_activity_done_chatter.png
     :align: center
+
+Analyze History of Activities
+=============================
+
+History of done or cancelled activities can be reached via menu
+:menuselection:`Contacts --> Activities --> Activity History` and
+analyzed using custom filters in list view.
+
+.. image:: media/activity_history_menu.png
+    :align: center
+
+Analyze current Activities
+=============================
+
+Status of current activities can be reached via menu
+:menuselection:`Contacts --> Activities --> Activities` and
+analyzed using custom filters in list view.
+
+.. image:: media/current_activities.png
+    :align: center
+
+.. seealso:: :doc:`mail_activity_history`
