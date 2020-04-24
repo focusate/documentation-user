@@ -81,7 +81,7 @@ mandatory drop down field *Outcome*:
     be used. By default, every activity with Note type can use it. If activity types 
     are specified on goal/outcome records, it will be available only for those types.
 
-After activity is done, Note is created in *Chatter* with extra info: contact goal 
+After activity is done, Note is created in *Chatter* with extra info: contact, goal 
 and outcome:
 
 .. image:: media/note_activity_done_chatter.png
