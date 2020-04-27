@@ -1,5 +1,5 @@
 ================
-Note Activitiy
+Note Activities
 ================
 
 New activity type called *Note* added next to currently 
@@ -25,7 +25,7 @@ and create  new activity type with category *Note*:
 Contact can be made mandatory on activity type, by checking *Contact required* option. 
 If not checked, it will be optional.
 
-*Hide popover* is alvays mandatory. This part must depend on 
+*Hide popover* is alvays mandatory for this type. This depends on 
 module :code:`mail_activity_popover_toggle` that allows to hide 
 little activity popup form - see more: :doc:`mail_activity_popover_toggle`. 
 When *Note* category is chosen, by default, it will select that option. 
