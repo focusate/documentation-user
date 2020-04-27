@@ -90,24 +90,11 @@ and outcome:
 Analyze Note Activities and History
 ===================================
 
-History of done or cancelled activities can be reached via menu
-:menuselection:`Contacts --> Activities --> Activity History` and
-analyzed using custom filters in list view.
-
-.. image:: media/activity_history_menu.png
-    :align: center
-
-Status of current activities can be reached via menu
-:menuselection:`Contacts --> Activities --> Activities` and
-analyzed using custom filters in list view.
-
-.. image:: media/current_activities.png
-    :align: center
-
 .. seealso:: :doc:`mail_activity_history`
 
 With Notes functionality, additional fields will be displayed 
-in tree views, but :code:`mail_activity_history_note` 
-module must be installed. 
+in tree views (in Activities - Goal and in History - goal, 
+outcome, sales process & stage) but :code:`mail_activity_history_note` 
+module must be installed for this. 
 
 .. seealso:: :doc:`mail_activity_extended`
