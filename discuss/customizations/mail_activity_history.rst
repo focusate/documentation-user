@@ -42,16 +42,4 @@ analyzed using custom filters in list view.
 .. image:: media/activity_history_menu.png
     :align: center
 
-Analyze current Activities
-=============================
-
-Status of current activities can be reached via menu
-:menuselection:`Contacts --> Activities --> Activities` and
-analyzed using custom filters in list view.
-
-.. image:: media/current_activities.png
-    :align: center
-
-.. seealso:: :doc:`mail_activity_note`
-
 .. seealso:: :doc:`mail_activity_extended`

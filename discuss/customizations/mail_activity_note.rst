@@ -87,8 +87,8 @@ and outcome:
 .. image:: media/note_activity_done_chatter.png
     :align: center
 
-Analyze History of Activities
-=============================
+Analyze Note Activities and History
+===================================
 
 History of done or cancelled activities can be reached via menu
 :menuselection:`Contacts --> Activities --> Activity History` and
@@ -96,9 +96,6 @@ analyzed using custom filters in list view.
 
 .. image:: media/activity_history_menu.png
     :align: center
-
-Analyze current Activities
-=============================
 
 Status of current activities can be reached via menu
 :menuselection:`Contacts --> Activities --> Activities` and
@@ -108,3 +105,9 @@ analyzed using custom filters in list view.
     :align: center
 
 .. seealso:: :doc:`mail_activity_history`
+
+With Notes functionality, additional fields will be displayed 
+in tree views, but :code:`mail_activity_history_note` 
+module must be installed. 
+
+.. seealso:: :doc:`mail_activity_extended`
