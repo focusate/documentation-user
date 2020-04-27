@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-27 15:58+0300\n"
+"POT-Creation-Date: 2020-04-27 18:54+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -132,7 +132,7 @@ msgstr ""
 "sąrašo rodinyje."
 
 #: ../../discuss/customizations/mail_activity_extended.rst:25
-#: ../../discuss/customizations/mail_activity_note.rst:110
+#: ../../discuss/customizations/mail_activity_note.rst:100
 msgid ":doc:`mail_activity_history`"
 msgstr ":doc:`mail_activity_history`"
 
@@ -203,12 +203,10 @@ msgstr ""
 "standarte) ir bus užregistruota susirašinėjimų skydelyje."
 
 #: ../../discuss/customizations/mail_activity_history.rst:36
-#: ../../discuss/customizations/mail_activity_note.rst:91
 msgid "Analyze History of Activities"
 msgstr "Analizuokite veiklų istoriją"
 
 #: ../../discuss/customizations/mail_activity_history.rst:38
-#: ../../discuss/customizations/mail_activity_note.rst:93
 msgid ""
 "History of done or cancelled activities can be reached via menu "
 ":menuselection:`Contacts --> Activities --> Activity History` and "
@@ -218,27 +216,8 @@ msgstr ""
 ":menuselection:`Kontaktai --> Veiklos --> Veiklos istorija` ir "
 "analizuojama, naudojant atitinkamus filtrus sąrašo rodinyje."
 
-#: ../../discuss/customizations/mail_activity_history.rst:46
-#: ../../discuss/customizations/mail_activity_note.rst:101
-msgid "Analyze current Activities"
-msgstr "Analizuokite esamas veiklas"
-
-#: ../../discuss/customizations/mail_activity_history.rst:48
-#: ../../discuss/customizations/mail_activity_note.rst:103
-msgid ""
-"Status of current activities can be reached via menu "
-":menuselection:`Contacts --> Activities --> Activities` and analyzed "
-"using custom filters in list view."
-msgstr ""
-"Dabar veiklos gali būti pasiekiamos per meniu :menuselection:`Kontaktai "
-"--> Veiklos --> Veiklos` ir analizuojamos, naudojant norimus filtrus "
-"sąrašo rodinyje."
-
-#: ../../discuss/customizations/mail_activity_history.rst:55
-msgid ":doc:`mail_activity_note`"
-msgstr ":doc:`mail_activity_note`"
-
-#: ../../discuss/customizations/mail_activity_history.rst:57
+#: ../../discuss/customizations/mail_activity_history.rst:45
+#: ../../discuss/customizations/mail_activity_note.rst:107
 msgid ":doc:`mail_activity_extended`"
 msgstr ":doc:`mail_activity_extended`"
 
@@ -327,20 +306,20 @@ msgstr ""
 
 #: ../../discuss/customizations/mail_activity_note.rst:28
 msgid ""
-"*Hide popover* is alvays mandatory for this type. This depends on module "
+"*Hide popover* is always mandatory for this type. This depends on module "
 ":code:`mail_activity_popover_toggle` that allows to hide little activity "
 "popup form - see more: :doc:`mail_activity_popover_toggle`. When *Note* "
 "category is chosen, by default, it will select that option. If User force"
 " unselects it when *Note* category is chosen, constraint will prevent "
 "from saving such changes."
 msgstr ""
-"*Paslėpti iššokantį langą* parinktis yra šiam tipui privaloma. Šią parinktį "
-"valdo modulis :code:`mail_activity_popover_toggle`, kuris paslepia mažąją"
-" iššokančią veiklos formą, - apie tai daugiau galite sužinoti "
-":doc:`mail_activity_popover_toggle`.Pasirinkus *Pastaba* kategoriją, "
-"standartiškai bus pažymėta ir *Paslėpti iššokantį langą* parinktis. Jei "
-"naudotojas nuims šią žymę, *Pastaba* veiklos tipo sistema neleis "
-"išsaugoti."
+"*Paslėpti iššokantį langą* parinktis yra šiam tipui privaloma. Šią "
+"parinktį valdo modulis :code:`mail_activity_popover_toggle`, kuris "
+"paslepia mažąją iššokančią veiklos formą, - apie tai daugiau galite "
+"sužinoti :doc:`mail_activity_popover_toggle`.Pasirinkus *Pastaba* "
+"kategoriją, standartiškai bus pažymėta ir *Paslėpti iššokantį langą* "
+"parinktis. Jei naudotojas nuims šią žymę, *Pastaba* veiklos tipo sistema "
+"neleis išsaugoti."
 
 #: ../../discuss/customizations/mail_activity_note.rst:35
 msgid ""
@@ -441,6 +420,28 @@ msgstr ""
 "Po to kai veikla yra užbaigiama / atliekama, pastaba yra įrašoma į "
 "*Susirašinėjimų* langą su papildoma informacija: kontaktas, tikslas ir "
 "rezultatas: "
+
+#: ../../discuss/customizations/mail_activity_note.rst:91
+msgid "Analyze Note Activities and History"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:93
+msgid ""
+"Status of current activities can be reached via menu "
+":menuselection:`Contacts --> Activities --> Activities` and analyzed "
+"using custom filters in list view."
+msgstr ""
+"Dabar veiklos gali būti pasiekiamos per meniu :menuselection:`Kontaktai "
+"--> Veiklos --> Veiklos` ir analizuojamos, naudojant norimus filtrus "
+"sąrašo rodinyje."
+
+#: ../../discuss/customizations/mail_activity_note.rst:102
+msgid ""
+"With Notes functionality, additional fields will be displayed in tree "
+"views (in Activities - Goal and in History - goal, outcome, sales process"
+" & stage) but :code:`mail_activity_history_note` module must be installed"
+" for this."
+msgstr ""
 
 #: ../../discuss/customizations/mail_activity_popover_toggle.rst:3
 msgid "Activity Popover depending on Activity Type"
@@ -1305,4 +1306,10 @@ msgstr ""
 
 #~ msgid ""
 #~ msgstr ""
+
+#~ msgid "Analyze current Activities"
+#~ msgstr "Analizuokite esamas veiklas"
+
+#~ msgid ":doc:`mail_activity_note`"
+#~ msgstr ":doc:`mail_activity_note`"
 

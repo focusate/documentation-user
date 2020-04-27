@@ -90,6 +90,13 @@ and outcome:
 Analyze Note Activities and History
 ===================================
 
+Status of current activities can be reached via menu
+:menuselection:`Contacts --> Activities --> Activities` and
+analyzed using custom filters in list view.
+
+.. image:: media/current_activities.png
+    :align: center
+
 .. seealso:: :doc:`mail_activity_history`
 
 With Notes functionality, additional fields will be displayed 
