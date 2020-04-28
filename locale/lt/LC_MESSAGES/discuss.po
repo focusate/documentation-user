@@ -469,7 +469,7 @@ msgid ""
 msgstr ""
 "Su Pastabų funkcionalumu taip pat yra galimybė matyti papildomus laukus "
 "tree-view rodinyje (Veiklų ataskaitoje - Tikslą, o Veiklos istorijoje - "
-"Tiklsą ir Rezultatą), bet tam reikalinga įdiegti modulį "
+"Tikslą ir Rezultatą), bet tam reikalinga įdiegti modulį "
 ":code:`mail_activity_history_note`."
 
 #: ../../discuss/customizations/mail_activity_popover_toggle.rst:3
@@ -1350,4 +1350,3 @@ msgstr ""
 #~ " & stage) but :code:`mail_activity_history_note`"
 #~ " module must be installed for this."
 #~ msgstr ""
-
