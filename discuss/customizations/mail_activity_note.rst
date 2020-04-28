@@ -100,7 +100,7 @@ analyzed using custom filters in list view.
 .. seealso:: :doc:`mail_activity_history`
 
 With Notes functionality, additional fields will be displayed 
-in tree views (in Activities - Goal and in History - goal, 
+in tree views (in Activities - Goal and in History - Goal, 
 Outcome) but :code:`mail_activity_history_note` 
 module must be installed for this. 
 
