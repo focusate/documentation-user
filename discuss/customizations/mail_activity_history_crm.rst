@@ -8,8 +8,10 @@ history of done or cancelled activities via
 
 .. image:: media/activity_history_view.png
     :align: center
+
 .. seealso:: :doc:`mail_activity_history`
+
 In order to use this functionality module 
-:code:`mail_activity_history_crm` must be installed and  
+:code:`mail_activity_history_crm` must be installed and 
 Sales Process and Stage will be included in activity 
 history view.

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-27 18:54+0300\n"
+"POT-Creation-Date: 2020-04-28 12:32+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -132,6 +132,7 @@ msgstr ""
 "sąrašo rodinyje."
 
 #: ../../discuss/customizations/mail_activity_extended.rst:25
+#: ../../discuss/customizations/mail_activity_history_crm.rst:12
 #: ../../discuss/customizations/mail_activity_note.rst:100
 msgid ":doc:`mail_activity_history`"
 msgstr ":doc:`mail_activity_history`"
@@ -220,6 +221,30 @@ msgstr ""
 #: ../../discuss/customizations/mail_activity_note.rst:107
 msgid ":doc:`mail_activity_extended`"
 msgstr ":doc:`mail_activity_extended`"
+
+#: ../../discuss/customizations/mail_activity_history_crm.rst:3
+msgid "Sales Process and Stage in Activity History"
+msgstr "Pardavimo procesas ir Etapas veiklos istorijoje"
+
+#: ../../discuss/customizations/mail_activity_history_crm.rst:5
+msgid ""
+"Sales Process and Stage might be available for analysis of history of "
+"done or cancelled activities via :menuselection:`Contacts --> Activities "
+"--> Activity History`:"
+msgstr ""
+"Veiklos istorijos ataskaitoje (:menuselection:`Kontaktai --> Veiklos "
+"--> Veiklos istorija`) galite analizuoti užbaigtų ar atšauktų veiklų "
+"Pardavimo procesą ar Etapą:"
+
+#: ../../discuss/customizations/mail_activity_history_crm.rst:14
+msgid ""
+"In order to use this functionality module "
+":code:`mail_activity_history_crm` must be installed and Sales Process and"
+" Stage will be included in activity history view."
+msgstr ""
+"Norint naudotis šiuo funkcionalumu, reikia įdiegti modulį " 
+":code:`mail_activity_history_crm` ir Pardavimo procesas bei Etapas "
+"bus įtrauktas į Veiklos istorijos ataskaitą."
 
 #: ../../discuss/customizations/mail_activity_limit.rst:3
 msgid "Limit Number of Active Activities"
@@ -343,7 +368,8 @@ msgstr ""
 "pradėdami jį naudoti!"
 
 #: ../../discuss/customizations/mail_activity_note.rst:44
-msgid "Note type activity functionality"
+#, fuzzy
+msgid "Note Type Activity Functionality"
 msgstr "Pastabos tipo veiklos funkcionalumas"
 
 #: ../../discuss/customizations/mail_activity_note.rst:46
@@ -438,9 +464,8 @@ msgstr ""
 #: ../../discuss/customizations/mail_activity_note.rst:102
 msgid ""
 "With Notes functionality, additional fields will be displayed in tree "
-"views (in Activities - Goal and in History - goal, outcome, sales process"
-" & stage) but :code:`mail_activity_history_note` module must be installed"
-" for this."
+"views (in Activities - Goal and in History - Goal, Outcome) but "
+":code:`mail_activity_history_note` module must be installed for this."
 msgstr ""
 
 #: ../../discuss/customizations/mail_activity_popover_toggle.rst:3
@@ -1312,4 +1337,13 @@ msgstr ""
 
 #~ msgid ":doc:`mail_activity_note`"
 #~ msgstr ":doc:`mail_activity_note`"
+
+#~ msgid ""
+#~ "With Notes functionality, additional fields"
+#~ " will be displayed in tree views "
+#~ "(in Activities - Goal and in "
+#~ "History - goal, outcome, sales process"
+#~ " & stage) but :code:`mail_activity_history_note`"
+#~ " module must be installed for this."
+#~ msgstr ""
 
