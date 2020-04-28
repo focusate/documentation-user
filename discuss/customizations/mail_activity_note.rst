@@ -40,7 +40,7 @@ filter partner contacts on activity.
 .. note::
     Don't forget to save changes to your new activity type! - to start using it.
 
-Note type activity functionality
+Note Type Activity Functionality
 ================================
 
 Schedule and activity for CRM, Contacts, Sales, Project or any other Odoo object. Click 
