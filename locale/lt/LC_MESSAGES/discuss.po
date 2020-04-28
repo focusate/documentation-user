@@ -449,7 +449,7 @@ msgstr ""
 
 #: ../../discuss/customizations/mail_activity_note.rst:91
 msgid "Analyze Note Activities and History"
-msgstr ""
+msgstr "Analizuokite Pastabų veiklas ir istoriją"
 
 #: ../../discuss/customizations/mail_activity_note.rst:93
 msgid ""
