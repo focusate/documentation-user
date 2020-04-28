@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-22 15:25+0300\n"
+"POT-Creation-Date: 2020-04-28 12:32+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.4.0\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: ../../discuss.rst:5
 msgid "Discuss"
@@ -37,6 +37,7 @@ msgstr "Nurodykite, kuriems vartotojams leidžiama keisti veiklos pabaigos termi
 #: ../../discuss/customizations/mail_activity_extended.rst:10
 #: ../../discuss/customizations/mail_activity_history.rst:8
 #: ../../discuss/customizations/mail_activity_limit.rst:10
+#: ../../discuss/customizations/mail_activity_note.rst:14
 #: ../../discuss/customizations/mail_activity_popover_toggle.rst:9
 #: ../../discuss/customizations/mail_activity_type_domain.rst:9
 #: ../../discuss/customizations/mail_message_keep_unread.rst:8
@@ -131,6 +132,8 @@ msgstr ""
 "sąrašo rodinyje."
 
 #: ../../discuss/customizations/mail_activity_extended.rst:25
+#: ../../discuss/customizations/mail_activity_history_crm.rst:12
+#: ../../discuss/customizations/mail_activity_note.rst:100
 msgid ":doc:`mail_activity_history`"
 msgstr ":doc:`mail_activity_history`"
 
@@ -215,8 +218,33 @@ msgstr ""
 "analizuojama, naudojant atitinkamus filtrus sąrašo rodinyje."
 
 #: ../../discuss/customizations/mail_activity_history.rst:45
+#: ../../discuss/customizations/mail_activity_note.rst:107
 msgid ":doc:`mail_activity_extended`"
 msgstr ":doc:`mail_activity_extended`"
+
+#: ../../discuss/customizations/mail_activity_history_crm.rst:3
+msgid "Sales Process and Stage in Activity History"
+msgstr "Pardavimo procesas ir Etapas veiklos istorijoje"
+
+#: ../../discuss/customizations/mail_activity_history_crm.rst:5
+msgid ""
+"Sales Process and Stage might be available for analysis of history of "
+"done or cancelled activities via :menuselection:`Contacts --> Activities "
+"--> Activity History`:"
+msgstr ""
+"Veiklos istorijos ataskaitoje (:menuselection:`Kontaktai --> Veiklos "
+"--> Veiklos istorija`) galite analizuoti užbaigtų ar atšauktų veiklų "
+"Pardavimo procesą ar Etapą:"
+
+#: ../../discuss/customizations/mail_activity_history_crm.rst:14
+msgid ""
+"In order to use this functionality module "
+":code:`mail_activity_history_crm` must be installed and Sales Process and"
+" Stage will be included in activity history view."
+msgstr ""
+"Norint naudotis šiuo funkcionalumu, reikia įdiegti modulį " 
+":code:`mail_activity_history_crm` ir Pardavimo procesas bei Etapas "
+"bus įtrauktas į Veiklos istorijos ataskaitą."
 
 #: ../../discuss/customizations/mail_activity_limit.rst:3
 msgid "Limit Number of Active Activities"
@@ -249,13 +277,209 @@ msgstr ""
 " tik dvi aktyvias veiklas tam pačiam partneriui ir vieną - tai pačiai "
 "iniciatyvai/pardavimo galimybei)."
 
+#: ../../discuss/customizations/mail_activity_note.rst:3
+msgid "Note Activities"
+msgstr "Pastabos tipo veiklos"
+
+#: ../../discuss/customizations/mail_activity_note.rst:5
+msgid ""
+"New activity type called *Note* added next to currently available generic"
+" *Other* type and *Meeting* (that allows to create meeting from "
+"activity)."
+msgstr ""
+"Prie jau esamų veiklų tipų - bendrinio *Kita* ir *Susitikimas* (kuris "
+"leidžia kurti susitikimus iš veiklų) pridėtas naujas veiklos tipas "
+"*Pastaba*."
+
+#: ../../discuss/customizations/mail_activity_note.rst:9
+msgid ""
+"If you select *Note* category on your activity type (most likely on Call "
+"activity type), it will behave as a goal activity, where you will need to"
+" select goal and contact."
+msgstr ""
+"Pasirinkus *Pastaba* kategoriją veiklos tipe (tikėtina - Skambutis "
+"veiklos tipe), ši veikla elgsis kaip tikslo veikla, kurioje reikės "
+"pasirinkti tikslą ir kontaktą."
+
+#: ../../discuss/customizations/mail_activity_note.rst:16
+msgid ""
+"To start using this new activity category, module "
+":code:`mail_activity_note` must be installed and *Note* activity type "
+"added."
+msgstr ""
+"Norėdami pradėti naudoti šį naują veiklos tipą, įdiekite modulį "
+":code:`mail_activity_note` ir kurkite *Pastaba* tipo veiklą."
+
+#: ../../discuss/customizations/mail_activity_note.rst:19
+msgid ""
+"To add this new activity type, go to :menuselection:`CRM --> "
+"Configuration --> Activity Types` and create  new activity type with "
+"category *Note*:"
+msgstr ""
+"Norėdami pridėti šį naują veiklos tipą, eikite į :menuselection:`CRM --> "
+"Konfigūracija --> Veiklos tipai` ir ten sukurkite naują veiklos tipą, "
+"kurio kategorija *Pastaba*."
+
+#: ../../discuss/customizations/mail_activity_note.rst:25
+msgid ""
+"Contact can be made mandatory on activity type, by checking *Contact "
+"required* option. If not checked, it will be optional."
+msgstr ""
+"Kontaktas gali būti padarytas privalomu veiklos tipe pažymint *Kontaktas "
+"privalomas* parinktį. Jei ta prinktis nepažymėta, Kontaktas nebus "
+"privalomas."
+
+#: ../../discuss/customizations/mail_activity_note.rst:28
+msgid ""
+"*Hide popover* is always mandatory for this type. This depends on module "
+":code:`mail_activity_popover_toggle` that allows to hide little activity "
+"popup form - see more: :doc:`mail_activity_popover_toggle`. When *Note* "
+"category is chosen, by default, it will select that option. If User force"
+" unselects it when *Note* category is chosen, constraint will prevent "
+"from saving such changes."
+msgstr ""
+"*Paslėpti iššokantį langą* parinktis yra šiam tipui privaloma. Šią "
+"parinktį valdo modulis :code:`mail_activity_popover_toggle`, kuris "
+"paslepia mažąją iššokančią veiklos formą, - apie tai daugiau galite "
+"sužinoti :doc:`mail_activity_popover_toggle`.Pasirinkus *Pastaba* "
+"kategoriją, standartiškai bus pažymėta ir *Paslėpti iššokantį langą* "
+"parinktis. Jei naudotojas nuims šią žymę, *Pastaba* veiklos tipo sistema "
+"neleis išsaugoti."
+
+#: ../../discuss/customizations/mail_activity_note.rst:35
+msgid ""
+"On activity type, one can specify partner field, so it would be possible "
+"to know how to filter contacts on activity - *Path To Commercial Partner*"
+" field is used for this purpose - add *partner_id.commercial_partner_id* "
+"in this field to filter partner contacts on activity."
+msgstr ""
+"Šiame veiklos tipe yra galimybė specifikuoti partnero lauką ir tai "
+"suteiks galimybę išfiltruoti kontaktus veikloje - šiam tikslui naudojamas"
+" *Kelias iki komercinio partnerio* laukas ir jame įrašius "
+"*partner_id.commercial_partner_id* veikloje bus filtruojami kontaktai "
+"pagal partnerį."
+
+#: ../../discuss/customizations/mail_activity_note.rst:41
+msgid ""
+"Don't forget to save changes to your new activity type! - to start using "
+"it."
+msgstr ""
+"Nepamirškite išsaugoti pakeitimus savo naujame veiklos tipe, prieš "
+"pradėdami jį naudoti!"
+
+#: ../../discuss/customizations/mail_activity_note.rst:44
+msgid "Note Type Activity Functionality"
+msgstr "Pastabos tipo veiklos funkcionalumas"
+
+#: ../../discuss/customizations/mail_activity_note.rst:46
+msgid ""
+"Schedule and activity for CRM, Contacts, Sales, Project or any other Odoo"
+" object. Click on *Schedule activity*:"
+msgstr ""
+"Norėdami suplanuoti veiklą CRM, Kontaktui, Pardavimui, Projektui ar kitam"
+" Odoo objektui, spauskite *Suplanuoti veiklą*."
+
+#: ../../discuss/customizations/mail_activity_note.rst:52
+msgid "Fill in all the required fields in the window, what opens:"
+msgstr "Užpildykite visus privalomus laukus atsidariusiame lange: "
+
+#: ../../discuss/customizations/mail_activity_note.rst:57
+msgid ""
+"Click *Schedule* to save activity and new *Note* category activity is "
+"planned:"
+msgstr "Spauskite *Suplanuoti* norėdami išsaugoti naują *Pastaba* tipo veiklą: "
+
+#: ../../discuss/customizations/mail_activity_note.rst:63
+msgid ""
+"Activity template is updated, so after scheduling activity, it would show"
+" *Note* extra information: goal, contact, contact phone and contact "
+"mobile phone (if phone or mobile phone is not set on selected contact, "
+"label will be hidden to not pollute view)."
+msgstr ""
+"Veiklos šablonas yra papildytas - kai suplanuosite naują veiklą, "
+"veikloje *Pastaba* matysite papildomą informaciją: tikslą, kontaktą, "
+"kontakto telefoną, kontakto mobilų telefoną (jei telefonas ar mobilus "
+"telefonas nėra nurodyti pasirinkto kontakto kortelėje, jie nebus rodomi, "
+"kad neteršti rodinio)."
+
+#: ../../discuss/customizations/mail_activity_note.rst:68
+msgid ""
+"Goal and Contact is made visible in main area - without a need to click "
+"on Info button."
+msgstr ""
+"Tikslas ir kontaktas yra rodomi pagrindiniame rodinyje ir nėra būtinybės "
+"spausti Info mygtuką."
+
+#: ../../discuss/customizations/mail_activity_note.rst:70
+msgid ""
+"When finishing *Note* type activity, activity pop up will be displayed - "
+"it will show new mandatory drop down field *Outcome*:"
+msgstr ""
+"Užbaigiant *Pastaba* tipo veiklą, bus parodytas iššokantis veiklos "
+"langas, kuriame bus reikalinga pasirinkti privalomą *Rezultato* reikšmę."
+
+#: ../../discuss/customizations/mail_activity_note.rst:77
+msgid ""
+"Outcome and goal values can be specified via activity menu (see in admin "
+"settings - :menuselection:`Settings --> Technical --> Activity Goals` and"
+" :menuselection:`Settings --> Technical --> Activity Outcomes`). It is "
+"also possible to limit for which activity type specific outcome/goal can "
+"be used. By default, every activity with Note type can use it. If "
+"activity types are specified on goal/outcome records, it will be "
+"available only for those types."
+msgstr ""
+"Tikslo ir Rezultato reikšmės gali būti nustatytos veiklų pasirinkimuose "
+"(žr. nustatymuose - :menuselection:`Nustatymai --> Techninis --> Veiklos "
+"tikslai` ir :menuselection:`Nustatymai --> Techninis --> Veiklos "
+"rezultatai`). Taip pat yra galimybė apriboti veiklos tipus, kuriems tam "
+"tikras Tikslas ar Rezultatas gali būti taikomas. Standartiškai visi "
+"veiklos tipai galės naudoti Tikslą ar Rezultatą, tačiau jei prie Veiklos "
+"ar Rezultato bus nurodyti veiklos tipai, tie Tikslai ar Rezultatai galės "
+"būti naudojami tik su tuo veiklos tipu."
+
+#: ../../discuss/customizations/mail_activity_note.rst:84
+msgid ""
+"After activity is done, Note is created in *Chatter* with extra info: "
+"contact, goal and outcome:"
+msgstr ""
+"Po to kai veikla yra užbaigiama / atliekama, pastaba yra įrašoma į "
+"*Susirašinėjimų* langą su papildoma informacija: kontaktas, tikslas ir "
+"rezultatas: "
+
+#: ../../discuss/customizations/mail_activity_note.rst:91
+msgid "Analyze Note Activities and History"
+msgstr "Analizuokite Pastabų veiklas ir istoriją"
+
+#: ../../discuss/customizations/mail_activity_note.rst:93
+msgid ""
+"Status of current activities can be reached via menu "
+":menuselection:`Contacts --> Activities --> Activities` and analyzed "
+"using custom filters in list view."
+msgstr ""
+"Dabar veiklos gali būti pasiekiamos per meniu :menuselection:`Kontaktai "
+"--> Veiklos --> Veiklos` ir analizuojamos, naudojant norimus filtrus "
+"sąrašo rodinyje."
+
+#: ../../discuss/customizations/mail_activity_note.rst:102
+msgid ""
+"With Notes functionality, additional fields will be displayed in tree "
+"views (in Activities - Goal and in History - Goal, Outcome) but "
+":code:`mail_activity_history_note` module must be installed for this."
+msgstr ""
+"Su Pastabų funkcionalumu taip pat yra galimybė matyti papildomus laukus "
+"tree-view rodinyje (Veiklų ataskaitoje - Tikslą, o Veiklos istorijoje - "
+"Tikslą ir Rezultatą), bet tam reikalinga įdiegti modulį "
+":code:`mail_activity_history_note`."
+
 #: ../../discuss/customizations/mail_activity_popover_toggle.rst:3
 msgid "Activity Popover depending on Activity Type"
 msgstr "Veiklos iššokantysis langas pagal veiklos tipą"
 
 #: ../../discuss/customizations/mail_activity_popover_toggle.rst:5
 msgid "Manage which popover to display when clicked ``'Mark Done'`` on activity."
-msgstr "Nustatykite, kurį iššokantyjį langą rodyti, kai spaudžiama ``'Pažymėti kaip atliktą'`` veikloje."
+msgstr ""
+"Nustatykite, kurį iššokantyjį langą rodyti, kai spaudžiama ``'Pažymėti "
+"kaip atliktą'`` veikloje."
 
 #: ../../discuss/customizations/mail_activity_popover_toggle.rst:11
 msgid ""
@@ -263,8 +487,8 @@ msgid ""
 "must be installed and *Hide Popover* enabled/disabled on activity type."
 msgstr ""
 "Kad šis funkcionalumas veiktų, turi būti įdiegtas "
-":code:`mail_activity_popover_toggle` modulis ir veiklos tipe įjungtas/išjungtas "
-"*Paslėpti iššokantįjį langą*."
+":code:`mail_activity_popover_toggle` modulis ir veiklos tipe "
+"įjungtas/išjungtas *Paslėpti iššokantįjį langą*."
 
 #: ../../discuss/customizations/mail_activity_popover_toggle.rst:18
 msgid "Mark Done Popover"
@@ -274,8 +498,9 @@ msgstr "Iššokantysis langas atliktos veiklos žymėjimui"
 msgid ""
 "As standard, there are two available popovers to use when marking "
 "activity as done:"
-msgstr "Standartiškai, yra du galimi iššokantieji langai veiklos pažymėjimui "
-"kaip baigtai:"
+msgstr ""
+"Standartiškai, yra du galimi iššokantieji langai veiklos pažymėjimui kaip"
+" baigtai:"
 
 #: ../../discuss/customizations/mail_activity_popover_toggle.rst:23
 msgid "smaller feedback popover:"
@@ -291,13 +516,15 @@ msgid ""
 "showed instead of the smaller one, when marking activity, with such "
 "activity type, as done."
 msgstr ""
-"Kai *Paslėpti iššokantįjį langą* yra įjungtas veiklos tipe - didesnis iššokantysis langas "
-"bus rodomas vietoje mažesniojo, kai veikla, su tokiu veiklos tipu, "
-"bus žymima kaip baigta."
+"Kai *Paslėpti iššokantįjį langą* yra įjungtas veiklos tipe - didesnis "
+"iššokantysis langas bus rodomas vietoje mažesniojo, kai veikla, su tokiu "
+"veiklos tipu, bus žymima kaip baigta."
 
 #: ../../discuss/customizations/mail_activity_popover_toggle.rst:41
 msgid "You can mark activity as done via chatter or kanban view, e.g.:"
-msgstr "Jūs galite žymėti veiklą kaip baigtą per susirašinėjimo skiltį arba kanban rodinį, pvz.:"
+msgstr ""
+"Jūs galite žymėti veiklą kaip baigtą per susirašinėjimo skiltį arba "
+"kanban rodinį, pvz.:"
 
 #: ../../discuss/customizations/mail_activity_type_domain.rst:3
 msgid "Use Different Activity Types on the Same Model"
@@ -1108,3 +1335,17 @@ msgstr ""
 #~ msgid ""
 #~ msgstr ""
 
+#~ msgid "Analyze current Activities"
+#~ msgstr "Analizuokite esamas veiklas"
+
+#~ msgid ":doc:`mail_activity_note`"
+#~ msgstr ":doc:`mail_activity_note`"
+
+#~ msgid ""
+#~ "With Notes functionality, additional fields"
+#~ " will be displayed in tree views "
+#~ "(in Activities - Goal and in "
+#~ "History - goal, outcome, sales process"
+#~ " & stage) but :code:`mail_activity_history_note`"
+#~ " module must be installed for this."
+#~ msgstr ""
