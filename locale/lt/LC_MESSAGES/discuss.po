@@ -368,7 +368,6 @@ msgstr ""
 "pradėdami jį naudoti!"
 
 #: ../../discuss/customizations/mail_activity_note.rst:44
-#, fuzzy
 msgid "Note Type Activity Functionality"
 msgstr "Pastabos tipo veiklos funkcionalumas"
 
