@@ -435,7 +435,7 @@ msgstr ""
 "rezultatai`). Taip pat yra galimybė apriboti veiklos tipus, kuriems tam "
 "tikras Tikslas ar Rezultatas gali būti taikomas. Standartiškai visi "
 "veiklos tipai galės naudoti Tikslą ar Rezultatą, tačiau jei prie Veiklos "
-"ar Rezultato bus nurodyti veiklos tipai, tie Tiklai ar Rezultatai galės "
+"ar Rezultato bus nurodyti veiklos tipai, tie Tikslai ar Rezultatai galės "
 "būti naudojami tik su tuo veiklos tipu."
 
 #: ../../discuss/customizations/mail_activity_note.rst:84
