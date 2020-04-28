@@ -2,7 +2,7 @@
 Sales Process and Stage in Activity History
 ===========================================
 
-Sales process and Stage might be available for analysis of 
+Sales Process and Stage might be available for analysis of 
 history of done or cancelled activities via 
 :menuselection:`Contacts --> Activities --> Activity History`: 
 
