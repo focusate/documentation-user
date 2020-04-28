@@ -90,11 +90,13 @@ and outcome:
 Analyze Note Activities and History
 ===================================
 
-.. seealso:: :doc:`mail_activity_history`
-
 With Notes functionality, additional fields will be displayed 
 in tree views (in Activities - Goal and in History - Goal, 
 Outcome) but :code:`mail_activity_history_note` 
 module must be installed for this. 
 
-.. seealso:: :doc:`mail_activity_extended`
+.. seealso::
+
+    :doc:`mail_activity_extended`
+
+    :doc:`mail_activity_history`
