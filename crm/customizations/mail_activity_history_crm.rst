@@ -1,5 +1,5 @@
 ===========================================
-Sales process and Stage in activity history
+Sales Process and Stage in Activity History
 ===========================================
 
 Sales process and Stage might be available for analysis of 
