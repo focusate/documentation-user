@@ -50,8 +50,14 @@ And it allows searching for any values in *Technical name*,
     While searching for *Old/New value Text* you have to know 
     and use technical values of those fields, like Salesperson 
     change from *Mark* to *Jane* is value *5* change to *2*, 
-    what are user_id's for those Salespersons - please see picture 
-    below.
+    what are user_id's for those Salespersons, when *Fast log* 
+    is enabled - please see picture below.
 
 .. image:: media/auditlog_userid.png
+    :align: center
+
+In the case *Full log* is enabled, *Old/New value Text* will 
+have both technical values (id's) and normal values in the log:
+
+.. image:: media/auditlog_fulllog.png
     :align: center
