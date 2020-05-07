@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-22 15:25+0300\n"
+"POT-Creation-Date: 2020-05-07 14:15+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,6 +36,7 @@ msgstr ""
 #: ../../discuss/customizations/mail_activity_extended.rst:10
 #: ../../discuss/customizations/mail_activity_history.rst:8
 #: ../../discuss/customizations/mail_activity_limit.rst:10
+#: ../../discuss/customizations/mail_activity_note.rst:14
 #: ../../discuss/customizations/mail_activity_popover_toggle.rst:9
 #: ../../discuss/customizations/mail_activity_type_domain.rst:9
 #: ../../discuss/customizations/mail_message_keep_unread.rst:8
@@ -90,6 +91,8 @@ msgid "Now activities can be reached via menu :menuselection:`Contacts --> Activ
 msgstr ""
 
 #: ../../discuss/customizations/mail_activity_extended.rst:25
+#: ../../discuss/customizations/mail_activity_history_crm.rst:12
+#: ../../discuss/customizations/mail_activity_note.rst:102
 msgid ":doc:`mail_activity_history`"
 msgstr ""
 
@@ -138,7 +141,20 @@ msgid "History of done or cancelled activities can be reached via menu :menusele
 msgstr ""
 
 #: ../../discuss/customizations/mail_activity_history.rst:45
+#: ../../discuss/customizations/mail_activity_note.rst:100
 msgid ":doc:`mail_activity_extended`"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_history_crm.rst:3
+msgid "Sales Process and Stage in Activity History"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_history_crm.rst:5
+msgid "Sales Process and Stage might be available for analysis of history of done or cancelled activities via :menuselection:`Contacts --> Activities --> Activity History`:"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_history_crm.rst:14
+msgid "In order to use this functionality module :code:`mail_activity_history_crm` must be installed and Sales Process and Stage will be included in activity history view."
 msgstr ""
 
 #: ../../discuss/customizations/mail_activity_limit.rst:3
@@ -151,6 +167,86 @@ msgstr ""
 
 #: ../../discuss/customizations/mail_activity_limit.rst:12
 msgid "For this feature to work, module :code:`mail_activity_limit` must be installed and *Activity Limit* in Discuss section of General Settings must be configured. Value of *Activity Limit* must be a dictionary, where key is model and value is number of allowed active activities per user per record (e.g. ``{'res.partner': 2, 'crm.lead': 1}`` means, that user can only have two active activities on the same partner and one - on the same lead/opportunity)."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:3
+msgid "Note Activities"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:5
+msgid "New activity type called *Note* added next to currently available generic *Other* type and *Meeting* (that allows to create meeting from activity)."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:9
+msgid "If you select *Note* category on your activity type (most likely on Call activity type), it will behave as a goal activity, where you will need to select goal and contact."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:16
+msgid "To start using this new activity category, module :code:`mail_activity_note` must be installed and *Note* activity type added."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:19
+msgid "To add this new activity type, go to :menuselection:`CRM --> Configuration --> Activity Types` and create  new activity type with category *Note*:"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:25
+msgid "Contact can be made mandatory on activity type, by checking *Contact required* option. If not checked, it will be optional."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:28
+msgid "*Hide popover* is always mandatory for this type. This depends on module :code:`mail_activity_popover_toggle` that allows to hide little activity popup form - see more: :doc:`mail_activity_popover_toggle`. When *Note* category is chosen, by default, it will select that option. If User force unselects it when *Note* category is chosen, constraint will prevent from saving such changes."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:35
+msgid "On activity type, one can specify partner field, so it would be possible to know how to filter contacts on activity - *Path To Commercial Partner* field is used for this purpose - add *partner_id.commercial_partner_id* in this field to filter partner contacts on activity."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:41
+msgid "Don't forget to save changes to your new activity type! - to start using it."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:44
+msgid "Note Type Activity Functionality"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:46
+msgid "Schedule and activity for CRM, Contacts, Sales, Project or any other Odoo object. Click on *Schedule activity*:"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:52
+msgid "Fill in all the required fields in the window, what opens:"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:57
+msgid "Click *Schedule* to save activity and new *Note* category activity is planned:"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:63
+msgid "Activity template is updated, so after scheduling activity, it would show *Note* extra information: goal, contact, contact phone and contact mobile phone (if phone or mobile phone is not set on selected contact, label will be hidden to not pollute view)."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:68
+msgid "Goal and Contact is made visible in main area - without a need to click on Info button."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:70
+msgid "When finishing *Note* type activity, activity pop up will be displayed - it will show new mandatory drop down field *Outcome*:"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:77
+msgid "Outcome and goal values can be specified via activity menu (see in admin settings - :menuselection:`Settings --> Technical --> Activity Goals` and :menuselection:`Settings --> Technical --> Activity Outcomes`). It is also possible to limit for which activity type specific outcome/goal can be used. By default, every activity with Note type can use it. If activity types are specified on goal/outcome records, it will be available only for those types."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:84
+msgid "After activity is done, Note is created in *Chatter* with extra info: contact, goal and outcome:"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:91
+msgid "Analyze Note Activities and History"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:93
+msgid "With Notes functionality, additional fields will be displayed in tree views (in Activities - Goal and in History - Goal, Outcome) but :code:`mail_activity_history_note` module must be installed for this."
 msgstr ""
 
 #: ../../discuss/customizations/mail_activity_popover_toggle.rst:3

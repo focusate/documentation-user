@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-21 10:31+0200\n"
+"POT-Creation-Date: 2020-05-07 14:40+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -519,6 +519,54 @@ msgstr ""
 
 #: ../../general/customizations.rst:3
 msgid "Customizations"
+msgstr ""
+
+#: ../../general/customizations/auditlog_search.rst:3
+msgid "Audit Log Search new capabilities"
+msgstr ""
+
+#: ../../general/customizations/auditlog_search.rst:5
+msgid "Enhanced search capabilities added to *Audit Log Search*."
+msgstr ""
+
+#: ../../general/customizations/auditlog_search.rst:8
+msgid "Configuration"
+msgstr ""
+
+#: ../../general/customizations/auditlog_search.rst:10
+msgid "To start using this new functionality, module :code:`auditlog_search` must be installed."
+msgstr ""
+
+#: ../../general/customizations/auditlog_search.rst:13
+msgid "At least one *Audit Rule* must be created and subscribed in :menuselection:`Settings --> Technical --> Audit --> Rules`:"
+msgstr ""
+
+#: ../../general/customizations/auditlog_search.rst:19
+msgid "Also some changes in the system must be executed to see and start searching entries in the log."
+msgstr ""
+
+#: ../../general/customizations/auditlog_search.rst:23
+msgid "Audit Log also contains IP address, what is feature of module :code:`auditlog_track_ip` - please see it in the picture below."
+msgstr ""
+
+#: ../../general/customizations/auditlog_search.rst:28
+msgid "Audit Log Search Functionality"
+msgstr ""
+
+#: ../../general/customizations/auditlog_search.rst:30
+msgid "To see the log, go to :menuselection:`Settings --> Technical --> Audit --> Logs`:"
+msgstr ""
+
+#: ../../general/customizations/auditlog_search.rst:35
+msgid "Using the Search on the top of the page, you can search through the log entries. Module :code:`auditlog_search` adds extra search capabilities: technical value of *Old/New Value Text* and *Technical Field Name* can be searched from log records:"
+msgstr ""
+
+#: ../../general/customizations/auditlog_search.rst:43
+msgid "And it allows searching for any values in *Technical name*, *Old value Text* and *New value Text* fields:"
+msgstr ""
+
+#: ../../general/customizations/auditlog_search.rst:50
+msgid "While searching for *Old/New value Text* you have to know and use technical values of those fields, like Salesperson change from *Mark* to *Jane* is value *5* change to *2*, what are user_id's for those Salespersons - please see picture below."
 msgstr ""
 
 #: ../../general/customizations/term_changes.rst:3
