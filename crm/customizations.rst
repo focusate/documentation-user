@@ -13,6 +13,7 @@ Customizations
    customizations/calendar_address
    customizations/crm_calendar_opp_assign
    customizations/crm_multicompany
+   customizations/crm_offers
    customizations/crm_task
    ../discuss/customizations/mail_activity_edit_date
    ../discuss/customizations/mail_activity_extended
