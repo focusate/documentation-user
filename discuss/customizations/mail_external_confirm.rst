@@ -45,7 +45,7 @@ with listed all external recipients:
 .. note::
     Confirmation in pop-up by default will have *Cancel* selection.
 
-Channel with external recipients will be trigered, when in channel 
+Channel with external recipients will be triggered, when in channel 
 configuration *Send messages by email* is marked:
 
 .. image:: media/mail_external_confirm_channel.png
