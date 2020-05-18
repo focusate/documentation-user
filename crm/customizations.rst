@@ -23,3 +23,4 @@ Customizations
    ../discuss/customizations/mail_activity_popover_toggle
    ../discuss/customizations/mail_activity_type_domain
    ../discuss/customizations/mail_suggested_partners_uncheck
+   ../discuss/customizations/mail_external_confirm

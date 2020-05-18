@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-28 12:32+0300\n"
+"POT-Creation-Date: 2020-05-18 14:57+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,6 +40,7 @@ msgstr "Nurodykite, kuriems vartotojams leidžiama keisti veiklos pabaigos termi
 #: ../../discuss/customizations/mail_activity_note.rst:14
 #: ../../discuss/customizations/mail_activity_popover_toggle.rst:9
 #: ../../discuss/customizations/mail_activity_type_domain.rst:9
+#: ../../discuss/customizations/mail_external_confirm.rst:12
 #: ../../discuss/customizations/mail_message_keep_unread.rst:8
 #: ../../discuss/customizations/mail_message_reply.rst:8
 #: ../../discuss/customizations/mail_suggested_partners_uncheck.rst:9
@@ -133,7 +134,7 @@ msgstr ""
 
 #: ../../discuss/customizations/mail_activity_extended.rst:25
 #: ../../discuss/customizations/mail_activity_history_crm.rst:12
-#: ../../discuss/customizations/mail_activity_note.rst:100
+#: ../../discuss/customizations/mail_activity_note.rst:102
 msgid ":doc:`mail_activity_history`"
 msgstr ":doc:`mail_activity_history`"
 
@@ -218,7 +219,7 @@ msgstr ""
 "analizuojama, naudojant atitinkamus filtrus sąrašo rodinyje."
 
 #: ../../discuss/customizations/mail_activity_history.rst:45
-#: ../../discuss/customizations/mail_activity_note.rst:107
+#: ../../discuss/customizations/mail_activity_note.rst:100
 msgid ":doc:`mail_activity_extended`"
 msgstr ":doc:`mail_activity_extended`"
 
@@ -232,8 +233,8 @@ msgid ""
 "done or cancelled activities via :menuselection:`Contacts --> Activities "
 "--> Activity History`:"
 msgstr ""
-"Veiklos istorijos ataskaitoje (:menuselection:`Kontaktai --> Veiklos "
-"--> Veiklos istorija`) galite analizuoti užbaigtų ar atšauktų veiklų "
+"Veiklos istorijos ataskaitoje (:menuselection:`Kontaktai --> Veiklos --> "
+"Veiklos istorija`) galite analizuoti užbaigtų ar atšauktų veiklų "
 "Pardavimo procesą ar Etapą:"
 
 #: ../../discuss/customizations/mail_activity_history_crm.rst:14
@@ -242,9 +243,9 @@ msgid ""
 ":code:`mail_activity_history_crm` must be installed and Sales Process and"
 " Stage will be included in activity history view."
 msgstr ""
-"Norint naudotis šiuo funkcionalumu, reikia įdiegti modulį " 
-":code:`mail_activity_history_crm` ir Pardavimo procesas bei Etapas "
-"bus įtrauktas į Veiklos istorijos ataskaitą."
+"Norint naudotis šiuo funkcionalumu, reikia įdiegti modulį "
+":code:`mail_activity_history_crm` ir Pardavimo procesas bei Etapas bus "
+"įtrauktas į Veiklos istorijos ataskaitą."
 
 #: ../../discuss/customizations/mail_activity_limit.rst:3
 msgid "Limit Number of Active Activities"
@@ -396,11 +397,11 @@ msgid ""
 "mobile phone (if phone or mobile phone is not set on selected contact, "
 "label will be hidden to not pollute view)."
 msgstr ""
-"Veiklos šablonas yra papildytas - kai suplanuosite naują veiklą, "
-"veikloje *Pastaba* matysite papildomą informaciją: tikslą, kontaktą, "
-"kontakto telefoną, kontakto mobilų telefoną (jei telefonas ar mobilus "
-"telefonas nėra nurodyti pasirinkto kontakto kortelėje, jie nebus rodomi, "
-"kad neteršti rodinio)."
+"Veiklos šablonas yra papildytas - kai suplanuosite naują veiklą, veikloje"
+" *Pastaba* matysite papildomą informaciją: tikslą, kontaktą, kontakto "
+"telefoną, kontakto mobilų telefoną (jei telefonas ar mobilus telefonas "
+"nėra nurodyti pasirinkto kontakto kortelėje, jie nebus rodomi, kad "
+"neteršti rodinio)."
 
 #: ../../discuss/customizations/mail_activity_note.rst:68
 msgid ""
@@ -451,16 +452,6 @@ msgid "Analyze Note Activities and History"
 msgstr "Analizuokite Pastabų veiklas ir istoriją"
 
 #: ../../discuss/customizations/mail_activity_note.rst:93
-msgid ""
-"Status of current activities can be reached via menu "
-":menuselection:`Contacts --> Activities --> Activities` and analyzed "
-"using custom filters in list view."
-msgstr ""
-"Dabar veiklos gali būti pasiekiamos per meniu :menuselection:`Kontaktai "
-"--> Veiklos --> Veiklos` ir analizuojamos, naudojant norimus filtrus "
-"sąrašo rodinyje."
-
-#: ../../discuss/customizations/mail_activity_note.rst:102
 msgid ""
 "With Notes functionality, additional fields will be displayed in tree "
 "views (in Activities - Goal and in History - Goal, Outcome) but "
@@ -578,6 +569,105 @@ msgstr ""
 "veiklos tipe, tai reikš, kad toks veiklos tipas bus galimų veiklos tipų "
 "sąraše, tik kai kuriama/redaguojama veikla susijusi su pardavimo "
 "galimybe."
+
+#: ../../discuss/customizations/mail_external_confirm.rst:3
+msgid "Confirmation on sending out messages to external recipients"
+msgstr "Patvirtinimas siunčiant pranešimą išoriniams gavėjams"
+
+#: ../../discuss/customizations/mail_external_confirm.rst:5
+msgid ""
+"Adding extra confirmation step while sending emails to external "
+"recipients (partners, followers). This is included in the chatter and "
+"advanced mail message composition wizard. Confirmation popover will "
+"appear if email is going to be sent to any of external partners with a "
+"list of external recipients."
+msgstr ""
+"Pridedamas papildomas patvirtinimas siunčiant žinutes išoriniams gavėjams"
+" (partneriams, sekėjams). Funkcionalumas veikia tiek bendravimo skiltyje,"
+" tiek ir pilname žinutės siuntimo lange. Siunčiant žinutę išoriniams "
+"gavėjams, iššoks langas, kuris prašys patvirtinimo dėl siuntimo ir tuo "
+"pačiu išvardins visus išorinius gavėjus."
+
+#: ../../discuss/customizations/mail_external_confirm.rst:14
+msgid ""
+"To start using this new functionality, module "
+":code:`mail_external_confirm` must be installed."
+msgstr ""
+"Norėdami pradėti naudoti šį naują funkcionalumą, įdiekite modulį "
+":code:`mail_external_confirm`."
+
+#: ../../discuss/customizations/mail_external_confirm.rst:17
+msgid ""
+"Feature can be enabled/disabled in General Settings "
+"(:menuselection:`Settings --> General Settings --> Discuss`), Discuss "
+"section by changing value of parameter 'Confirm External Emails':"
+msgstr ""
+"Funkcionalumą galima įgalinti Bendruose nustatymuose "
+"(:menuselection:`Nustatymai --> Bendri nustatymai --> Diskusija`), "
+"Diskusijos sekcijoje - pasirenkant *įjungta/išjungta* prie *Patvirtinti "
+"išorinius el.laiškus*:"
+
+#: ../../discuss/customizations/mail_external_confirm.rst:25
+msgid "Functionality"
+msgstr "Funkcionalumas"
+
+#: ../../discuss/customizations/mail_external_confirm.rst:27
+msgid ""
+"This feature warns the user, that the message he/she is intended to send "
+"contains any type of external recipients (external partners, portal "
+"users). It works in *Send Message*, *Log Note* with @ (mention contact) "
+"or # (mention channel)."
+msgstr ""
+"Šis funkcionalumas perspėja naudotoją, kad žinutėje, kurią jis/ji planuoja "
+"išsiųsti, yra bet kokio tipo išorinis gavėjas. Tai veikia *Siųsti žinutę*, "
+"*Registruoti pastabą* su @ (nurodant kontaktus) ar su # (nurodant kanalą)."
+
+#: ../../discuss/customizations/mail_external_confirm.rst:32
+msgid ""
+"This feature will work on all objects that have mail chatter implemented,"
+" e.g. Leads & Opportunities, Partners, Sales, Invoices and other Odoo "
+"objects."
+msgstr ""
+"Šis funkcionalumas veikia su visais objektais, kurie turi įdiegtą susirašinėjimo "
+"ir (el.pašto) žinučių siuntimą, - t.y. Iniciatyvose ir Galimybėse, Partneriuose, "
+"Pardavimuose, Sąskaitose ir kituose Odoo objektuose."
+
+#: ../../discuss/customizations/mail_external_confirm.rst:35
+msgid "Add external followers of the lead, opportunity or partner:"
+msgstr "Pridėkite išorinių stebėtojų iniciatyvoje, galimybėje ar partneriui:"
+
+#: ../../discuss/customizations/mail_external_confirm.rst:40
+msgid ""
+"Try sending message and you will get a pop-up to confirm sending with "
+"listed all external recipients names:"
+msgstr ""
+"Pabandykite siųsti žinutę ir iššoks langas, reikalaujantis patvirtinti "
+"siuntimą bei išvardinantis visus išorinius žinutės gavėjus:"
+
+#: ../../discuss/customizations/mail_external_confirm.rst:47
+msgid "Confirmation in pop-up by default will have *Cancel* selection."
+msgstr "Patvirtinimo lange standartinis pasirinkimas bus *Atšaukti*"
+
+#: ../../discuss/customizations/mail_external_confirm.rst:49
+msgid "Full mail composer has the same functionality as described above."
+msgstr "Pilnas žinutės kūrimo langas turi tą patį funkcionalumą, kuris aprašytas aukščiau."
+
+#: ../../discuss/customizations/mail_external_confirm.rst:51
+msgid ""
+"Channel with external recipients will be triggered, when in channel "
+"configuration *Send messages by email* is marked:"
+msgstr ""
+"Kanalas su išoriniais gavėjais iššauks patvirtinimo langą tik tuo atveju,"
+" jei kanalo nustatymuose bus pažymėtas *Siųsti žinutes el.paštu* "
+"pasirinkimas:"
+
+#: ../../discuss/customizations/mail_external_confirm.rst:58
+msgid ""
+"Please note, that this functionality has no any impact on mass mailing "
+"function."
+msgstr ""
+"Atkreipiame dėmesį, kad aukščiau aprašyta nauja funkcija neturi jokios "
+"įtakos Odoo masinio laiškų siuntimo funkcijai."
 
 #: ../../discuss/customizations/mail_message_keep_unread.rst:3
 msgid "Keep Message Unread if it Was Opened"
@@ -1349,3 +1439,39 @@ msgstr ""
 #~ " & stage) but :code:`mail_activity_history_note`"
 #~ " module must be installed for this."
 #~ msgstr ""
+
+#~ msgid ""
+#~ "Status of current activities can be "
+#~ "reached via menu :menuselection:`Contacts -->"
+#~ " Activities --> Activities` and analyzed"
+#~ " using custom filters in list view."
+#~ msgstr ""
+#~ "Dabar veiklos gali būti pasiekiamos per"
+#~ " meniu :menuselection:`Kontaktai --> Veiklos "
+#~ "--> Veiklos` ir analizuojamos, naudojant "
+#~ "norimus filtrus sąrašo rodinyje."
+
+#~ msgid ""
+#~ "This feature warns the user, that "
+#~ "the message he/she is intended to "
+#~ "send contains any type of external "
+#~ "recipients. It works in *Send Message*,"
+#~ " *Log Note* with @ (mention contact)"
+#~ " or # (mention channel)."
+#~ msgstr ""
+#~ "Šis funkcionalumas perspėja naudotoją, kad "
+#~ "žinutėje, kurią jis/ji planuoja išsiųsti, "
+#~ "yra bet kokio tipo išorinis gavėjas. "
+#~ "Tai veikia *Siųsti žinutę*, *Registruoti "
+#~ "pastabą* su @ (nurodoant kontaktą) ar"
+#~ " su # (nurodant kanalą)."
+
+#~ msgid ""
+#~ "This feature is active with *Leads*, "
+#~ "*Opportunities* in CRM module and "
+#~ "*Partners* in Contacts module."
+#~ msgstr ""
+#~ "Šis funkcionalumas aktyvus tiek su "
+#~ "*Iniciatyvomis* ar *Galimybėmis* CRM modulyje,"
+#~ " tiek ir su *Partneriais* Kontaktų "
+#~ "modulyje."
