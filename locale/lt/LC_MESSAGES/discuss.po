@@ -584,7 +584,7 @@ msgid ""
 msgstr ""
 "Pridedamas papildomas patvirtinimas siunčiant žinutes išoriniams gavėjams"
 " (partneriams, sekėjams). Funkcionalumas veikia tiek bendravimo skiltyje,"
-" tiek ir pilname žinutės siuntuimo lange. Siunčiant žinutę išoriniams "
+" tiek ir pilname žinutės siuntimo lange. Siunčiant žinutę išoriniams "
 "gavėjams, iššoks langas, kuris prašys patvirtinimo dėl siuntimo ir tuo "
 "pačiu išvardins visus išorinius gavėjus."
 
@@ -1475,4 +1475,3 @@ msgstr ""
 #~ "*Iniciatyvomis* ar *Galimybėmis* CRM modulyje,"
 #~ " tiek ir su *Partneriais* Kontaktų "
 #~ "modulyje."
-
