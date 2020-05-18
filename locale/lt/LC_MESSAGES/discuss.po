@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-18 08:42+0300\n"
+"POT-Creation-Date: 2020-05-18 09:08+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -582,37 +582,46 @@ msgid ""
 "appear if email is going to be sent to any of external partners with a "
 "list of external recipients."
 msgstr ""
-"Pridedamas papildomas patvirtinimas siunčiant žinutes išoriniams gavėjams "
-"(partneriams, sekėjams). Funkcionalumas veikia tiek bendravimo skiltyje, tiek "
-"ir pilname žinutės siuntuimo lange. Siunčiant žinutę išoriniams gavėjams, iššoks "
-langas, kuris prašys patvirtinimo dėl siuntimo ir tuo pačiu išvardins visus "
-"išorinius gavėjus."
+"Pridedamas papildomas patvirtinimas siunčiant žinutes išoriniams gavėjams"
+" (partneriams, sekėjams). Funkcionalumas veikia tiek bendravimo skiltyje,"
+" tiek ir pilname žinutės siuntuimo lange. Siunčiant žinutę išoriniams "
+"gavėjams, iššoks langas, kuris prašys patvirtinimo dėl siuntimo ir tuo "
+"pačiu išvardins visus išorinius gavėjus."
 
 #: ../../discuss/customizations/mail_external_confirm.rst:14
+msgid ""
+"To start using this new functionality, module "
+":code:`mail_external_confirm` must be installed."
+msgstr ""
+"Norėdami pradėti naudoti šį naują funkcionalumą, įdiekite modulį "
+":code:`mail_external_confirm`."
+
+#: ../../discuss/customizations/mail_external_confirm.rst:17
 msgid ""
 "Feature can be enabled/disabled in General Settings "
 "(:menuselection:`Settings --> General Settings --> Discuss`), Discuss "
 "section by changing value of parameter 'Confirm External Emails':"
 msgstr ""
 "Funkcionalumą galima įgalinti Bendruose nustatymuose "
-"(:menuselection:`Nustatymai --> Bendri nustatymai --> Diskusija`), Diskusijos "
-"sekcijoje - pasirenkant *įjungta/išjungta* prie *Patvirtinti išorinius el.laiškus*:"
+"(:menuselection:`Nustatymai --> Bendri nustatymai --> Diskusija`), "
+"Diskusijos sekcijoje - pasirenkant *įjungta/išjungta* prie *Patvirtinti "
+"išorinius el.laiškus*:"
 
-#: ../../discuss/customizations/mail_external_confirm.rst:22
+#: ../../discuss/customizations/mail_external_confirm.rst:25
 msgid "Functionality"
 msgstr "Funkcionalumas"
 
-#: ../../discuss/customizations/mail_external_confirm.rst:24
+#: ../../discuss/customizations/mail_external_confirm.rst:27
 msgid ""
 "This feature warns the user, that the message he/she is intended to send "
 "contains any type of external recipients. It works in *Send Message*, "
 "*Log Note* with @ or *Channels*."
 msgstr ""
-"Šis funkcionalumas perspėja naudotoją, kad žinutėje, kurią jis/ji planuoja "
-"išsiųsti, yra bet kokio tipo išorinis gavėjas. Tai veikia *Siųsti žinutę*, "
-*Registruoti pastabą* su @ ar *Kanaluose*.
+"Šis funkcionalumas perspėja naudotoją, kad žinutėje, kurią jis/ji "
+"planuoja išsiųsti, yra bet kokio tipo išorinis gavėjas. Tai veikia "
+"*Siųsti žinutę*, *Registruoti pastabą* su @ ar *Kanaluose*."
 
-#: ../../discuss/customizations/mail_external_confirm.rst:28
+#: ../../discuss/customizations/mail_external_confirm.rst:31
 msgid ""
 "This feature is active with *Leads*, *Opportunities* in CRM module and "
 "*Partners* in Contacts module."
@@ -620,12 +629,11 @@ msgstr ""
 "Šis funkcionalumas aktyvus tiek su *Iniciatyvomis* ar *Galimybėmis* CRM "
 "modulyje, tiek ir su *Partneriais* Kontaktų modulyje."
 
-#: ../../discuss/customizations/mail_external_confirm.rst:31
+#: ../../discuss/customizations/mail_external_confirm.rst:34
 msgid "Add external followers of the lead, opportunity or partner:"
-msgstr ""
-"Pridėkite išorinių stebėtojų iniciatyvoje, galimybėje ar partneriui:"
+msgstr "Pridėkite išorinių stebėtojų iniciatyvoje, galimybėje ar partneriui:"
 
-#: ../../discuss/customizations/mail_external_confirm.rst:36
+#: ../../discuss/customizations/mail_external_confirm.rst:39
 msgid ""
 "Try sending message and you will get a pop-up to confirm sending with "
 "listed all external recipients:"
@@ -633,17 +641,17 @@ msgstr ""
 "Pabandykite siųsti žinutę ir iššoks langas, reikalaujantis patvirtinti "
 "siuntimą bei išvardinantis visus išorinius žinutės gavėjus:"
 
-#: ../../discuss/customizations/mail_external_confirm.rst:43
+#: ../../discuss/customizations/mail_external_confirm.rst:46
 msgid "Confirmation in pop-up by default will have *Cancel* selection."
 msgstr "Patvirtinimo lange standartinis pasirinkimas bus *Atšaukti*"
 
-#: ../../discuss/customizations/mail_external_confirm.rst:45
+#: ../../discuss/customizations/mail_external_confirm.rst:48
 msgid ""
 "Channel with external recipients will be trigered, when in channel "
 "configuration *Send messages by email* is marked:"
 msgstr ""
-"Kanalas su išoriniais gavėjais iššauks patvirtinimo langą tik tuo "
-"atveju, jei kanalo nustatymuose bus pažymėtas *Siųsti žinutes el.paštu* "
+"Kanalas su išoriniais gavėjais iššauks patvirtinimo langą tik tuo atveju,"
+" jei kanalo nustatymuose bus pažymėtas *Siųsti žinutes el.paštu* "
 "pasirinkimas."
 
 #: ../../discuss/customizations/mail_message_keep_unread.rst:3
