@@ -25,11 +25,12 @@ Functionality
 =============
 
 This feature warns the user, that the message he/she is intended to send 
-contains any type of external recipients. It works in *Send Message*, 
-*Log Note* with @ (mention contact) or # (mention channel). 
+contains any type of external recipients (external partners, portal users). 
+It works in *Send Message*, *Log Note* with @ (mention contact) or # (mention 
+channel). 
 
-This feature is active with *Leads*, *Opportunities* in CRM module and 
-*Partners* in Contacts module. 
+This feature will work on all objects that have mail chatter implemented, 
+e.g. Leads & Opportunities, Partners, Sales, Invoices and other Odoo objects.
 
 Add external followers of the lead, opportunity or partner:
 
@@ -37,7 +38,7 @@ Add external followers of the lead, opportunity or partner:
     :align: center
 
 Try sending message and you will get a pop-up to confirm sending 
-with listed all external recipients:
+with listed all external recipients names:
 
 .. image:: media/mail_external_confirm_popup.png
     :align: center
@@ -45,8 +46,14 @@ with listed all external recipients:
 .. note::
     Confirmation in pop-up by default will have *Cancel* selection.
 
+Full mail composer has the same functionality as described above.
+
 Channel with external recipients will be triggered, when in channel 
 configuration *Send messages by email* is marked:
 
 .. image:: media/mail_external_confirm_channel.png
     :align: center
+
+.. note::
+    Please note, that this functionality has no any impact on mass 
+    mailing function.
