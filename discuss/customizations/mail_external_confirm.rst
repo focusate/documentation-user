@@ -26,7 +26,7 @@ Functionality
 
 This feature warns the user, that the message he/she is intended to send 
 contains any type of external recipients. It works in *Send Message*, 
-*Log Note* with @ or *Channels*. 
+*Log Note* with @ (mention contact) or # (mention channel). 
 
 This feature is active with *Leads*, *Opportunities* in CRM module and 
 *Partners* in Contacts module. 
