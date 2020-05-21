@@ -714,7 +714,7 @@ msgid ""
 msgstr ""
 "Pažymėjus *Vienintelė laimima pardavimo galimybė* aktyvuojamas funkcionalumas, "
 "kuris automatiškai pažymės kitas galimybes kaip pralaimėtas, kai tik bus "
-"pažymėta pirma laimėjusi galimybė. Nepamirškite suvesti ir pralaimėjimo priežastį!"
+"pažymėta pirma laimėta galimybė. Nepamirškite suvesti ir pralaimėjimo priežastį!"
 
 #: ../../crm/customizations/crm_offers.rst:41
 msgid ""
