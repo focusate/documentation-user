@@ -755,7 +755,7 @@ msgstr ""
 "modulis."
 
 #: ../../crm/customizations/crm_offers.rst:70
-msgid "This module requires CRM and Sales App to be installed."
+msgid "This module requires CRM and Sales Apps to be installed."
 msgstr "Norint naudoti šį modulį, CRM ir Pardavimų aplikacijos turi būti įdiegtos."
 
 #: ../../crm/customizations/crm_offers.rst:72
