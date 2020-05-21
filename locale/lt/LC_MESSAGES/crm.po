@@ -695,7 +695,7 @@ msgid ""
 "When module is installed and enabled, offers might be found at "
 ":menuselection:`CRM --> Sales --> Offers`"
 msgstr ""
-"kai jau modulis įdiegtas ir aktyvuotas, pasiūlymus galite rasti "
+"Kai jau modulis įdiegtas ir aktyvuotas, pasiūlymus galite rasti "
 ":menuselection:`CRM --> Pardavimai --> Pasiūlymai`."
 
 #: ../../crm/customizations/crm_offers.rst:30
@@ -2010,4 +2010,3 @@ msgstr ""
 #~ "įdiegti modulį :code:`mail_activity_history_crm` ir"
 #~ " Pardavimo procesas bei Etapas bus "
 #~ "įtrauktas į Veiklos istorijos ataskaitą."
-
