@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-28 12:30+0300\n"
+"POT-Creation-Date: 2020-05-21 09:03+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,6 +45,7 @@ msgstr ""
 #: ../../crm/customizations/calendar_address.rst:8
 #: ../../crm/customizations/crm_calendar_opp_assign.rst:8
 #: ../../crm/customizations/crm_multicompany.rst:9
+#: ../../crm/customizations/crm_offers.rst:10
 #: ../../crm/customizations/crm_task.rst:9
 #: ../../crm/customizations/full_kit.rst:11
 #: ../../crm/customizations/lost_reason_improve.rst:8
@@ -651,6 +652,162 @@ msgid ""
 msgstr ""
 "Kelių įmonių taisyklės yra suderinamos kartu su kitomis globaliomis ir "
 "specifinėmis grupių taisyklėmis."
+
+#: ../../crm/customizations/crm_offers.rst:3
+msgid "CRM Offers"
+msgstr "CRM Pasiūlymai"
+
+#: ../../crm/customizations/crm_offers.rst:5
+msgid ""
+"Enables to offer same items for multiple customers at once, by creating "
+"opportunity for each respective customer and then tracking progress. "
+"Extremely usefull functionality in sale situations."
+msgstr ""
+"Šis modulis leidžia pasiūlyti tas pačias prekes pardavimui vienu ypu, "
+"automatiškai sukuriant kiekvienam pirkėjui galimybes ir leidžia stebėti "
+"pažangą iš vienos vietos. Ypač naudingas funkcionalumas, planuojant išpardavimo "
+"akcijas."
+
+#: ../../crm/customizations/crm_offers.rst:12
+msgid "For this feature to work, module :code:`crm_offer` must be installed."
+msgstr ""
+"Kad šis funkcionalumas veiktų, turi būti įdiegtas :code:`crm_offer` "
+"modulis."
+
+#: ../../crm/customizations/crm_offers.rst:15
+msgid "This module requires CRM App to be installed."
+msgstr "Norint naudoti šį modulį, turi būti įdiegta CRM aplikacija."
+
+#: ../../crm/customizations/crm_offers.rst:17
+msgid ""
+"To enable this functionality, go to :menuselection:`CRM --> Configuration"
+" --> Settings` and mark Offers:"
+msgstr ""
+"Norėdami aktyvuoti šį modulį, eikite į :menuselection:`CRM --> Konfigūracija"
+"--> Nustatymai` ir pažymėkite varnele *Pasiūlymai*."
+
+#: ../../crm/customizations/crm_offers.rst:25
+msgid "Functionality"
+msgstr "Funkcionalumas"
+
+#: ../../crm/customizations/crm_offers.rst:27
+msgid ""
+"When module is installed and enabled, offers might be found at "
+":menuselection:`CRM --> Sales --> Offers`"
+msgstr ""
+"Kai jau modulis įdiegtas ir aktyvuotas, pasiūlymus galite rasti "
+":menuselection:`CRM --> Pardavimai --> Pasiūlymai`."
+
+#: ../../crm/customizations/crm_offers.rst:30
+msgid ""
+"To start using offers, a new offer must be created, adding Name, "
+"Salesperson, Sales process and Mode information:"
+msgstr ""
+"Norint pradėti naudotis pasiūlymais, reikia sukurti naują pasiūlymą ir "
+"nurodyti Pavadinimą, Pardavėją, Pardavimo procesą bei Rėžimą:"
+
+#: ../../crm/customizations/crm_offers.rst:37
+msgid ""
+"Marking *Single Opportunity Win* will enable functionality where the "
+"first won opportunity will make other opportunities loose. Please select "
+"*Lost Reason* at once!"
+msgstr ""
+"Pažymėjus *Vienintelė laimima pardavimo galimybė* aktyvuojamas funkcionalumas, "
+"kuris automatiškai pažymės kitas galimybes kaip pralaimėtas, kai tik bus "
+"pažymėta pirma laimėta galimybė. Nepamirškite suvesti ir pralaimėjimo priežastį!"
+
+#: ../../crm/customizations/crm_offers.rst:41
+msgid ""
+"Having new offer created, offer lines must be added via "
+":menuselection:`CRM --> Sales --> Offers --> Actions --> Create Offer "
+"Lines`, where customers and offer lines are filled:"
+msgstr ""
+"Kai jau sukuriamas naujas pasiūlymas, į jį reikia suvesti ir pasiūlymo "
+"eilutes per :menuselection:`CRM --> Pardavimai --> Pasiūlymai --> Veiksmas --> Sukurti "
+"pasiūlymo eilutes` - čia suvedami pirkėjai ir pasiūlymo objektai / eilutės."
+
+#: ../../crm/customizations/crm_offers.rst:48
+msgid ""
+"Having done this, for every company selected, new opportunities are "
+"created with every product, quantities and price, listed in offer:"
+msgstr ""
+"Kai visa informacija suvedama, kiekvienam pirkėjui yra automatiškai sugeneruojamos "
+"galimybės, kuriose atkartojami pasiūlymo produktai, kiekiai ir kainos."
+
+#: ../../crm/customizations/crm_offers.rst:57
+msgid ""
+"Any changes in opportunity will be reflected in the corresponding offer "
+"and this way it is possible to monitor, control and track progress from "
+"one place all the opportunities of the offer:"
+msgstr ""
+"Dirbant su galimybėmis, bet kokie atlikti pakeitimai jose bus atspindėti "
+"atitinkamame pasiūlyme ir tai leidžia vienoje vietoje (pasiūlyme) matyti, "
+"kontroliuoti ir stebėti visų susijusių galimybių progresą ir pokyčius."
+
+#: ../../crm/customizations/crm_offers.rst:65
+msgid "Integration with Sales module"
+msgstr "Integracija su Pardavimais"
+
+#: ../../crm/customizations/crm_offers.rst:67
+msgid "For this feature to work, module :code:`crm_offer_sale` must be installed."
+msgstr ""
+"Kad šis funkcionalumas veiktų, turi būti įdiegtas :code:`crm_offer_sale` "
+"modulis."
+
+#: ../../crm/customizations/crm_offers.rst:70
+msgid "This module requires CRM and Sales Apps to be installed."
+msgstr "Norint naudoti šį modulį, CRM ir Pardavimų aplikacijos turi būti įdiegtos."
+
+#: ../../crm/customizations/crm_offers.rst:72
+msgid ""
+"This module extends CRM Offers with sales functionality where sale order "
+"lines will be used as offer lines, instead of using offer lines on "
+"opportunity directly."
+msgstr ""
+"Šis modulis išplečia CRM pasiūlymų modulio galimybes, padeda automatizuoti "
+"pasiūlymų, galimybių procesą, tačiau pasiūlymo eilutės yra automatiškai "
+"perkeliamos į komercinius pasiūlymus, o ne į galimybes."
+
+#: ../../crm/customizations/crm_offers.rst:76
+msgid ""
+"Having module installed, select Opportunities & Sale Orders in *Mode* "
+"selection:"
+msgstr ""
+"Įdiegus modulį, kurdami naują pasiūlymą pasirinkite *Pardavimo galimybės ir " 
+"užsakymai* Rėžime:"
+
+#: ../../crm/customizations/crm_offers.rst:82
+msgid ""
+"Please note, that in this case, products in offer lines are added from "
+"your product list with all the binding product information. Sale price "
+"and quantity must be entered manually."
+msgstr ""
+"Norime pastebėti, kad šiuo atveju pasiūlymo eilutėse produktai bus ne "
+"tiesiog įrašomi, bet pasirenkami iš jūsų produktų sąrašo, kartu perkeliant ir "
+"produktų susijusią informaciją. Tik vieneto kainą ir kiekį reikės nurodyti patiems."
+
+#: ../../crm/customizations/crm_offers.rst:86
+msgid "Opportunities are created, same as before:"
+msgstr "Galimybės bus sukuriamos automatiškai kaip ir anksčiau:"
+
+#: ../../crm/customizations/crm_offers.rst:91
+msgid ""
+"But in sales integration, offers are managed via quotations, not via "
+"opportunities offer lines:"
+msgstr ""
+"Tačiau dabar pasiūlymai bus valdomi per komercinių pasiūlymų eilutes, o ne "
+"galimybių eilutes, kaip anksčiau:"
+
+#: ../../crm/customizations/crm_offers.rst:98
+msgid ""
+"Please note, that only one sales order is allowed with one opportunity. "
+"This is because Sales price, TVC, Throughput and other calculations might"
+" become irrelevant if more sales orders allowed."
+msgstr ""
+"Norime atkreipti dėmesį, kad yra palikta galimybė turėti tik vieną komercinį "
+"pasiūlymą su viena galimybe. Taip yra todėl, kad Pardavimo kainos, TVC, Pralaidumo "
+"skaičiavimai taptų beprasmiai, jei prie galimybės būtų daugiau nei vienas komercinis "
+"pasiūlymas."
 
 #: ../../crm/customizations/crm_task.rst:3
 msgid "Tasks from Leads/Opportunities"
@@ -1853,4 +2010,3 @@ msgstr ""
 #~ "įdiegti modulį :code:`mail_activity_history_crm` ir"
 #~ " Pardavimo procesas bei Etapas bus "
 #~ "įtrauktas į Veiklos istorijos ataskaitą."
-

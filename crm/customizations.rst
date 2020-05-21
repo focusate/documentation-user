@@ -14,6 +14,7 @@ Customizations
    customizations/crm_calendar_opp_assign
    customizations/crm_multicompany
    customizations/crm_task
+   customizations/crm_offers
    ../discuss/customizations/mail_activity_edit_date
    ../discuss/customizations/mail_activity_extended
    ../discuss/customizations/mail_activity_history
