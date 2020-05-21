@@ -773,7 +773,7 @@ msgid ""
 "Having module installed, select Opportunities & Sale Orders in *Mode* "
 "selection:"
 msgstr ""
-"Įdiegus modulį, kurdami naują pasiūlymą pasirinkite *Pardavimo galimybės ir" 
+"Įdiegus modulį, kurdami naują pasiūlymą pasirinkite *Pardavimo galimybės ir " 
 "užsakymai* Rėžime:"
 
 #: ../../crm/customizations/crm_offers.rst:82
