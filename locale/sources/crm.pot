@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 18:29+0300\n"
+"POT-Creation-Date: 2020-05-21 09:03+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,6 +39,7 @@ msgstr ""
 #: ../../crm/customizations/calendar_address.rst:8
 #: ../../crm/customizations/crm_calendar_opp_assign.rst:8
 #: ../../crm/customizations/crm_multicompany.rst:9
+#: ../../crm/customizations/crm_offers.rst:10
 #: ../../crm/customizations/crm_task.rst:9
 #: ../../crm/customizations/full_kit.rst:11
 #: ../../crm/customizations/lost_reason_improve.rst:8
@@ -400,6 +401,90 @@ msgstr ""
 
 #: ../../crm/customizations/crm_multicompany.rst:52
 msgid "Multi-companies rules are combined together with other global and group-specific rules."
+msgstr ""
+
+#: ../../crm/customizations/crm_offers.rst:3
+msgid "CRM Offers"
+msgstr ""
+
+#: ../../crm/customizations/crm_offers.rst:5
+msgid "Enables to offer same items for multiple customers at once, by creating opportunity for each respective customer and then tracking progress. Extremely usefull functionality in sale situations."
+msgstr ""
+
+#: ../../crm/customizations/crm_offers.rst:12
+msgid "For this feature to work, module :code:`crm_offer` must be installed."
+msgstr ""
+
+#: ../../crm/customizations/crm_offers.rst:15
+msgid "This module requires CRM App to be installed."
+msgstr ""
+
+#: ../../crm/customizations/crm_offers.rst:17
+msgid "To enable this functionality, go to :menuselection:`CRM --> Configuration --> Settings` and mark Offers:"
+msgstr ""
+
+#: ../../crm/customizations/crm_offers.rst:25
+msgid "Functionality"
+msgstr ""
+
+#: ../../crm/customizations/crm_offers.rst:27
+msgid "When module is installed and enabled, offers might be found at :menuselection:`CRM --> Sales --> Offers`"
+msgstr ""
+
+#: ../../crm/customizations/crm_offers.rst:30
+msgid "To start using offers, a new offer must be created, adding Name, Salesperson, Sales process and Mode information:"
+msgstr ""
+
+#: ../../crm/customizations/crm_offers.rst:37
+msgid "Marking *Single Opportunity Win* will enable functionality where the first won opportunity will make other opportunities loose. Please select *Lost Reason* at once!"
+msgstr ""
+
+#: ../../crm/customizations/crm_offers.rst:41
+msgid "Having new offer created, offer lines must be added via :menuselection:`CRM --> Sales --> Offers --> Actions --> Create Offer Lines`, where customers and offer lines are filled:"
+msgstr ""
+
+#: ../../crm/customizations/crm_offers.rst:48
+msgid "Having done this, for every company selected, new opportunities are created with every product, quantities and price, listed in offer:"
+msgstr ""
+
+#: ../../crm/customizations/crm_offers.rst:57
+msgid "Any changes in opportunity will be reflected in the corresponding offer and this way it is possible to monitor, control and track progress from one place all the opportunities of the offer:"
+msgstr ""
+
+#: ../../crm/customizations/crm_offers.rst:65
+msgid "Integration with Sales module"
+msgstr ""
+
+#: ../../crm/customizations/crm_offers.rst:67
+msgid "For this feature to work, module :code:`crm_offer_sale` must be installed."
+msgstr ""
+
+#: ../../crm/customizations/crm_offers.rst:70
+msgid "This module requires CRM and Sales App to be installed."
+msgstr ""
+
+#: ../../crm/customizations/crm_offers.rst:72
+msgid "This module extends CRM Offers with sales functionality where sale order lines will be used as offer lines, instead of using offer lines on opportunity directly."
+msgstr ""
+
+#: ../../crm/customizations/crm_offers.rst:76
+msgid "Having module installed, select Opportunities & Sale Orders in *Mode* selection:"
+msgstr ""
+
+#: ../../crm/customizations/crm_offers.rst:82
+msgid "Please note, that in this case, products in offer lines are added from your product list with all the binding product information. Sale price and quantity must be entered manually."
+msgstr ""
+
+#: ../../crm/customizations/crm_offers.rst:86
+msgid "Opportunities are created, same as before:"
+msgstr ""
+
+#: ../../crm/customizations/crm_offers.rst:91
+msgid "But in sales integration, offers are managed via quotations, not via opportunities offer lines:"
+msgstr ""
+
+#: ../../crm/customizations/crm_offers.rst:98
+msgid "Please note, that only one sales order is allowed with one opportunity. This is because Sales price, TVC, Throughput and other calculations might become irrelevant if more sales orders allowed."
 msgstr ""
 
 #: ../../crm/customizations/crm_task.rst:3
