@@ -67,7 +67,7 @@ Integration with Sales module
 For this feature to work, module :code:`crm_offer_sale` must be installed.
 
 .. note::
-    This module requires CRM and Sales App to be installed.
+    This module requires CRM and Sales Apps to be installed.
 
 This module extends CRM Offers with sales functionality where sale order 
 lines will be used as offer lines, instead of using offer lines on opportunity 
