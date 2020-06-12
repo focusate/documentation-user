@@ -87,6 +87,24 @@ and outcome:
 .. image:: media/note_activity_done_chatter.png
     :align: center
 
+.. note::
+    Please note, that outcome and goal values can be translated - multilanguage is added.
+
+Phones of the contact 
+======================
+
+When a contact is selected in the Note activity, phone and mobile phone is 
+displayed below the contact:
+
+.. image:: media/note_activity_phone.png
+    :align: center
+
+In the case the contact has no any phone entered, a message *Please 
+add contact details to you Customer card* will be displayed:
+
+.. image:: media/note_activity_nophone.png
+    :align: center
+
 Analyze Note Activities and History
 ===================================
 

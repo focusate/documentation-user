@@ -45,3 +45,24 @@ activity type, as done.
 
     .. image:: media/activity_popover_toggle_mark_done_kanban.png
         :align: center
+
+Hidden *Schedule* button
+========================
+
+When activity is planned and user wants to *Mark done* it, 
+in the window, what pops-up, there will not be *Schedule* button, - 
+instead it will be *Done & Lounch Next*, *Mark As Done* or *Discard* only 
+and *Done & Lounch Next* will be selcted by default:
+
+.. image:: media/activity_popover_toggle_doneandlaunchnext.png
+        :align: center
+
+In the case *Auto Schedule Next Activity* is marked in Activity Type, 
+hitting *Mark done* will pop-up a window with *Done & Lounch Next* or 
+*Discard* selections only:
+
+.. image:: media/activity_popover_toggle_doneandlaunchnext_only.png
+        :align: center
+
+If the user hit *Edit* or start a new activity, all the standard action buttons 
+will be displayed for the user at the bootom of the window.
