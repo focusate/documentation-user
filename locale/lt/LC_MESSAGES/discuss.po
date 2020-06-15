@@ -501,7 +501,7 @@ msgstr ""
 #: ../../discuss/customizations/mail_activity_note.rst:91
 msgid ""
 "Please note, that outcome and goal values can be translated - "
-"multilanguage is added."
+"multi-language support is added."
 msgstr ""
 "Atkreipiame dėmesį, kad *Veiklos rezultatai* ir *Veiklos tikslai* gali "
 "būti išversti į norimą kalbą - pridėtas daugiakalbiškumo palaikymas."
