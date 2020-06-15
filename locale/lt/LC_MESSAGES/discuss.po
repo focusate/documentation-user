@@ -32,7 +32,7 @@ msgstr "Veiklų Standartinės Reikšmės"
 #: ../../discuss/customizations/mail_activity_defaults.rst:5
 msgid "Allow to set defaults depending on Related Document Model (model name)."
 msgstr ""
-"Leidžia nustatyti standartines reikšmes, apribojant veikimą Related "
+"Leidžia nustatyti numatytasias reikšmes, pagal Related "
 "Document Model (modelio pavadinimas)."
 
 #: ../../discuss/customizations/mail_activity_defaults.rst:7
@@ -1592,4 +1592,3 @@ msgstr ""
 #~ "*Iniciatyvomis* ar *Galimybėmis* CRM modulyje,"
 #~ " tiek ir su *Partneriais* Kontaktų "
 #~ "modulyje."
-
