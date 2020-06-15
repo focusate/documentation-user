@@ -58,7 +58,7 @@ and *Done & Schedule Next* will be selected by default:
         :align: center
 
 In the case *Auto Schedule Next Activity* is marked in Activity Type, 
-hitting *Mark done* will pop-up a window with *Done & Lounch Next* or 
+hitting *Mark done* will pop-up a window with *Done & Launch Next* or 
 *Discard* selections only:
 
 .. image:: media/activity_popover_toggle_doneandlaunchnext_only.png
