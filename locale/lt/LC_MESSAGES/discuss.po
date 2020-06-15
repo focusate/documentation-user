@@ -53,7 +53,7 @@ msgid ""
 "activity, click on *bug* (*Open Developer Tools*) and open *Set "
 "Defaults*:"
 msgstr ""
-"Įdiegus modulį, įjungus debug būseną, pradėkite vesti veiklą ir tada "
+"Įdiegus modulį, įjungus kūrėjo rėžimą, pradėkite vesti veiklą ir tada "
 "spauskite *vabaliuką*, ir meniu pasirinkite *Nustatyti kaip "
 "numatytuosius*:"
 
