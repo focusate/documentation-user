@@ -10,7 +10,7 @@ be installed.
 Usage
 =============
 
-Having module installed, debug mode activated, start entering activity, click on 
+Having module installed, developer mode activated, start entering activity, click on 
 *bug* (*Open Developer Tools*) and open *Set Defaults*:
 
 .. image:: media/mail_activity_default_select.png
@@ -25,4 +25,3 @@ select is this defaul applied to All users or only You:
     :align: center
 
 Next time starting new activity, default one will be already selected.
-
