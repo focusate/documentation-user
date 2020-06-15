@@ -88,7 +88,7 @@ and outcome:
     :align: center
 
 .. note::
-    Please note, that outcome and goal values can be translated - multilanguage is added.
+    Please note, that outcome and goal values can be translated - multi-language support is added.
 
 Phones of the contact 
 ======================
