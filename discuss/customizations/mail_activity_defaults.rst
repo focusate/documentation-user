@@ -1,6 +1,6 @@
-=============================
+=================
 Activity Defaults
-=============================
+=================
 
 Allow to set defaults depending on Related Document Model (model name).
 
@@ -8,7 +8,7 @@ For this feature to work, module :code:`mail_activity_defaults` must
 be installed.
 
 Usage
-=============
+=====
 
 Having module installed, debug mode activated, start entering activity, click on 
 *bug* and open *Set Defaults*:
