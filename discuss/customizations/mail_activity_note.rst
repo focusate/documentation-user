@@ -99,7 +99,7 @@ displayed below the contact:
 .. image:: media/note_activity_phone.png
     :align: center
 
-In the case the contact has no any phone entered, a message *Please 
+In the case the contact has no phone entered, a message *Please 
 add contact details to you Customer card* will be displayed:
 
 .. image:: media/note_activity_nophone.png

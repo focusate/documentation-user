@@ -10,13 +10,13 @@ be installed.
 Usage
 =====
 
-Having module installed, debug mode activated, start entering activity, click on 
-*bug* and open *Set Defaults*:
+Having module installed, developer mode activated, start entering activity, click on 
+*bug* (*Open Developer Tools*) and open *Set Defaults*:
 
 .. image:: media/mail_activity_default_select.png
     :align: center
 
-In *Set Default* window, select what activity type must be default (i.e. Activity = 
+In *Set Default* window, e.g. select what activity type must be default (i.e. Activity = 
 Call, Email, Meeting, etc.), select Condition, what is added as new functionality 
 (Related Document Model = crm.lead) to limit application of this default and also 
 select is this defaul applied to All users or only You:
@@ -25,5 +25,3 @@ select is this defaul applied to All users or only You:
     :align: center
 
 Next time starting new activity, default one will be already selected.
-
-
