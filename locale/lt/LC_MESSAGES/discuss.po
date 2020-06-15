@@ -515,7 +515,7 @@ msgid ""
 "When a contact is selected in the Note activity, phone and mobile phone "
 "is displayed below the contact:"
 msgstr ""
-"Kai (Note tipo) veikloje pasirenkamas kontaktas, telefonas ir  mobilus "
+"Kai (Note tipo) veikloje pasirenkamas kontaktas, telefonas ir mobilus "
 "telefonas yra rodomas po kontaktu:"
 
 #: ../../discuss/customizations/mail_activity_note.rst:102
