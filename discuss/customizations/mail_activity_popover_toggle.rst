@@ -52,7 +52,7 @@ Hidden *Schedule* button
 When activity is planned and user wants to *Mark done* it, 
 in the window, what pops-up, there will not be *Schedule* button, - 
 instead it will be *Done & Schedule Next*, *Mark As Done* or *Discard* only 
-and *Done & Lounch Next* will be selcted by default:
+and *Done & Schedule Next* will be selected by default:
 
 .. image:: media/activity_popover_toggle_doneandlaunchnext.png
         :align: center
