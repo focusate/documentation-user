@@ -610,7 +610,7 @@ msgstr ""
 "Kai suplanuotą veiklą norima *Pažymėti kaip atliktą*, atsidariusiame "
 "lange nebus rodomas *Suplanuoti* mygtukas, - vietoje jo bus rodomi tik "
 "*Atlikti ir suplanuoti kitą*, *Atmesti* ir *Pažymėti kaip atliktą* mygtukai"
-" ir *Atlikti ir paleisti kitą* bus standartiškai pažymėtas."
+" ir *Atlikti ir suplanuoti kitą* bus standartiškai pažymėtas."
 
 #: ../../discuss/customizations/mail_activity_popover_toggle.rst:60
 msgid ""
