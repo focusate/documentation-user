@@ -65,4 +65,4 @@ hitting *Mark done* will pop-up a window with *Done & Launch Next* or
         :align: center
 
 If the user hit *Edit* or start a new activity, all the standard action buttons 
-will be displayed for the user at the bootom of the window.
+will be displayed for the user at the bottom of the window.
