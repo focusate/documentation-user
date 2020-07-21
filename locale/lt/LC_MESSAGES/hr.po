@@ -57,10 +57,10 @@ msgid ""
 "(:menuselection:`Employees --> Configuration --> Settings`), Under Work "
 "Organization section checking 'Date Type for Substitutes' option:"
 msgstr ""
-"Pagal standartą datos laiko tipas naudojamas datos su laiku, tačiau ji "
-"galima pakeisti į datos tipą be laiko. Tai galima nustatytį darbuotojų "
+"Pagal nutylėjimą datos laiko tipas naudojamas datos su laiku, tačiau jį "
+"galima pakeisti į datos tipą be laiko. Tai galima nustatyti darbuotojų "
 "nustatymuose (:menuselection:`Darbuotojai --> Nustatymai --> Nustatymai`)"
-" įjungiant Datos tipas pavaduotojams nustatymą"
+" įjungiant Datos tipas pavaduotojams nustatymą:"
 
 #: ../../hr/customizations/hr_employee_substitute.rst:23
 msgid ""
@@ -69,7 +69,7 @@ msgid ""
 "enabled/disabled on (:menuselection:`Settings --> Technical --> Scheduled"
 " Actions`)"
 msgstr ""
-"Be to, yra tvarkaraštis, kuris pagal pagal nutylėjimą kas valandą patikriną"
+"Be to, yra suplanuotas veiksmas, kuris pagal pagal nutylėjimą kas valandą patikrina"
 " ar darbuotojo pavaduotojas vis dar galioja. Suplanuotas veiksmas gali būti"
 " įjungtas/išjungtas (:menuselection:`Nustatymai --> Techninis --> Suplanuoti"
 " veiksmai`)"
@@ -100,7 +100,7 @@ msgstr ""
 
 #: ../../hr/customizations/hr_employee_substitute.rst:39
 msgid "Here you can see all substitutes in a tree view:"
-msgstr "Čia galite pamatyti visų pavaduotojų sąrašą"
+msgstr "Čia galite pamatyti visų pavaduotojų sąrašą:"
 
 #: ../../hr/customizations/hr_employee_substitute.rst:44
 msgid ""
@@ -116,7 +116,7 @@ msgid ""
 "date:"
 msgstr ""
 "Darbuotojo pavaduotojas automatiškai tampa galiojančiu, kai tik "
-"pasiekiama šiandienos data"
+"pasiekiama šiandienos data:"
 
 #: ../../hr/customizations/hr_employee_substitute.rst:55
 msgid ""
@@ -124,5 +124,4 @@ msgid ""
 "app."
 msgstr ""
 "Papildomai pavaduotojus galima peržiūrėti / sukurti tiesiogiai iš "
-"Darbuotojų applikacijos"
-
+"Darbuotojų applikacijos."
