@@ -18,8 +18,8 @@ msgstr ""
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../hr.rst:5
-msgid "HR"
-msgstr ""
+msgid "Human Resources"
+msgstr "Žmogiškieji ištekliai"
 
 #: ../../hr/customizations.rst:3
 msgid "Customizations"
@@ -69,7 +69,7 @@ msgid ""
 "enabled/disabled on (:menuselection:`Settings --> Technical --> Scheduled"
 " Actions`)"
 msgstr ""
-"Be to, yra suplanuotas veiksmas, kuris pagal pagal nutylėjimą kas valandą patikrina"
+"Be to, yra suplanuotas veiksmas, kuris pagal nutylėjimą kas valandą patikrina"
 " ar darbuotojo pavaduotojas vis dar galioja. Suplanuotas veiksmas gali būti"
 " įjungtas/išjungtas (:menuselection:`Nustatymai --> Techninis --> Suplanuoti"
 " veiksmai`)"

@@ -1,8 +1,8 @@
 :banner: banners/hr.jpg
 
-==
-HR
-==
+===============
+Human Resources
+===============
 
 .. toctree::
    :titlesonly:
