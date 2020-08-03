@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-22 15:25+0300\n"
+"POT-Creation-Date: 2020-08-03 08:42+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,6 +24,34 @@ msgstr ""
 msgid "Customizations"
 msgstr ""
 
+#: ../../discuss/customizations/mail_activity_defaults.rst:3
+msgid "Activity Defaults"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_defaults.rst:5
+msgid "Allow to set defaults depending on Related Document Model (model name)."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_defaults.rst:7
+msgid "For this feature to work, module :code:`mail_activity_defaults` must be installed."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_defaults.rst:11
+msgid "Usage"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_defaults.rst:13
+msgid "Having module installed, developer mode activated, start entering activity, click on *bug* (*Open Developer Tools*) and open *Set Defaults*:"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_defaults.rst:19
+msgid "In *Set Default* window, e.g. select what activity type must be default (i.e. Activity = Call, Email, Meeting, etc.), select Condition, what is added as new functionality (Related Document Model = crm.lead) to limit application of this default and also select is this defaul applied to All users or only You:"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_defaults.rst:27
+msgid "Next time starting new activity, default one will be already selected."
+msgstr ""
+
 #: ../../discuss/customizations/mail_activity_edit_date.rst:3
 msgid "Allow Editing Activity Due Date"
 msgstr ""
@@ -36,8 +64,11 @@ msgstr ""
 #: ../../discuss/customizations/mail_activity_extended.rst:10
 #: ../../discuss/customizations/mail_activity_history.rst:8
 #: ../../discuss/customizations/mail_activity_limit.rst:10
+#: ../../discuss/customizations/mail_activity_note.rst:14
 #: ../../discuss/customizations/mail_activity_popover_toggle.rst:9
 #: ../../discuss/customizations/mail_activity_type_domain.rst:9
+#: ../../discuss/customizations/mail_alias_template.rst:8
+#: ../../discuss/customizations/mail_external_confirm.rst:12
 #: ../../discuss/customizations/mail_message_keep_unread.rst:8
 #: ../../discuss/customizations/mail_message_reply.rst:8
 #: ../../discuss/customizations/mail_suggested_partners_uncheck.rst:9
@@ -90,6 +121,8 @@ msgid "Now activities can be reached via menu :menuselection:`Contacts --> Activ
 msgstr ""
 
 #: ../../discuss/customizations/mail_activity_extended.rst:25
+#: ../../discuss/customizations/mail_activity_history_crm.rst:12
+#: ../../discuss/customizations/mail_activity_note.rst:120
 msgid ":doc:`mail_activity_history`"
 msgstr ""
 
@@ -138,7 +171,20 @@ msgid "History of done or cancelled activities can be reached via menu :menusele
 msgstr ""
 
 #: ../../discuss/customizations/mail_activity_history.rst:45
+#: ../../discuss/customizations/mail_activity_note.rst:118
 msgid ":doc:`mail_activity_extended`"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_history_crm.rst:3
+msgid "Sales Process and Stage in Activity History"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_history_crm.rst:5
+msgid "Sales Process and Stage might be available for analysis of history of done or cancelled activities via :menuselection:`Contacts --> Activities --> Activity History`:"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_history_crm.rst:14
+msgid "In order to use this functionality module :code:`mail_activity_history_crm` must be installed and Sales Process and Stage will be included in activity history view."
 msgstr ""
 
 #: ../../discuss/customizations/mail_activity_limit.rst:3
@@ -151,6 +197,102 @@ msgstr ""
 
 #: ../../discuss/customizations/mail_activity_limit.rst:12
 msgid "For this feature to work, module :code:`mail_activity_limit` must be installed and *Activity Limit* in Discuss section of General Settings must be configured. Value of *Activity Limit* must be a dictionary, where key is model and value is number of allowed active activities per user per record (e.g. ``{'res.partner': 2, 'crm.lead': 1}`` means, that user can only have two active activities on the same partner and one - on the same lead/opportunity)."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:3
+msgid "Note Activities"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:5
+msgid "New activity type called *Note* added next to currently available generic *Other* type and *Meeting* (that allows to create meeting from activity)."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:9
+msgid "If you select *Note* category on your activity type (most likely on Call activity type), it will behave as a goal activity, where you will need to select goal and contact."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:16
+msgid "To start using this new activity category, module :code:`mail_activity_note` must be installed and *Note* activity type added."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:19
+msgid "To add this new activity type, go to :menuselection:`CRM --> Configuration --> Activity Types` and create  new activity type with category *Note*:"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:25
+msgid "Contact can be made mandatory on activity type, by checking *Contact required* option. If not checked, it will be optional."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:28
+msgid "*Hide popover* is always mandatory for this type. This depends on module :code:`mail_activity_popover_toggle` that allows to hide little activity popup form - see more: :doc:`mail_activity_popover_toggle`. When *Note* category is chosen, by default, it will select that option. If User force unselects it when *Note* category is chosen, constraint will prevent from saving such changes."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:35
+msgid "On activity type, one can specify partner field, so it would be possible to know how to filter contacts on activity - *Path To Commercial Partner* field is used for this purpose - add *partner_id.commercial_partner_id* in this field to filter partner contacts on activity."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:41
+msgid "Don't forget to save changes to your new activity type! - to start using it."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:44
+msgid "Note Type Activity Functionality"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:46
+msgid "Schedule and activity for CRM, Contacts, Sales, Project or any other Odoo object. Click on *Schedule activity*:"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:52
+msgid "Fill in all the required fields in the window, what opens:"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:57
+msgid "Click *Schedule* to save activity and new *Note* category activity is planned:"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:63
+msgid "Activity template is updated, so after scheduling activity, it would show *Note* extra information: goal, contact, contact phone and contact mobile phone (if phone or mobile phone is not set on selected contact, label will be hidden to not pollute view)."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:68
+msgid "Goal and Contact is made visible in main area - without a need to click on Info button."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:70
+msgid "When finishing *Note* type activity, activity pop up will be displayed - it will show new mandatory drop down field *Outcome*:"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:77
+msgid "Outcome and goal values can be specified via activity menu (see in admin settings - :menuselection:`Settings --> Technical --> Activity Goals` and :menuselection:`Settings --> Technical --> Activity Outcomes`). It is also possible to limit for which activity type specific outcome/goal can be used. By default, every activity with Note type can use it. If activity types are specified on goal/outcome records, it will be available only for those types."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:84
+msgid "After activity is done, Note is created in *Chatter* with extra info: contact, goal and outcome:"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:91
+msgid "Please note, that outcome and goal values can be translated - multi-language support is added."
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:94
+msgid "Phones of the contact"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:96
+msgid "When a contact is selected in the Note activity, phone and mobile phone is displayed below the contact:"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:102
+msgid "In the case the contact has no phone entered, a message *Please add contact details to you Customer card* will be displayed:"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:109
+msgid "Analyze Note Activities and History"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_note.rst:111
+msgid "With Notes functionality, additional fields will be displayed in tree views (in Activities - Goal and in History - Goal, Outcome) but :code:`mail_activity_history_note` module must be installed for this."
 msgstr ""
 
 #: ../../discuss/customizations/mail_activity_popover_toggle.rst:3
@@ -189,6 +331,22 @@ msgstr ""
 msgid "You can mark activity as done via chatter or kanban view, e.g.:"
 msgstr ""
 
+#: ../../discuss/customizations/mail_activity_popover_toggle.rst:50
+msgid "Hidden *Schedule* button"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_popover_toggle.rst:52
+msgid "When activity is planned and user wants to *Mark done* it, in the window, what pops-up, there will not be *Schedule* button, - instead it will be *Done & Schedule Next*, *Mark As Done* or *Discard* only and *Done & Schedule Next* will be selected by default:"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_popover_toggle.rst:60
+msgid "In the case *Auto Schedule Next Activity* is marked in Activity Type, hitting *Mark done* will pop-up a window with *Done & Launch Next* or *Discard* selections only:"
+msgstr ""
+
+#: ../../discuss/customizations/mail_activity_popover_toggle.rst:67
+msgid "If the user hit *Edit* or start a new activity, all the standard action buttons will be displayed for the user at the bottom of the window."
+msgstr ""
+
 #: ../../discuss/customizations/mail_activity_type_domain.rst:3
 msgid "Use Different Activity Types on the Same Model"
 msgstr ""
@@ -215,6 +373,206 @@ msgstr ""
 
 #: ../../discuss/customizations/mail_activity_type_domain.rst:27
 msgid "For example, if we set 'Lead/Opportunity' as *Model* and :code:`[('type', '=', 'opportunity')]` as *Domain* on activity type, it means that such activity type will appear in the list of available activity types while creating/updating an activity on opportunities only."
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:3
+msgid "Email Parsing via Mail Alias Templates"
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:5
+msgid "Configure mail alias template to be able to parse email content that is used to create and update related records."
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:10
+msgid "To be able to use mail alias templates, :code:`mail_alias_template` module must be installed first."
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:12
+msgid "Then can open or create wanted mail alias (in :menuselection:`Settings --> Technical --> Email --> Aliases`). To be able to use template, check :code:`Use Template` option."
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:14
+msgid "First need to specify :code:`Line Pattern`. Here special placeholders :code:`_KEY_` and :code:`_VAL_` must be specified on this field. These placeholders are used to know where to expect key and value when parsing email message. Line Pattern Also consists of optional Prefix (that goes before key/value pair) and suffix (that goes after key/value pair) and mandatory separator (that indicates how to distinguish key from value)."
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:16
+msgid "If Prefix and Suffix would be used, pattern example could be: :code:`[_KEY_] {_VAL_}`, where :code:`[` would be prefix, :code:`] {` would be separator and :code:`}` would be suffix."
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:18
+msgid "Second thing that is needed - to add actual mapping lines. On :code:`Key` field specify key that is expected to be found on email message and on :code:`Field` field specify to which field map parsed value from message."
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:24
+msgid "Map Line Options"
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:30
+msgid "Update record with another email message"
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:32
+msgid "Related record update can be done in two ways:"
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:34
+msgid "Replying to existing message that was sent from Odoo or message that has a special Message-ID header that Odoo uses in order to identify related record."
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:35
+msgid "Using one of the keys as identifier by checking :code:`Is Identifier` option. When message is parsed and if it finds key with this option, it will search another message that has same identifier. If it finds one, it will use that message's related record for update instead of creating new record."
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:38
+msgid "Update Operation"
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:40
+msgid "If there are multiple keys that need to update a single field on Odoo side, Update operation offers few options how to handle it:"
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:42
+msgid "Concatenate: concatenate two or more values into one. If field is of string type, can also use :code:`Update Prefix`, where you can separate values. For example by empty space or newline. Prefix must be entered between quotes."
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:43
+msgid "No Overwriting: with this option, if multiple keys try to update same field, only the first one will be applied. Others, will be ignored."
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:47
+msgid "Date Format"
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:49
+msgid "If mail message is expected to provide dates and date format is different than Odoo's format, it is possible to specify what kind of format email message date has, so it could be converted to the one Odoo understands. For formatting details, check field's help description."
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:53
+msgid "Values Mapping"
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:55
+msgid "Can use this if parsed values on message must be translated to different values on Odoo side. For example we have key/value pair :code:`State: completed`, but on Odoo side, we want to translate such value to :code:`done`. So we add new values mapping where :code:`Key` is :code:`completed` and Value :code:`done`."
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:58
+msgid "Values Search"
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:60
+msgid "If we need to get related record (Many2one field) database ID, but parsed message can't provide such information, it is possible to use parsed values in search to find actual database ID. For example, if we need to set Salesperson on partner and we only know user's login, but not his ID, we can use such domain: :code:`[('login', '_VAL_')]`, where :code:`_VAL_` is value parsed on message line (in this case it would be user login)."
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:64
+msgid "Map Keys & Map Lines Order"
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:66
+msgid "On :code:`Map Keys Order` field, can specify order of keys in which to parse email message lines. For example if we have this message:"
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:74
+msgid "If no :code:`Map Keys Order` is provided, default order will be as if seen on message: City, Country, Street."
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:76
+msgid "We can change that order, if we specify for example :code:`Street, City, Country`. Order must be list of keys separated by commas. It is also possible to not specify all keys that are used, but only those that have priority to be ordered. If for example we would specify order as :code:`Street, City`, lines would be ordered as follows: Street, City, Country. All not specified keys' lines will be put after ordered lines."
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:78
+msgid "It is also possible to change order where each mapping is applied on message line that is being parsed. Just need to click on :code:`Plus` sign and drag up or down:"
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:83
+msgid "Changing order can have impact on parsing and setting specific values. For example, it might be important to give priority for one value over other (if let say multiple map lines set same value on record that is created or updated)."
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:87
+msgid "Other Specifics"
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:89
+msgid "When mail alias template is used and incoming email is fetched for that alias, both email subject and body are parsed. It means, key/value pair can also be included on subject if needed."
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:91
+msgid "Standard :code:`Default Values` field is used as fallback, if some mapped key was not found on email message. For example, if we configure template to look for :code:`Street` key that is mapped with field named :code:`street`, but no such key is found on email and we also have default values specified as :code:`{'street': 'My Default Street'}`, when creating new record, it will use that default street value."
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:95
+msgid "Videos"
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:98
+msgid "Introduction"
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:107
+msgid "Line Pattern and Fields Mapping Configuration"
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:115
+msgid "Use Parsed Message Value to Find Related Odoo Record"
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:123
+msgid "Use Value Mapping to Translate Parsed Value Into New One"
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:131
+msgid "Update Related Record Using Key as Identifier"
+msgstr ""
+
+#: ../../discuss/customizations/mail_external_confirm.rst:3
+msgid "Confirmation on sending out messages to external recipients"
+msgstr ""
+
+#: ../../discuss/customizations/mail_external_confirm.rst:5
+msgid "Adding extra confirmation step while sending emails to external recipients (partners, followers). This is included in the chatter and advanced mail message composition wizard. Confirmation popover will appear if email is going to be sent to any of external partners with a list of external recipients."
+msgstr ""
+
+#: ../../discuss/customizations/mail_external_confirm.rst:14
+msgid "To start using this new functionality, module :code:`mail_external_confirm` must be installed."
+msgstr ""
+
+#: ../../discuss/customizations/mail_external_confirm.rst:17
+msgid "Feature can be enabled/disabled in General Settings (:menuselection:`Settings --> General Settings --> Discuss`), Discuss section by changing value of parameter 'Confirm External Emails':"
+msgstr ""
+
+#: ../../discuss/customizations/mail_external_confirm.rst:25
+msgid "Functionality"
+msgstr ""
+
+#: ../../discuss/customizations/mail_external_confirm.rst:27
+msgid "This feature warns the user, that the message he/she is intended to send contains any type of external recipients (external partners, portal users). It works in *Send Message*, *Log Note* with @ (mention contact) or # (mention channel)."
+msgstr ""
+
+#: ../../discuss/customizations/mail_external_confirm.rst:32
+msgid "This feature will work on all objects that have mail chatter implemented, e.g. Leads & Opportunities, Partners, Sales, Invoices and other Odoo objects."
+msgstr ""
+
+#: ../../discuss/customizations/mail_external_confirm.rst:35
+msgid "Add external followers of the lead, opportunity or partner:"
+msgstr ""
+
+#: ../../discuss/customizations/mail_external_confirm.rst:40
+msgid "Try sending message and you will get a pop-up to confirm sending with listed all external recipients names:"
+msgstr ""
+
+#: ../../discuss/customizations/mail_external_confirm.rst:47
+msgid "Confirmation in pop-up by default will have *Cancel* selection."
+msgstr ""
+
+#: ../../discuss/customizations/mail_external_confirm.rst:49
+msgid "Full mail composer has the same functionality as described above."
+msgstr ""
+
+#: ../../discuss/customizations/mail_external_confirm.rst:51
+msgid "Channel with external recipients will be triggered, when in channel configuration *Send messages by email* is marked:"
+msgstr ""
+
+#: ../../discuss/customizations/mail_external_confirm.rst:58
+msgid "Please note, that this functionality has no any impact on mass mailing function."
 msgstr ""
 
 #: ../../discuss/customizations/mail_message_keep_unread.rst:3

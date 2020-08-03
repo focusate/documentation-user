@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-07 17:15+0300\n"
+"POT-Creation-Date: 2020-08-03 09:18+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.4.0\n"
 
 #: ../../general.rst:5
 msgid "General"
@@ -762,6 +762,7 @@ msgid "Enhanced search capabilities added to *Audit Log Search*."
 msgstr "*Audit Log* paieškoje pridėtos išplėstos ieškos galimybės."
 
 #: ../../general/customizations/auditlog_search.rst:8
+#: ../../general/customizations/web_announcement.rst:9
 msgid "Configuration"
 msgstr "Konfigūracija"
 
@@ -839,16 +840,16 @@ msgid ""
 msgstr ""
 "Ieškant *Old/New value Text* lauke jums reikia žinoti ir naudoti "
 "technines šių laukų reikšmes, kai yra kaupiamas *Fast log*, pvz. "
-"ieškodami pakeisto Pardavėjo *Jonas* į *Marytė*, turite vesti ne "
-"vardus, bet user_id reikšmes pvz. *2* pakeistas į *5* - žr. pav. žemiau."
+"ieškodami pakeisto Pardavėjo *Jonas* į *Marytė*, turite vesti ne vardus, "
+"bet user_id reikšmes pvz. *2* pakeistas į *5* - žr. pav. žemiau."
 
 #: ../../general/customizations/auditlog_search.rst:59
 msgid ""
 "In the case *Full log* is enabled, *Old/New value Text* will have both "
 "technical values (id's) and normal values in the log:"
 msgstr ""
-"Tuo atveju, kai yra kaupiamas *Full log*, *Old/New value Text* "
-"turės tiek technines, tiek ir normalias laukų reikšmes:"
+"Tuo atveju, kai yra kaupiamas *Full log*, *Old/New value Text* turės tiek"
+" technines, tiek ir normalias laukų reikšmes:"
 
 #: ../../general/customizations/term_changes.rst:3
 msgid "Term Changes"
@@ -881,6 +882,71 @@ msgstr "Marža - TVC (Bendra kintamoji kaina)"
 #: ../../general/customizations/term_changes.rst:13
 msgid "Cost -> Unit TVC (on sale order line only)"
 msgstr "Savikaina -> Vieneto TVC (tik and pardavimų užsakymo eilutės)"
+
+#: ../../general/customizations/web_announcement.rst:3
+msgid "Announcements"
+msgstr "Paskelbimai"
+
+#: ../../general/customizations/web_announcement.rst:5
+msgid ""
+"Manage announcements which will be displayed in all views for a certain "
+"amount of time."
+msgstr "Valdykite paskelbimus, kurie bus atvaizduojami visuose rodiniuose "
+"tam tikrą laiko tarpą."
+
+#: ../../general/customizations/web_announcement.rst:11
+msgid ""
+"To start using this functionality, module :code:`web_announcement` must "
+"be installed and *Show Announcements* in General Settings must be "
+"enabled."
+msgstr ""
+"Norėdami pradėti naudotis šiuo funkcionalumu, modulis :code:`web_announcement` turi "
+"būti įdiegtas ir pagrindiniuose nustatymuose įjungta *Rodyti paskelbimus*."
+
+#: ../../general/customizations/web_announcement.rst:16
+msgid "Announcement Functionality"
+msgstr "Paskelbimų funkcionalumas"
+
+#: ../../general/customizations/web_announcement.rst:18
+msgid ""
+"To create a new announcement, go to :menuselection:`Settings --> "
+"Technical --> Automation --> Announcements` and fill in required fields "
+"by your needs:"
+msgstr ""
+"Paskelbimą galite sukurti, nuėjus į :menuselection:`Nustatymai --> "
+"Techninis --> Automatizacija --> Paskelbimai` ir pagal poreikį užpildžius "
+"privalomus laukus:"
+
+#: ../../general/customizations/web_announcement.rst:26
+msgid ""
+"Do not forget to enable certain announcement by checking *Active* field, "
+"because only active announcements are going to be displayed for selected "
+"period of time."
+msgstr ""
+"Nepamirškite įjungti konkretaus paskelbimo pažymėdami *Aktyvus*, nes tik "
+"aktyvūs paskelbimai bus atvaizduojami pasirinktu laiko periodu."
+
+#: ../../general/customizations/web_announcement.rst:31
+msgid ""
+"User's timezone in user preferences must match his browsers' timezone, to"
+" prevent inaccuracies while displaying announcements."
+msgstr ""
+"Vartotojo laiko juosta vartotojo nustatymuose turi sutapti su naudojamos naršyklės "
+"laiko juosta, norint išvengti netikslumų atvaizduojant paskelbimus."
+
+#: ../../general/customizations/web_announcement.rst:35
+msgid ""
+"Announcements are refreshed with page refresh only and if there is an "
+"active announcement and current time is included in announcement's time "
+"range, announcement will be displayed until announcement's *Stop Date*."
+msgstr ""
+"Paskelbimai yra atnaujinami, perkrovus naršyklės puslapį ir jeigu yra toks "
+"aktyvus paskelbimas, kur dabartinis laikas pakliūna į paskelbimo laiko tarpą, "
+"tuomet paskelbimas bus rodomas iki *Pabaigos data* lauke nurodyto laiko."
+
+#: ../../general/customizations/web_announcement.rst:40
+msgid "Active announcement appears in all views, e.g.:"
+msgstr "Aktyvus paskelbimas atvaizduojamas visuose rodiniuose, pavyzdžiui:"
 
 #: ../../general/odoo_basics.rst:3
 msgid "Basics"

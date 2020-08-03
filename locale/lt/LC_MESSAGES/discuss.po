@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-15 16:49+0300\n"
+"POT-Creation-Date: 2020-08-03 08:42+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.4.0\n"
 
 #: ../../discuss.rst:5
 msgid "Discuss"
@@ -32,8 +32,8 @@ msgstr "Veiklų numatytosios reikšmės"
 #: ../../discuss/customizations/mail_activity_defaults.rst:5
 msgid "Allow to set defaults depending on Related Document Model (model name)."
 msgstr ""
-"Leidžia nustatyti numatytasias reikšmes, pagal Related "
-"Document Model (modelio pavadinimas)."
+"Leidžia nustatyti numatytasias reikšmes, pagal Related Document Model "
+"(modelio pavadinimas)."
 
 #: ../../discuss/customizations/mail_activity_defaults.rst:7
 msgid ""
@@ -54,8 +54,8 @@ msgid ""
 "Defaults*:"
 msgstr ""
 "Įdiegus modulį, įjungus kūrėjo rėžimą, pradėkite vesti veiklą ir tada "
-"spauskite *vabaliuką* (*Atidaryti kūrėjo įrankius*), ir meniu pasirinkite *Nustatyti kaip "
-"numatytuosius*:"
+"spauskite *vabaliuką* (*Atidaryti kūrėjo įrankius*), ir meniu pasirinkite"
+" *Nustatyti kaip numatytuosius*:"
 
 #: ../../discuss/customizations/mail_activity_defaults.rst:19
 msgid ""
@@ -65,12 +65,12 @@ msgid ""
 "application of this default and also select is this defaul applied to All"
 " users or only You:"
 msgstr ""
-"*Nustatyti kaip numatytuosius* lange, pavyzdžiui, pasirinkite kuris veiklos tipas "
-"turi būti numatytas (pvz. Activity = Skambutis, Susitikimas ir kt.), "
-"pasirinkite Sąlygą, kuri ir yra papildytas standartinis funkcionalumas "
-"(Related Document Model = crm.lead), apribojantis numatytos reikšmės "
-"galiojimą bei tuo pačiu nurodykite, ar numatyta reikšmė galioja visiems "
-"naudotojams ar tik jums:"
+"*Nustatyti kaip numatytuosius* lange, pavyzdžiui, pasirinkite kuris "
+"veiklos tipas turi būti numatytas (pvz. Activity = Skambutis, Susitikimas"
+" ir kt.), pasirinkite Sąlygą, kuri ir yra papildytas standartinis "
+"funkcionalumas (Related Document Model = crm.lead), apribojantis "
+"numatytos reikšmės galiojimą bei tuo pačiu nurodykite, ar numatyta "
+"reikšmė galioja visiems naudotojams ar tik jums:"
 
 #: ../../discuss/customizations/mail_activity_defaults.rst:27
 msgid "Next time starting new activity, default one will be already selected."
@@ -91,6 +91,7 @@ msgstr "Nurodykite, kuriems vartotojams leidžiama keisti veiklos pabaigos termi
 #: ../../discuss/customizations/mail_activity_note.rst:14
 #: ../../discuss/customizations/mail_activity_popover_toggle.rst:9
 #: ../../discuss/customizations/mail_activity_type_domain.rst:9
+#: ../../discuss/customizations/mail_alias_template.rst:8
 #: ../../discuss/customizations/mail_external_confirm.rst:12
 #: ../../discuss/customizations/mail_message_keep_unread.rst:8
 #: ../../discuss/customizations/mail_message_reply.rst:8
@@ -500,8 +501,8 @@ msgstr ""
 
 #: ../../discuss/customizations/mail_activity_note.rst:91
 msgid ""
-"Please note, that outcome and goal values can be translated - "
-"multi-language support is added."
+"Please note, that outcome and goal values can be translated - multi-"
+"language support is added."
 msgstr ""
 "Atkreipiame dėmesį, kad *Veiklos rezultatai* ir *Veiklos tikslai* gali "
 "būti išversti į norimą kalbą - pridėtas daugiakalbiškumo palaikymas."
@@ -609,8 +610,8 @@ msgid ""
 msgstr ""
 "Kai suplanuotą veiklą norima *Pažymėti kaip atliktą*, atsidariusiame "
 "lange nebus rodomas *Suplanuoti* mygtukas, - vietoje jo bus rodomi tik "
-"*Atlikti ir suplanuoti kitą*, *Atmesti* ir *Pažymėti kaip atliktą* mygtukai"
-" ir *Atlikti ir suplanuoti kitą* bus standartiškai pažymėtas."
+"*Atlikti ir suplanuoti kitą*, *Atmesti* ir *Pažymėti kaip atliktą* "
+"mygtukai ir *Atlikti ir suplanuoti kitą* bus standartiškai pažymėtas."
 
 #: ../../discuss/customizations/mail_activity_popover_toggle.rst:60
 msgid ""
@@ -682,6 +683,231 @@ msgstr ""
 "veiklos tipe, tai reikš, kad toks veiklos tipas bus galimų veiklos tipų "
 "sąraše, tik kai kuriama/redaguojama veikla susijusi su pardavimo "
 "galimybe."
+
+#: ../../discuss/customizations/mail_alias_template.rst:3
+msgid "Email Parsing via Mail Alias Templates"
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:5
+msgid ""
+"Configure mail alias template to be able to parse email content that is "
+"used to create and update related records."
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:10
+msgid ""
+"To be able to use mail alias templates, :code:`mail_alias_template` "
+"module must be installed first."
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:12
+msgid ""
+"Then can open or create wanted mail alias (in :menuselection:`Settings "
+"--> Technical --> Email --> Aliases`). To be able to use template, check "
+":code:`Use Template` option."
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:14
+msgid ""
+"First need to specify :code:`Line Pattern`. Here special placeholders "
+":code:`_KEY_` and :code:`_VAL_` must be specified on this field. These "
+"placeholders are used to know where to expect key and value when parsing "
+"email message. Line Pattern Also consists of optional Prefix (that goes "
+"before key/value pair) and suffix (that goes after key/value pair) and "
+"mandatory separator (that indicates how to distinguish key from value)."
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:16
+msgid ""
+"If Prefix and Suffix would be used, pattern example could be: "
+":code:`[_KEY_] {_VAL_}`, where :code:`[` would be prefix, :code:`] {` "
+"would be separator and :code:`}` would be suffix."
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:18
+msgid ""
+"Second thing that is needed - to add actual mapping lines. On :code:`Key`"
+" field specify key that is expected to be found on email message and on "
+":code:`Field` field specify to which field map parsed value from message."
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:24
+msgid "Map Line Options"
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:30
+msgid "Update record with another email message"
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:32
+msgid "Related record update can be done in two ways:"
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:34
+msgid ""
+"Replying to existing message that was sent from Odoo or message that has "
+"a special Message-ID header that Odoo uses in order to identify related "
+"record."
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:35
+msgid ""
+"Using one of the keys as identifier by checking :code:`Is Identifier` "
+"option. When message is parsed and if it finds key with this option, it "
+"will search another message that has same identifier. If it finds one, it"
+" will use that message's related record for update instead of creating "
+"new record."
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:38
+msgid "Update Operation"
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:40
+msgid ""
+"If there are multiple keys that need to update a single field on Odoo "
+"side, Update operation offers few options how to handle it:"
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:42
+msgid ""
+"Concatenate: concatenate two or more values into one. If field is of "
+"string type, can also use :code:`Update Prefix`, where you can separate "
+"values. For example by empty space or newline. Prefix must be entered "
+"between quotes."
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:43
+msgid ""
+"No Overwriting: with this option, if multiple keys try to update same "
+"field, only the first one will be applied. Others, will be ignored."
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:47
+msgid "Date Format"
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:49
+msgid ""
+"If mail message is expected to provide dates and date format is different"
+" than Odoo's format, it is possible to specify what kind of format email "
+"message date has, so it could be converted to the one Odoo understands. "
+"For formatting details, check field's help description."
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:53
+msgid "Values Mapping"
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:55
+msgid ""
+"Can use this if parsed values on message must be translated to different "
+"values on Odoo side. For example we have key/value pair :code:`State: "
+"completed`, but on Odoo side, we want to translate such value to "
+":code:`done`. So we add new values mapping where :code:`Key` is "
+":code:`completed` and Value :code:`done`."
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:58
+msgid "Values Search"
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:60
+msgid ""
+"If we need to get related record (Many2one field) database ID, but parsed"
+" message can't provide such information, it is possible to use parsed "
+"values in search to find actual database ID. For example, if we need to "
+"set Salesperson on partner and we only know user's login, but not his ID,"
+" we can use such domain: :code:`[('login', '_VAL_')]`, where "
+":code:`_VAL_` is value parsed on message line (in this case it would be "
+"user login)."
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:64
+msgid "Map Keys & Map Lines Order"
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:66
+msgid ""
+"On :code:`Map Keys Order` field, can specify order of keys in which to "
+"parse email message lines. For example if we have this message:"
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:74
+msgid ""
+"If no :code:`Map Keys Order` is provided, default order will be as if "
+"seen on message: City, Country, Street."
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:76
+msgid ""
+"We can change that order, if we specify for example :code:`Street, City, "
+"Country`. Order must be list of keys separated by commas. It is also "
+"possible to not specify all keys that are used, but only those that have "
+"priority to be ordered. If for example we would specify order as "
+":code:`Street, City`, lines would be ordered as follows: Street, City, "
+"Country. All not specified keys' lines will be put after ordered lines."
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:78
+msgid ""
+"It is also possible to change order where each mapping is applied on "
+"message line that is being parsed. Just need to click on :code:`Plus` "
+"sign and drag up or down:"
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:83
+msgid ""
+"Changing order can have impact on parsing and setting specific values. "
+"For example, it might be important to give priority for one value over "
+"other (if let say multiple map lines set same value on record that is "
+"created or updated)."
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:87
+msgid "Other Specifics"
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:89
+msgid ""
+"When mail alias template is used and incoming email is fetched for that "
+"alias, both email subject and body are parsed. It means, key/value pair "
+"can also be included on subject if needed."
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:91
+msgid ""
+"Standard :code:`Default Values` field is used as fallback, if some mapped"
+" key was not found on email message. For example, if we configure "
+"template to look for :code:`Street` key that is mapped with field named "
+":code:`street`, but no such key is found on email and we also have "
+"default values specified as :code:`{'street': 'My Default Street'}`, when"
+" creating new record, it will use that default street value."
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:95
+msgid "Videos"
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:98
+msgid "Introduction"
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:107
+msgid "Line Pattern and Fields Mapping Configuration"
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:115
+msgid "Use Parsed Message Value to Find Related Odoo Record"
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:123
+msgid "Use Value Mapping to Translate Parsed Value Into New One"
+msgstr ""
+
+#: ../../discuss/customizations/mail_alias_template.rst:131
+msgid "Update Related Record Using Key as Identifier"
+msgstr ""
 
 #: ../../discuss/customizations/mail_external_confirm.rst:3
 msgid "Confirmation on sending out messages to external recipients"
@@ -1592,3 +1818,4 @@ msgstr ""
 #~ "*Iniciatyvomis* ar *Galimybėmis* CRM modulyje,"
 #~ " tiek ir su *Partneriais* Kontaktų "
 #~ "modulyje."
+
