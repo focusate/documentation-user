@@ -39,7 +39,7 @@ Opportunities displayed in separate blocks in systray (clock):
 Clicking on Leads or Opportunities will open all the user's
 Leads or Opportunities respectively. Clicking on *Late*, 
 *Today* or *Future* will open Leads/Opps window with respective 
-filer applied.
+filter applied.
 
 .. note::
     When Leads or Opportunities window is open, creating new 
