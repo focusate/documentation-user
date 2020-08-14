@@ -3,7 +3,7 @@ Mail Activity Systray for CRM
 =====================================
 
 Splits Lead/Opportunity preview in systray, to show Leads and Opportunities separately. 
-This allows to use action window action for each and correct views.
+This allows to use window action for each and correct views.
 
 Standard Odoo uses generic action and default views, which actually must be different 
 for leads and opportunities.
