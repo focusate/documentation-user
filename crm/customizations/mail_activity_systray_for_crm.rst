@@ -11,7 +11,7 @@ for leads and opportunities.
 Configuration
 =============
 
-For this feature to work, module :code:`mail_activity_systray_for_crm` 
+For this feature to work, module :code:`mail_activity_systray_crm` 
 must be installed.
 
 .. note::
