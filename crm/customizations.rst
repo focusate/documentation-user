@@ -15,6 +15,7 @@ Customizations
    customizations/crm_multicompany
    customizations/crm_task
    customizations/crm_offers
+   customizations/mail_activity_systray_for_crm
    ../discuss/customizations/mail_activity_edit_date
    ../discuss/customizations/mail_activity_extended
    ../discuss/customizations/mail_activity_history
