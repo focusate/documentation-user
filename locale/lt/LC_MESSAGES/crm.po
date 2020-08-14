@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-14 09:17+0300\n"
+"POT-Creation-Date: 2020-08-14 13:10+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,7 +49,7 @@ msgstr ""
 #: ../../crm/customizations/crm_task.rst:9
 #: ../../crm/customizations/full_kit.rst:11
 #: ../../crm/customizations/lost_reason_improve.rst:8
-#: ../../crm/customizations/mail_activity_systray_for_crm.rst:12
+#: ../../crm/customizations/mail_activity_systray_crm.rst:12
 #: ../../crm/customizations/partner_competitor.rst:8
 #: ../../crm/optimize/onsip.rst:13 ../../crm/track_leads/lead_scoring.rst:12
 #: ../../crm/track_leads/prospect_visits.rst:12
@@ -676,7 +676,7 @@ msgstr ""
 "modulis."
 
 #: ../../crm/customizations/crm_offers.rst:15
-#: ../../crm/customizations/mail_activity_systray_for_crm.rst:18
+#: ../../crm/customizations/mail_activity_systray_crm.rst:18
 msgid "This module requires CRM App to be installed."
 msgstr "Norint naudoti šį modulį, turi būti įdiegta CRM aplikacija."
 
@@ -689,7 +689,7 @@ msgstr ""
 "Konfigūracija--> Nustatymai` ir pažymėkite varnele *Pasiūlymai*."
 
 #: ../../crm/customizations/crm_offers.rst:25
-#: ../../crm/customizations/mail_activity_systray_for_crm.rst:30
+#: ../../crm/customizations/mail_activity_systray_crm.rst:30
 msgid "Functionality"
 msgstr "Funkcionalumas"
 
@@ -1019,37 +1019,38 @@ msgstr ""
 "naujas praradimo pajamas, jei yra poreikis jas atnaujinti, atliekant šį "
 "veiksmą."
 
-#: ../../crm/customizations/mail_activity_systray_for_crm.rst:3
+#: ../../crm/customizations/mail_activity_systray_crm.rst:3
 msgid "Mail Activity Systray for CRM"
 msgstr "CRM suplanuotų veiklų panelė"
 
-#: ../../crm/customizations/mail_activity_systray_for_crm.rst:5
+#: ../../crm/customizations/mail_activity_systray_crm.rst:5
 msgid ""
 "Splits Lead/Opportunity preview in systray, to show Leads and "
-"Opportunities separately. This allows to use action window action for "
-"each and correct views."
+"Opportunities separately. This allows to use window action for each and "
+"correct views."
 msgstr ""
-"Padalina Iniciayvų/Pardavimo galimybių peržiūros langą (per laikroduką) "
-"į du atskirus langus. Tuo pačiu naudotojas gali taikyti atitinkamai skirtingus veiksmus "
-"su iniciatyvomis ar su pardavimo galimybėmis."
+"Padalina Iniciayvų/Pardavimo galimybių peržiūros langą (per laikroduką) į"
+" du atskirus langus. Tuo pačiu naudotojas gali taikyti atitinkamai "
+"skirtingus veiksmus su iniciatyvomis ar su pardavimo galimybėmis."
 
-#: ../../crm/customizations/mail_activity_systray_for_crm.rst:8
+#: ../../crm/customizations/mail_activity_systray_crm.rst:8
 msgid ""
 "Standard Odoo uses generic action and default views, which actually must "
 "be different for leads and opportunities."
 msgstr ""
-"Standartinis Odoo funkcionalumas kviečia bendrinius veiksmus ir standartinius "
-"langus, kurie turėtų būti skirtingi iniciatyvoms ir pardavimo galimybėms."
+"Standartinis Odoo funkcionalumas kviečia bendrinius veiksmus ir "
+"standartinius langus, kurie turėtų būti skirtingi iniciatyvoms ir "
+"pardavimo galimybėms."
 
-#: ../../crm/customizations/mail_activity_systray_for_crm.rst:14
+#: ../../crm/customizations/mail_activity_systray_crm.rst:14
 msgid ""
-"For this feature to work, module :code:`mail_activity_systray_crm` "
-"must be installed."
+"For this feature to work, module :code:`mail_activity_systray_crm` must "
+"be installed."
 msgstr ""
 "Kad šis funkcionalumas veiktų, turi būti įdiegtas "
 ":code:`mail_activity_systray_crm` modulis."
 
-#: ../../crm/customizations/mail_activity_systray_for_crm.rst:20
+#: ../../crm/customizations/mail_activity_systray_crm.rst:20
 msgid ""
 "To enable this functionality two settings must be enabled: 1) "
 ":menuselection:`CRM --> Configuration --> Settings` and mark *Leads*; 2) "
@@ -1057,49 +1058,48 @@ msgid ""
 "Data when Rendering Activities Systray*."
 msgstr ""
 "Norint pradėti naudoti šį funkcionalumą, du papildomi nustatymai turi "
-"būti atlikti: 1) :menuselection:`CRM --> Konfigūracija --> Nustatymai` "
-"ir reikia pažymėti *Iniciatyvos*; 2) :menuselection:`Nustatymai --> Bendri Nustatymai` "
-"reikia įjungti *Naudoti 'papildomas' duomenų atributą, kai yra kuriama veiklų pranešimų panelė*."
+"būti atlikti: 1) :menuselection:`CRM --> Konfigūracija --> Nustatymai` ir"
+" reikia pažymėti *Iniciatyvos*; 2) :menuselection:`Nustatymai --> Bendri "
+"Nustatymai` reikia įjungti *Naudoti 'papildomas' duomenų atributą, kai "
+"yra kuriama veiklų pranešimų panelė*."
 
-
-#: ../../crm/customizations/mail_activity_systray_for_crm.rst:26
+#: ../../crm/customizations/mail_activity_systray_crm.rst:26
 msgid ""
 "If no activities are scheduled for Leads or Opportunities, the section "
 "with no activities will not be displayed in systray."
 msgstr ""
 "Jei nėra suplanuotų veiklų iniciatyvose ar pardavimo galimybėse, "
-"atitinkamas blokas su iniciatyvų ar pardavimo galimybių veiklomis "
-"nebus rodomas, jei nėra nė vienos suplanuotos veiklos jame."
+"atitinkamas blokas su iniciatyvų ar pardavimo galimybių veiklomis nebus "
+"rodomas, jei nėra nė vienos suplanuotos veiklos jame."
 
-
-#: ../../crm/customizations/mail_activity_systray_for_crm.rst:32
+#: ../../crm/customizations/mail_activity_systray_crm.rst:32
 msgid ""
 "When module is installed and enabled, user can see Leads and "
 "Opportunities displayed in separate blocks in systray (clock):"
 msgstr ""
 "Kai modulis įdiegtas ir nustatymai padaryti, naudotojas galės matyti "
-"iniciatyvas ir galimybes atskiruose blokuose CRM suplanuotų veiklų panelėje "
-"(per laikrodį):"
+"iniciatyvas ir galimybes atskiruose blokuose CRM suplanuotų veiklų "
+"panelėje (per laikrodį):"
 
-#: ../../crm/customizations/mail_activity_systray_for_crm.rst:39
+#: ../../crm/customizations/mail_activity_systray_crm.rst:39
 msgid ""
 "Clicking on Leads or Opportunities will open all the user's Leads or "
 "Opportunities respectively. Clicking on *Late*, *Today* or *Future* will "
-"open Leads/Opps window with respective filer applied."
+"open Leads/Opps window with respective filter applied."
 msgstr ""
 "Paspaudus atitinkamai ant iniciatyvų ar pardavimo galimybių, naudotojui "
 "atsidarys jo iniciatyvos ar galimybes atitinkamai. Spaudžiant *Vėluoja*, "
 "*Šiandien* ar *Būsimi*, atidarys iniciatyvas/galimybes su pritaikytu "
 "atitinkamu filtru."
 
-#: ../../crm/customizations/mail_activity_systray_for_crm.rst:45
+#: ../../crm/customizations/mail_activity_systray_crm.rst:45
 msgid ""
 "When Leads or Opportunities window is open, creating new Lead/Opp will "
 "create Lead or Opportunity - depending what view is currently active."
 msgstr ""
-"Kai jau yra atidarytas atinkamai iniciatyvų ar pardavimo galimybių langas, "
-"kuriant naują iniciatyvą/galimybę - atitinkamai pagal atidarytą/aktyvų langą "
-"susikurs nauja iniciatyva arba galimybė."
+"Kai jau yra atidarytas atinkamai iniciatyvų ar pardavimo galimybių "
+"langas, kuriant naują iniciatyvą/galimybę - atitinkamai pagal "
+"atidarytą/aktyvų langą susikurs nauja iniciatyva arba galimybė."
 
 #: ../../crm/customizations/partner_competitor.rst:3
 msgid "Partner Competitor"
@@ -2099,3 +2099,4 @@ msgstr ""
 #~ "įdiegti modulį :code:`mail_activity_history_crm` ir"
 #~ " Pardavimo procesas bei Etapas bus "
 #~ "įtrauktas į Veiklos istorijos ataskaitą."
+
