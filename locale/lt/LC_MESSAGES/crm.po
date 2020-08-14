@@ -1043,11 +1043,11 @@ msgstr ""
 
 #: ../../crm/customizations/mail_activity_systray_for_crm.rst:14
 msgid ""
-"For this feature to work, module :code:`mail_activity_systray_for_crm` "
+"For this feature to work, module :code:`mail_activity_systray_crm` "
 "must be installed."
 msgstr ""
 "Kad šis funkcionalumas veiktų, turi būti įdiegtas "
-":code:`mail_activity_systray_for_crm` modulis."
+":code:`mail_activity_systray_crm` modulis."
 
 #: ../../crm/customizations/mail_activity_systray_for_crm.rst:20
 msgid ""
