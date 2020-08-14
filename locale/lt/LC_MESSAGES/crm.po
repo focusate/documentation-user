@@ -1079,7 +1079,7 @@ msgid ""
 msgstr ""
 "Kai modulis įdiegtas ir nustatymai padaryti, naudotojas galės matyti "
 "iniciatyvas ir galimybes atskiruose blokuose CRM suplanuotų veiklų panelėje "
-"(per laikroduką):"
+"(per laikrodį):"
 
 #: ../../crm/customizations/mail_activity_systray_for_crm.rst:39
 msgid ""
@@ -2099,4 +2099,3 @@ msgstr ""
 #~ "įdiegti modulį :code:`mail_activity_history_crm` ir"
 #~ " Pardavimo procesas bei Etapas bus "
 #~ "įtrauktas į Veiklos istorijos ataskaitą."
-
