@@ -34,6 +34,11 @@ Related record update can be done in two ways:
 * Replying to existing message that was sent from Odoo or message that has a special Message-ID header that Odoo uses in order to identify related record.
 * Using one of the keys as identifier by checking :code:`Is Identifier` option. When message is parsed and if it finds key with this option, it will search another message that has same identifier. If it finds one, it will use that message's related record for update instead of creating new record.
 
+Custom Value
+^^^^^^^^^^^^
+
+If parsed value is not needed to be used or it needs to be modified with prefix/suffix, can use custom value. It will be used instead, but it is also possible to include parsed value with :code:`_VAL_` placeholder.
+
 Update Operation
 ^^^^^^^^^^^^^^^^
 
@@ -48,6 +53,11 @@ Date Format
 
 If mail message is expected to provide dates and date format is different
 than Odoo's format, it is possible to specify what kind of format email message date has, so it could be converted to the one Odoo understands. For formatting details, check field's help description.
+
+Substrings to Replace
+^^^^^^^^^^^^^^^^^^^^^
+
+If value has not wanted symbols that either need to be removed or replaced with expected ones, it is possible to specify substrings replace mapping. It expects dictionary where all keys and values are strings. E.g. :code:`{'old1': 'new1'}`, where :code:`old1` is old substring to be replaced and :code:`new1`, new substring to use in old ones place. If empty string is specified as new string, it will remove old one without adding new substring.
 
 Values Mapping
 ^^^^^^^^^^^^^^
